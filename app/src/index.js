@@ -6,11 +6,10 @@ class Index extends React.Component{
 	render(){
 		return(
 			<div>
-				this is index page.
-				a webpack test
+				<p>this is index page. a webpack test</p>
 				<FirstPage />
 			</div>
-			);
+		);
 	}
 };
 
