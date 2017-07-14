@@ -6,7 +6,7 @@ class Index extends React.Component{
 	render(){
 		return(
 			<div>
-				<p>this is index page. a webpack test</p>
+				<h1> hot reload test</h1>
 				<FirstPage />
 			</div>
 		);

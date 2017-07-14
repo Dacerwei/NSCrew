@@ -4,7 +4,10 @@ const distPath = path.join(__dirname, 'dist');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	entry: './app/src/index.js',
+	entry: [
+		'webpack/hot/dev-server',
+		'./app/src/index.js'
+	],
 	output: {
 		filename: 'bundle.js',
 		path: distPath,
@@ -28,6 +31,8 @@ module.exports = {
 		}),
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-		})
+		}),
+		new webpack.HotModuleReplacementPlugin(),
+    	new webpack.NoErrorsPlugin()
 	]
 }
