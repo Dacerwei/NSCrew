@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import FirstPage from './components/firstPage';
+// import wtp from 'images/showcase_wtp.jpg';
 
 class Index extends React.Component{
 	render(){
@@ -13,4 +14,4 @@ class Index extends React.Component{
 	}
 };
 
-render(<Index />, document.getElementById('root'));
+render(<Index />, document.getElementById('root')); 
