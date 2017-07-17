@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import NSLogo from './NSLogo';
 import MediaQuery from 'react-responsive';
 import MobileMenu from './MobileMenu'; 

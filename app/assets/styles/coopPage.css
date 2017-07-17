@@ -1,0 +1,61 @@
+/*----------------------------------------------
+Co-op Page
+----------------------------------------------*/
+.coopblock {
+  clear: both;
+  padding: 1%;
+}
+
+.coopblock .read-more-state {
+  display: none;
+}
+
+.coopblock__media {
+  padding: 1%;
+}
+
+.coopblock__media__content {
+  width: 100%;
+}
+
+.coopblock__title {
+  font-size: 2.5vw;
+  color: orange;
+}
+
+.coopblock .coopblock__content__readMore {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .coopblock__content__body .coopblock__content__readMore {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+
+/*----------------------------------------------
+end
+----------------------------------------------*/

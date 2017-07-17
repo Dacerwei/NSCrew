@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import MediaQuery from 'react-responsive';
-import BackgroundVideoRWD from './BackgroundVideoRWD';
+// import BackgroundVideoRWD from './BackgroundVideoRWD';
 
 class Layout extends React.Component {
 	constructor(props){
@@ -26,18 +26,13 @@ class Layout extends React.Component {
     	this.setState({ videoStatus: 'failed to load' });
     }
 
+
 	render() {
 		return(
 			<div id="container">
 				<Header />
 				<MediaQuery minDeviceWidth={1224}>
-					<BackgroundVideoRWD 
-						src= {'/video/mainpagevideo.mp4'}
-						width={1920} 
-						height={1080} 
-						onLoadHandler={this.handleVideoLoaded}
-						onErrorHandler={this.handleVideoErrored}
-					/>
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/SYE4T7YvZ7U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 				</MediaQuery>
 				<div className="content">
 					{ this.props.children }

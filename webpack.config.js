@@ -23,7 +23,13 @@ module.exports = {
 	output: {
 		filename: 'bundle.js',
 		path: distPath,
-		publicPath: 'http://localhost:3050'
+		publicPath:'/'
+		// publicPath: 'http://localhost:3050'
+ 	},
+ 	devServer: {
+ 		historyApiFallback: true,
+ 		contentBase: './',
+ 		hot: true
  	},
 	module: {
 		rules: [
@@ -53,7 +59,7 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
-    	new webpack.NoErrorsPlugin(),
+    	// new webpack.NoErrorsPlugin(),
 		new HTMLWebpackPlugin({
 			template: 'app/src/index.html'
 		}),

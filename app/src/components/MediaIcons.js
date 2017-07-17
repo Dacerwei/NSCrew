@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 import FaceBookIcon from 'react-icons/lib/fa/facebook';
 import YouTubeIcon from 'react-icons/lib/fa/youtube-play';
 import InstagramIcon from 'react-icons/lib/fa/instagram';

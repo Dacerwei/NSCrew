@@ -1,37 +1,47 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Youtube from 'react-youtube';
+import '../../assets/styles/backgroundvideo.css';
 
-const BackgroundVideoRWD = ({src, width, height, onLoadHandler, onErrorHandler}) => {
-	const videoContainerStyle = {
-		position: 'fixed',
-		top: '50%',
-		left: '50%',
-		minWidth: '100%',
-		minHeight: '100%',
-		width: 'auto',
-		height: 'auto',
-		zIndex: '-100',
-		transform: 'translate(-50%, -50%)'
-	};
-	return (
-		<div id="video-container" style={ videoContainerStyle } >
-			<video id="background-video" muted loop autoPlay preload>
-                <source 
-                	width={ width } 
-                	height={ height } 
-                	src={ src } 
-                	onCanPlayThrough={onLoadHandler}
-                	type="video/mp4" />
-				Your browser does not support the video tag
-			</video>
-		</div>
-	);
+const videoId = 'SYE4T7YvZ7U';
+const opt = {
+	width: 'atuo',
+	height: 'atuo',
+	allowFullScreen: 0,
+	playerVars: {
+		list:'PLwOAbLN_Fhuc2QadYdfWXdAwAWcUGqa4d',
+		listType: 'playlist',
+		autoplay: true,
+		loop: 1,
+		fs:0,
+		controls: 0,
+		disablekb: true,
+		rel:0,
+		enablejsapi: true,
+		showinfo: 0
+	}
 };
 
-BackgroundVideoRWD.propTypes = {
-	src: PropTypes.string.isRequired,
-	width: PropTypes.number.isRequired,
-	height: PropTypes.number.isRequired
-};
+
+class BackgroundVideoRWD extends React.Component {
+
+	componentDidMount() {
+		console.log("componentDidMount");
+	}
+	render() {
+		return(
+			<div className="backgroundvideo-container">
+				<Youtube
+					videoId={ videoId }          
+					id={'mainvideo'}
+					opts={opt}
+					onReady={(e)=>{
+						e.target.mute();
+						e.target.setLoop(true);
+					}}
+				/>
+			</div>
+		);
+	}
+}
 
 export default BackgroundVideoRWD;
