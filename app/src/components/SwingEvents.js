@@ -10,7 +10,6 @@ class SwingEvents extends React.Component {
     	};
 		return (
 			<div className='ContentPage'>
-			helloworld
 				<h1 style={style} >Coming Soon lindy hop events ... </h1>
 			</div>
 		);
