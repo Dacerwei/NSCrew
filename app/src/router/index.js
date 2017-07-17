@@ -5,9 +5,11 @@ import Header from '../components/Header';
 import Layout from '../components/Layout';
 import IndexPage from '../components/IndexPage';
 import AboutUs from '../components/AboutUs';
-import Showcases from '../components/Showcases';
+import Portfolio from '../components/Portfolio';
 import Cooperative from '../components/Cooperative';
+import Classes from '../components/Classes';
 import SwingEvents from '../components/SwingEvents';
+import Footer from '../components/Footer';
 import NotFoundPage from '../components/NotFoundPage';
 
 class AppRoutes extends React.Component{
@@ -24,6 +26,7 @@ class AppRoutes extends React.Component{
 									<div className="content">
 										<IndexPage />
 									</div>
+									<Footer />
 								</div>
 							</div>
 						)
@@ -36,18 +39,20 @@ class AppRoutes extends React.Component{
 									<div className="content">
 										<AboutUs />
 									</div>
+									<Footer />
 								</div>
 							</div>
 						)
 					}}/>
-					<Route path="/showcases" component={()=>{
+					<Route path="/portfolio" component={()=>{
 						return(
 							<div>
 								<div id="container">
 									<Header />
 									<div className="content">
-										<Showcases />
+										<Portfolio />
 									</div>
+									<Footer />
 								</div>
 							</div>
 						)
@@ -60,6 +65,20 @@ class AppRoutes extends React.Component{
 									<div className="content">
 										<Cooperative />
 									</div>
+									<Footer />
+								</div>
+							</div>
+						)
+					}}/>
+					<Route path="/classes" component={()=>{
+						return(
+							<div>
+								<div id="container">
+									<Header />
+									<div className="content">
+										<Classes />
+									</div>
+									<Footer />
 								</div>
 							</div>
 						)
@@ -72,6 +91,7 @@ class AppRoutes extends React.Component{
 									<div className="content">
 										<SwingEvents />
 									</div>
+									<Footer />
 								</div>
 							</div>
 						)

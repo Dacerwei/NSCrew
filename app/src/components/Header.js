@@ -38,7 +38,6 @@ class Header extends React.Component {
 				<MediaQuery query='(min-width: 1224px)'>
 					<Menu />
 				</MediaQuery>
-
 				<MediaQuery query='(max-width: 1224px)'>
 					<MobileMenu />
 				</MediaQuery>

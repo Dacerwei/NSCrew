@@ -1,0 +1,19 @@
+#container{
+	position: relative;
+	height: auto;
+}
+
+.footer-container {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	background-color: orange;
+	text-align: center;
+	z-index: 100;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footer-container-info {
+	color: white;
+}

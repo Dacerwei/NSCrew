@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuIcon from 'react-icons/lib/fa/bars';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 class MobileMenu extends React.Component {
 	constructor(){
@@ -30,8 +30,9 @@ class MobileMenu extends React.Component {
 				<div className={ this.state.isMenuOpen ? "mobile-menu open" : "mobile-menu" } >
 					<ul className="mobile-menu-list">
 						<Link to="/about" onClick = { this.onClickLink } ><li>About Us</li></Link>
-						<Link to="/showcases" onClick = { this.onClickLink } ><li>Showcases</li></Link>
+						<Link to="/portfolio" onClick = { this.onClickLink } ><li>Portfolio</li></Link>
 						<Link to="/cooperative" onClick = { this.onClickLink } ><li>Co-op</li></Link>
+						<Link to="/classes" onClick = { this.onClickLink } ><li>Classes</li></Link>
 						<Link to="/swingevents" onClick = { this.onClickLink } ><li>Swing Events</li></Link>
 					</ul>
 				</div>

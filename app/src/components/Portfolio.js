@@ -76,7 +76,7 @@ const photo_set = [
 	}
 ];
 
-class Showcases extends React.Component {
+class Portfolio extends React.Component {
 
 	render(){
 		return (
@@ -87,4 +87,4 @@ class Showcases extends React.Component {
 	}
 }
 
-export default Showcases;
+export default Portfolio;

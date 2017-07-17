@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/styles/coopPage.css';
+import '../../assets/styles/coop.css';
 import CoopBlock from './CoopBlock';
 
 const CoopSet = [
@@ -48,8 +48,8 @@ const Cooperative = () => {
 	}
 
 	return (
-		<div className='ContentPage COOP-ContentPage'>
-			<div className="coop-intro">
+		<div className='ContentPage COOP-ContentPage coop-container'>
+			<div className="coop-intro coop-container-introducion">
 				<p>More than just a dance crew - Naughty Swing specializes in Swing Dance choreography, 
 				teaching and performance as well as video filming and editing. If you're amazed by the beauty of 
 				Swing Dance, why not pick some options below and work with us now!</p>

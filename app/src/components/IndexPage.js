@@ -1,8 +1,7 @@
 import React from 'react';
 import BackgroundVideo from './BackgroundVideo';
-import AboutUs from './AboutUs';
 import '../../assets/styles/IndexPage.css';
-
+import Highlights from './Highlights';
 class IndexPage extends React.Component {
 
 	render(){
@@ -10,7 +9,7 @@ class IndexPage extends React.Component {
 			<div className='ContentPage'>
 				<BackgroundVideo />
 				<h1 id="slogan-2">We're<br />Naughty<br />So We Swing</h1>
-				<AboutUs />
+				<Highlights />
 			</div>
 		);
 	}
