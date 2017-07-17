@@ -6,7 +6,7 @@ class IndexPage extends React.Component {
 
 	render(){
 		return (
-			<div className='ContentPage'>
+			<div className='ContentPage indexpage-container'>
 				<BackgroundVideo />
 				<h1 id="slogan-2">We're<br />Naughty<br />So We Swing</h1>
 				<Highlights />

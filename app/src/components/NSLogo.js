@@ -4,7 +4,7 @@ class NSLogo extends React.Component {
     render() {
         return (
         	<div className="wrapper">
-        		<img id="nslogo" src='../../assets/img/nslogo.png' />
+        		<img id="nslogo" src='../../assets/img/nslogo.png' alt="Naughty Swing"/>
          	</div>
         );
     }

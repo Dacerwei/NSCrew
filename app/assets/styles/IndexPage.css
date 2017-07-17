@@ -1,8 +1,15 @@
+.indexpage-container {
+	position: relative;
+    height: 100%;
+}
+
+
 #slogan-2 {
 	height: 100%;
 	font-size: 7vw;
 	width: 100%;
 	margin: auto;
+	margin-bottom: 10%;
 	padding-top: 4%;
 	font-family: fantasy;
 	text-align: center;
