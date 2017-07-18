@@ -3,7 +3,6 @@ import nslogo from '../../assets/images/nslogo.png';
 
 class NSLogo extends React.Component {
     render() {
-    	console.log(nslogo);
         return (
         	<div className="wrapper">
         		<img id="nslogo" src={nslogo} alt="Naughty Swing"/>

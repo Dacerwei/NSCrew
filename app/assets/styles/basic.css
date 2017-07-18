@@ -6,7 +6,7 @@
 .footer-container {
 	display: block;
 	position: absolute;
-	bottom: 0px;
+	bottom: -200px;
 	background-color: orange;
 	text-align: center;
 	z-index: 100;

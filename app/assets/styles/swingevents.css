@@ -1,0 +1,12 @@
+.swingevents-title {
+	color: orange;
+	text-align: center;
+}
+
+.swingevents-list-item {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 2;
+    list-style: none;
+}

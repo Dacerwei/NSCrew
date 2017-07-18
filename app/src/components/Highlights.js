@@ -11,9 +11,9 @@ class Highlights extends React.Component{
 		return(
 			<div className="highlights-container">
 				<AboutUs />
+				<Cooperative />
 				<Classes />
 				<Portfolio />
-				<Cooperative />
 				<SwingEvents />
 			</div>
 		);

@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageLayout from './ImageLayout';
+import PorfolioItemLayout from './PorfolioItemLayout';
 
 const photo_set = [
 	{
@@ -77,11 +77,10 @@ const photo_set = [
 ];
 
 class Portfolio extends React.Component {
-
 	render(){
 		return (
-			<div className='ContentPage'>
-				<ImageLayout photo_set= {photo_set} />
+			<div className='porfolio-container' >
+				<PorfolioItemLayout photo_set={ photo_set } />
 			</div>
 		);
 	}

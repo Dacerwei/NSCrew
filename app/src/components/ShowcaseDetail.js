@@ -14,9 +14,9 @@ const detailContentStyle ={
 
 const ShowcaseDetail = (props) => {
 	return(
-		<div className="showcase-detail">
-			<h1 className="detail-title">{ props.detailTitle }</h1>
-			<p className="detail-info">{ props.detailInfo }</p>
+		<div className="portfoliodetail-container">
+			<h1 className="portfoliodetail-title">{ props.detailTitle }</h1>
+			<p className="portfoliodetail-info">{ props.detailInfo }</p>
 		</div>
 	);
 }
