@@ -3,7 +3,7 @@ import ImageLayout from './ImageLayout';
 
 const photo_set = [
 	{
-		src: '../../assets/img/showcase_lalaland.jpg',
+		src: require('../../assets/images/porfolio_lalaland.jpg'),
 		width: 3939,
 		height: 2303,
 		title: 'La La Land',
@@ -11,7 +11,7 @@ const photo_set = [
 		aspectRatio: 1.710
 	},
 	{
-		src: '../../assets/img/showcase_wtp.jpg',
+		src: require('../../assets/images/porfolio_wtp.jpg'),
 		width: 4608,
 		height: 2836,
 		title: 'What the Pa!!',

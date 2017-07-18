@@ -1,10 +1,12 @@
 import React from 'react';
+import nslogo from '../../assets/images/nslogo.png';
 
 class NSLogo extends React.Component {
     render() {
+    	console.log(nslogo);
         return (
         	<div className="wrapper">
-        		<img id="nslogo" src='../../assets/img/nslogo.png' alt="Naughty Swing"/>
+        		<img id="nslogo" src={nslogo} alt="Naughty Swing"/>
          	</div>
         );
     }
