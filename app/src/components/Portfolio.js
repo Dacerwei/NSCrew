@@ -3,6 +3,7 @@ import PorfolioItemLayout from './PorfolioItemLayout';
 
 const photo_set = [
 	{
+		ID: 0,
 		src: require('../../assets/images/porfolio_lalaland.jpg'),
 		width: 3939,
 		height: 2303,
@@ -11,6 +12,7 @@ const photo_set = [
 		aspectRatio: 1.710
 	},
 	{
+		ID: 1,
 		src: require('../../assets/images/porfolio_wtp.jpg'),
 		width: 4608,
 		height: 2836,
@@ -19,6 +21,7 @@ const photo_set = [
 		aspectRatio: 1.625
 	},
 	{
+		ID: 2,
 		src: 'http://www.oldiesmusicblog.com/wp-content/uploads/lindy-hop-1.jpg',
 		width: 400,
 		height: 426,
@@ -27,6 +30,7 @@ const photo_set = [
 		aspectRatio: 0.939
 	},
 	{
+		ID: 3,
 		src:'https://media.giphy.com/media/DokffWww1anAI/giphy.gif',
 		width: 344,
 		height: 256,
@@ -35,6 +39,7 @@ const photo_set = [
 		aspectRatio: 1.34
 	},
 	{
+		ID: 4,
 		src: 'http://whitwellstation.com/wp-content/uploads/2015/06/lindyhop-thumb.png',
 		width: 730,
 		height: 730,
@@ -43,6 +48,7 @@ const photo_set = [
 		aspectRatio: 1
 	},
 	{
+		ID: 5,
 		src:'https://s-media-cache-ak0.pinimg.com/originals/81/05/ea/8105ea438414ccc7f5f1b441c68e0e68.jpg',
 		width: 600,
 		height: 359,
@@ -51,6 +57,7 @@ const photo_set = [
 		aspectRatio: 1.67
 	},
 	{
+		ID: 6,
 		src:'https://media.giphy.com/media/OTc7qAjRWWrYs/giphy.gif',
 		width: 160,
 		height: 190,
@@ -59,6 +66,7 @@ const photo_set = [
 		aspectRatio: 0.84
 	},	
 	{
+		ID: 7,
 		src:'http://www.jaminjackson.com/wp-content/uploads/2015/11/lindy-hop-vintage-clothes-and-moves.jpg',
 		width: 832,
 		height: 585,
@@ -67,6 +75,7 @@ const photo_set = [
 		aspectRatio: 1.42
 	},
 	{
+		ID: 8,
 		src:'https://www.shbarcelona.com/blog/en/wp-content/uploads/2016/08/lindy-hop-barcelona.jpg',
 		width: 1024,
 		height: 683,

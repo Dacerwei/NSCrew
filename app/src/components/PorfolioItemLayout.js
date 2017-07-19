@@ -2,6 +2,7 @@ import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
 import PorfolioItem from './PorfolioItem';
 import '../../assets/styles/portfolio.css';
+import _ from 'lodash';
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
@@ -12,9 +13,12 @@ class PorfolioItemLayout extends React.Component{
 		super(props);
 		this.state = {
 			containerWidth: 0,
-			showDetail: false,
 			layoutArray: null,
-			rowLimit: 0
+			rowLimit: 0,
+			isExpandDetail: false,
+			expandRow: null,
+			detailID: null
+
 		}
 		this.getRowLimit = this.getRowLimit.bind(this);
 		this.handleResize = this.handleResize.bind(this);
@@ -30,7 +34,8 @@ class PorfolioItemLayout extends React.Component{
 		this.setState({
 			rowLimit: rowLimit, 
 			containerWidth: containerWidth,
-			layoutArray: layoutArray
+			layoutArray: layoutArray,
+			isExpandDetail: false,
 		});
 		window.addEventListener('resize', this.handleResize);
 	}
@@ -50,17 +55,24 @@ class PorfolioItemLayout extends React.Component{
 	}
 
 	handleItemClick(i, opt) {
-		console.log(opt);
-		console.log(i);
-		let { layoutArray, rowLimit } = this.state;
-		let position = i + rowLimit;
 
-		layoutArray.insert(position, <PortfolioDetail key={i+0.5} detailTitle={opt.title} detailInfo={opt.info} />);
-		
-		this.setState({
-			layoutArray:layoutArray,
-			showDetail: true
-		});
+		let { layoutArray, rowLimit, isExpandDetail, detailID, expandRow } = this.state;
+		if(detailID !== opt.ID){
+			if(isExpandDetail){
+				_.pullAt(layoutArray, expandRow+rowLimit);
+			}
+
+			let position = i + rowLimit;
+			
+			layoutArray.insert(position, <PortfolioDetail key={opt.ID+10} detailTitle={opt.title} detailInfo={opt.info} />);
+			
+			this.setState({
+				layoutArray:layoutArray,
+				isExpandDetail: true,
+				expandRow: i,
+				detailID: opt.ID
+			});
+		}
 	}
 
 	handleResize() {
@@ -110,7 +122,7 @@ class PorfolioItemLayout extends React.Component{
 				}
 				output.push(
 					<PorfolioItem 
-						key={k}
+						key={photo_set[k].ID}
 						row={i}
 						onClick = { this.handleItemClick } 
 						opt= { photo_set[k] } 
