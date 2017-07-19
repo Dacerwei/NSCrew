@@ -1,6 +1,7 @@
 import React from 'react';
-import ShowcaseDetail from './ShowcaseDetail';
+import PortfolioDetail from './PortfolioDetail';
 import PorfolioItem from './PorfolioItem';
+import '../../assets/styles/portfolio.css';
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
@@ -48,11 +49,13 @@ class PorfolioItemLayout extends React.Component{
 		}
 	}
 
-	handleItemClick(i, k, opt) {
+	handleItemClick(i, opt) {
+		console.log(opt);
+		console.log(i);
 		let { layoutArray, rowLimit } = this.state;
 		let position = i + rowLimit;
 
-		layoutArray.insert(position, <ShowcaseDetail detailTitle={opt.title} detailInfo={opt.info} key={'info-'+i} />);
+		layoutArray.insert(position, <PortfolioDetail key={i+0.5} detailTitle={opt.title} detailInfo={opt.info} />);
 		
 		this.setState({
 			layoutArray:layoutArray,
@@ -121,7 +124,7 @@ class PorfolioItemLayout extends React.Component{
 
 	render() {
 		return(
-			<div id="ImageLayoutArea" ref="LayoutArea" >
+			<div className="portfolioitemlayout-container" ref="LayoutArea" >
 				{ this.state.layoutArray }
 			</div>
 		);

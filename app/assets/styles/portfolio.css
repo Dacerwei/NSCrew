@@ -1,0 +1,87 @@
+/*----------------------------------------------
+showcase page
+----------------------------------------------*/
+.portfolioitemlayout-container .porfolioitem-container {
+  display: inline-block;
+  list-style: none;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  position: relative;
+}
+
+.porfolioitem-figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.porfolioitem-img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  transition: transform 0.4s;
+}
+
+.porfolioitem-figcaption {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+  padding: 20px;
+  background-color: orange;
+}
+
+.porfolioitem-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/***************
+figure hover
+***************/
+
+.porfolioitem-container figure:hover img,
+.porfolioitem-container figure.cs-hover img {
+  transform: translateY(-50px);
+}
+
+.porfolioitem-container figure:hover figcaption,
+.porfolioitem-container figure.cs-hover figcaption {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+/***************
+hover end
+***************/
+
+.portfoliodetail-container {
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  padding: 5% 10%;
+  margin: 0px;
+}
+
+.portfoliodetail-title {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.portfoliodetail-info {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*----------------------------------------------
+end
+----------------------------------------------*/

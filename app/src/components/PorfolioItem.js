@@ -1,19 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../assets/styles/portfolio.css';
 
 class PorfolioItem extends React.Component{
 	render() {
-		const { key, onClick, opt, height, row } = this.props;
+		const { onClick, opt, height, row } = this.props;
 		return(
-			<div className="PorfolioItem" key={key} onClick = { onClick.bind(this, row, opt) } >
-				<figure className="PorfolioItem-figure">
-					<img className="PorfolioItem-img"
+			<div className="porfolioitem-container"  onClick = { onClick.bind(this, row, opt) } >
+				<figure className="porfolioitem-figure">
+					<img className="porfolioitem-img"
 						src={ opt.src } 
 						height={ height } 
 						width={ height * opt.aspectRatio } 
 					/>
-					<figcaption className="PorfolioItem-figcaption">
-						<h3 className="PorfolioItem-title">{ opt.title }</h3>
+					<figcaption className="porfolioitem-figcaption">
+						<h3 className="porfolioitem-title">{ opt.title }</h3>
 					</figcaption>
 				</figure>
 			</div>
@@ -21,8 +22,8 @@ class PorfolioItem extends React.Component{
 	}
 }
 
-PorfolioItem.PropTypes = {
-	key: PropTypes.Number,
+PorfolioItem.propTypes = {
+	
 	onClick: PropTypes.func,
 	opt: PropTypes.object,
 	height: PropTypes.number,
