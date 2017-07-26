@@ -9,7 +9,7 @@ const CoopSet = [
 	contentPreview: "'A picture says a thousand words.' - while a video shows a thousand images, and nothing's more contagious than a Swing Dance film! No words needed",
 	contentReadMore:"we tell stories through jazz music and dance moves, as the chemistry among the dancers says it all. Happen to have something to be promoted through a good story? Tell us now!",
 	mediaTitle: "lee-jeans",
-	mediaSrc: "http://attach.setn.com/newsimages/2016/07/14/586806-XXL.jpg"
+	mediaSrc: "https://naughtyswing.blob.core.windows.net/naughtyswing/00-2%E5%BD%B1%E7%89%87Shooting.jpg"
 },
 {
 	id:"coop-performance",
@@ -17,7 +17,7 @@ const CoopSet = [
 	contentPreview: "There's never too much of a good performance, especially when it comes to social dance!",
 	contentReadMore: "Want to add some elements which entertain your audience, invigorate your event and give you all a total enjoyment with profession and passion? We ARE just the one you're looking for!",
 	mediaTitle: "ltsdc-lalaland",
-	mediaSrc: "https://i.ytimg.com/vi/Zd_F-DXoKGM/hqdefault.jpg"
+	mediaSrc: "https://naughtyswing.blob.core.windows.net/naughtyswing/01%E8%A1%A8%E6%BC%94.jpg"
 },
 {
 	id: "coop-teaching",
@@ -25,7 +25,7 @@ const CoopSet = [
 	contentPreview: "Excited but nervous, not sure when and how to step out of your comfort zone and onto the dance floor? Now is the time, and we're here to help you make that happen! ",
 	contentReadMore: "With our 10-year experience in dancing and diversified exposure to different dance styles, we understand the problems you may encounter and more important, the methods to overcome explained to you in an interesting and easily understood way!",
 	mediaTitle: "當代藝術美術館體驗課程",
-	mediaSrc: "https://static.flyingv.asia/static/640x480/projects/9460/9460/04b64e426d9d01be2f8d612a9dd314f9.png"
+	mediaSrc: "https://naughtyswing.blob.core.windows.net/naughtyswing/02%E6%90%96%E6%93%BA%E8%88%9E%E9%AB%94%E9%A9%97%E6%95%99%E5%AD%B8.jpg"
 }
 ];
 

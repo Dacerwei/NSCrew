@@ -1,13 +1,11 @@
 import React from "react";
-import AboutUs_1 from "../../assets/images/aboutus_1.png";
-import AboutUs_2 from "../../assets/images/aboutus_2.jpg";
 import "../../assets/styles/aboutus.css";
 
 const AboutUs = () => {
 	return(
 		<div className="aboutus-container">
 			<div className="aboutus-img-wrapper">
-				<img className="aboutus-img" id="aboutus_1" src={ AboutUs_1 } alt="Naughty Swing Main photo - 1"/>
+				<img className="aboutus-img" id="aboutus_1" src='https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_2.png' alt="Naughty Swing Main photo - 1"/>
 			</div>
 			<div className="aboutus-introduction-wrapper">
 				<div className="aboutus-introduction-ch">
@@ -18,7 +16,7 @@ const AboutUs = () => {
 				</div>
 			</div>
 			<div className="aboutus-img-wrapper">
-				<img className="aboutus-img" id="aboutus_2" src={ AboutUs_2 } alt="Naughty Swing Main photo - 2"/>
+				<img className="aboutus-img" id="aboutus_2" src='https://naughtyswing.blob.core.windows.net/naughtyswing/00-2%E5%BD%B1%E7%89%87Shooting.jpg' alt="Naughty Swing Main photo - 2"/>
 			</div>
 		</div>
 	);

@@ -4,7 +4,7 @@ import PorfolioItemLayout from './PorfolioItemLayout';
 const photo_set = [
 	{
 		ID: 0,
-		src: require('../../assets/images/porfolio_lalaland.jpg'),
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_1.jpg',
 		width: 3939,
 		height: 2303,
 		title: 'La La Land',
@@ -13,7 +13,7 @@ const photo_set = [
 	},
 	{
 		ID: 1,
-		src: require('../../assets/images/porfolio_wtp.jpg'),
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/porfolio_wtp.jpg',
 		width: 4608,
 		height: 2836,
 		title: 'What the Pa!!',
@@ -22,66 +22,66 @@ const photo_set = [
 	},
 	{
 		ID: 2,
-		src: 'http://www.oldiesmusicblog.com/wp-content/uploads/lindy-hop-1.jpg',
-		width: 400,
-		height: 426,
-		title: 'photo-0',
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/00-1%E5%93%81%E7%89%8C%E5%90%88%E4%BD%9C.jpg',
+		width: 2048,
+		height: 1365,
+		title: 'Lee Jeans Commercial Shooting',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 0.939
+		aspectRatio: 1.5
 	},
 	{
 		ID: 3,
-		src:'https://media.giphy.com/media/DokffWww1anAI/giphy.gif',
-		width: 344,
-		height: 256,
-		title: 'photo-1',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/porfolio_lalaland.gif',
+		width: 400,
+		height: 225,
+		title: 'La La Land',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.34
+		aspectRatio: 1.777
 	},
 	{
 		ID: 4,
-		src: 'http://whitwellstation.com/wp-content/uploads/2015/06/lindyhop-thumb.png',
-		width: 730,
-		height: 730,
-		title: 'photo-2',
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/DSC08229.jpg',
+		width: 4240,
+		height: 2384,
+		title: 'Solo Charleston Party',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1
+		aspectRatio: 1.779
 	},
 	{
 		ID: 5,
-		src:'https://s-media-cache-ak0.pinimg.com/originals/81/05/ea/8105ea438414ccc7f5f1b441c68e0e68.jpg',
-		width: 600,
-		height: 359,
-		title: 'photo-3',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/03%E9%87%91%E9%A6%AC%E5%A5%87%E5%B9%BB%E5%BD%B1%E5%B1%95.jpg',
+		width: 3520,
+		height: 2347,
+		title: '金馬奇幻影展',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.67
+		aspectRatio: 1.499
 	},
 	{
 		ID: 6,
-		src:'https://media.giphy.com/media/OTc7qAjRWWrYs/giphy.gif',
-		width: 160,
-		height: 190,
-		title: 'photo-4',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/02%E6%90%96%E6%93%BA%E8%88%9E%E9%AB%94%E9%A9%97%E6%95%99%E5%AD%B8.jpg',
+		width: 4240,
+		height: 2384,
+		title: 'Taster classes',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 0.84
+		aspectRatio: 1.778
 	},	
 	{
 		ID: 7,
-		src:'http://www.jaminjackson.com/wp-content/uploads/2015/11/lindy-hop-vintage-clothes-and-moves.jpg',
-		width: 832,
-		height: 585,
-		title: 'photo-5',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/04%E5%A9%9A%E7%A6%AE%E5%AE%A2%E8%A3%BD%E5%8C%96%E8%A1%A8%E6%BC%94%E6%95%99%E5%AD%B8.jpg',
+		width: 4240,
+		height: 2384,
+		title: 'First Dance of Wedding',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.42
+		aspectRatio: 1.778
 	},
 	{
 		ID: 8,
-		src:'https://www.shbarcelona.com/blog/en/wp-content/uploads/2016/08/lindy-hop-barcelona.jpg',
-		width: 1024,
-		height: 683,
-		title: 'photo-6',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/porfolio_ximan_on_the_sunny_side.gif',
+		width: 400,
+		height: 225,
+		title: 'On the Westside of Taipei',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.5
+		aspectRatio: 1.777
 	}
 ];
 
