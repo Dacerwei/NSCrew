@@ -1,0 +1,24 @@
+.aboutus-container {
+	padding: 2%;
+}
+
+.aboutus-img-wrapper {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.aboutus-img {
+	width: 100%;
+}
+
+.aboutus-introduction-wrapper {
+	font-family: "Microsoft JhengHei";
+	width: 100%;
+	padding: 5%;
+	color: white;
+	font-size: 16pt;
+	line-height: 2em;
+	text-align: center;
+}
+

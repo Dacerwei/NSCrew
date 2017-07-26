@@ -227,22 +227,6 @@ end
   margin-top: 200px;
 }
 
-.content .COOP-ContentPage {
-	width: auto;
-  height: auto;
-  position: absolute;
-	padding-right: 10%;
-	padding-left: 10%;
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-.COOP-ContentPage .coop-intro p {
-	padding-top: 3%;
-	text-align: center;
-	width: 80%;
-	margin: 0 auto;
-}
-
 .COOP-ContentPage .coop-content {
   display: block;
   width: 100%;
@@ -301,15 +285,9 @@ end
   padding: 0;
 }
 
-.ContentPage {
-	color: white;
-	margin: 0 auto;
-}
-
 .ContentPage p {
 	font-family: "Microsoft JhengHei";
 	line-height: 2em;
-	/*font-size: 16pt;*/
   font-size: 1.5vw;
 	letter-spacing: 1pt;
 }

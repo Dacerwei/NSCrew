@@ -48,13 +48,15 @@ const Cooperative = () => {
 	}
 
 	return (
-		<div className='ContentPage COOP-ContentPage coop-container'>
-			<div className="coop-intro coop-container-introducion">
+		<div className='coop-container'>
+			<div className="coop-introducion-wrapper">
 				<p>More than just a dance crew - Naughty Swing specializes in Swing Dance choreography, 
 				teaching and performance as well as video filming and editing. If you're amazed by the beauty of 
 				Swing Dance, why not pick some options below and work with us now!</p>
 			</div>
-			{ CoopBlockSet }
+			<div className="coop-sections-wrapper">
+				{ CoopBlockSet }
+			</div>
 		</div>
 	);
 };
