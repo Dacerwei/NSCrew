@@ -2,6 +2,7 @@ import React from 'react';
 import BackgroundVideo from './BackgroundVideo';
 import '../../assets/styles/IndexPage.css';
 import Highlights from './Highlights';
+
 class IndexPage extends React.Component {
 
 	render(){

@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import MediaQuery from 'react-responsive';
-// import BackgroundVideoRWD from './BackgroundVideoRWD';
 
 class Layout extends React.Component {
 	constructor(props){

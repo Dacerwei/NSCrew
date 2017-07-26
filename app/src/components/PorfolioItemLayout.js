@@ -27,9 +27,9 @@ class PorfolioItemLayout extends React.Component{
 	}
 
 	componentDidMount() {
-		var containerWidth = Math.floor(this.refs.LayoutArea.clientWidth);
-		var rowLimit = this.getRowLimit(containerWidth);
-		var layoutArray = this.getRearrangeArray(this.props.photo_set, containerWidth, rowLimit);
+		let containerWidth = Math.floor(this.refs.LayoutArea.clientWidth);
+		let rowLimit = this.getRowLimit(containerWidth);
+		let layoutArray = this.getRearrangeArray(this.props.photo_set, containerWidth, rowLimit);
 
 		this.setState({
 			rowLimit: rowLimit, 
@@ -116,7 +116,7 @@ class PorfolioItemLayout extends React.Component{
 				rowHeight = containerWidth / totlalAspectRatio; //決定一般行行高
 			}
 
-			for(var k=i; k<i+rowLimit; k++){  //將同一行的照片推入output array
+			for(let k=i; k<i+rowLimit; k++){  //將同一行的照片推入output array
 				if(k == photo_set.length){
 					break;
 				}

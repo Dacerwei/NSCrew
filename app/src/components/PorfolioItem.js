@@ -23,7 +23,6 @@ class PorfolioItem extends React.Component{
 }
 
 PorfolioItem.propTypes = {
-	
 	onClick: PropTypes.func,
 	opt: PropTypes.object,
 	height: PropTypes.number,

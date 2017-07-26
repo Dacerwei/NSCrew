@@ -3,14 +3,6 @@ import Youtube from 'react-youtube';
 import '../../assets/styles/backgroundvideo.css';
 
 class BackgroundVideo extends React.Component {
-	constructor(props) {
-		super(props);
-		
-	}
-
-	componentDidMount() {
-		console.log("componentDidMount");
-	}
 	render() {
 		const videoId = 'SYE4T7YvZ7U';
 		const opt = {

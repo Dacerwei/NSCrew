@@ -2,13 +2,7 @@ import React from 'react';
 import '../../assets/styles/swingevents.css';
 
 class SwingEvents extends React.Component {
-
 	render(){
-		var style = {    
-			color: 'orange',
-    		textAlign: 'center',
-    		padding: '10%'
-    	};
 		return (
 			<div className='swingevents-container'>
 				<h1 className='swingevents-title'>Regular Social Party </h1>

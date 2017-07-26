@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import MediaIcons from './MediaIcons';
 
-
 const Menu = () => {
 	return(
 		<nav className="menu-wrapper">
