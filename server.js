@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const PORT = process.env.PORT || 3050;
 
 const app = express();
 if (process.env.NODE_ENV !== 'production') {
@@ -23,4 +24,4 @@ if (process.env.NODE_ENV !== 'production') {
 	});
 }
 
-app.listen(process.env.PORT || 3050, ()=> console.log('Listening on port 3050'));
+app.listen(PORT, ()=> console.log('Listening on port:'+PORT));
