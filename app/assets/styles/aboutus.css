@@ -22,6 +22,10 @@
 	text-align: justify;
 }
 
+.aboutus-introduction-title {
+	color: orange;
+}
+
 .aboutus-experience-wrapper {
 	font-family: "Microsoft JhengHei";
 	width: 100%;
