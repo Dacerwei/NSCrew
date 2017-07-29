@@ -1,12 +1,27 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import MediaIcons from './MediaIcons';
 import '../../assets/styles/basic.css';
 
 class Footer extends React.Component{
 	render(){
 		return(
-			<footer className="footer-container">
-				<p className="footer-container-info">Made by: Chinwei Hsu</p>
-  				<p className="footer-container-info"> Contact information:<a href="mailto:someone@example.com">naughtyswingtw@gmail.com</a>.</p>
+			<footer className='footer-container'>
+				<div className='footer-logo-wrapper'>
+					<h1 className='footer-logo-source'>Naughty Swing</h1>
+				</div>
+				<ul className='footer-nav-list'>
+					<NavLink to="/about" ><li className='footer-nav-list-item'>About Us</li></NavLink>
+					<NavLink to="/portfolio" ><li className='footer-nav-list-item'>Portfolio</li></NavLink>
+					<NavLink to="/cooperative" ><li className='footer-nav-list-item'>Co-op</li></NavLink>
+					<NavLink to="/classes" ><li className='footer-nav-list-item'>Classes</li></NavLink>
+					<NavLink to="/swingevents" ><li className='footer-nav-list-item'>Swing Events</li></NavLink>
+				</ul>
+				<MediaIcons />
+				<div className='footer-info-wrapper'>
+					<p className="footer-info-content">SITE BY CHINWEI HSU</p>
+  					<p className="footer-info-content">Contact Us: <a href="naughtyswingtw@gmail.com"> naughtyswingtw@gmail.com </a></p>
+				</div>
 			</footer>
 		);
 	}

@@ -22,3 +22,38 @@
 	text-align: justify;
 }
 
+.aboutus-experience-wrapper {
+	font-family: "Microsoft JhengHei";
+	width: 100%;
+	padding: 5%;
+	color: white;
+	font-size: 16pt;
+	line-height: 2em;
+	text-align: justify;
+}
+
+.aboutus-experience-title {
+	color: orange;
+}
+
+.aboutus-mediaexplosure-wrapper {
+	font-family: "Microsoft JhengHei";
+	width: 100%;
+	padding: 5%;
+	color: white;
+	font-size: 16pt;
+	line-height: 2em;
+	text-align: justify;
+}
+
+.aboutus-mediaexplosure-title {
+	color: orange;
+}
+
+.aboutus-mediaexplosure-ch {
+	color: white;
+}
+
+.aboutus-mediaexplosure-en {
+	color: white;
+}

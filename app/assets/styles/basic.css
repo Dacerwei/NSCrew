@@ -1,21 +1,58 @@
+.icon {
+	color: white;
+}
+
 #container{
 	position: relative;
 	height: auto;
 }
 
 .footer-container {
-	display: block;
-	position: relative;
-	bottom: 0;
-	background-color: orange;
-	text-align: center;
-	height: 80px;
-	z-index: 100;
-	width: 100%;
-	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    /* background-color: #2F2725; */
+    background-color: black;
+    text-align: center;
+    height: 300px;
+    z-index: 100;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
 }
 
-.footer-container-info {
+.footer-logo-warpper {
+	width: 80%;
+    text-align: center;
+}
+
+.footer-nav-list {
+	list-style: none;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav-list-item {
+    font-size: 16pt;
+    color: white;
+}
+
+.footer-container .icon-bar {
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-info-content {
 	color: white;
-	margin: 0;
+}
+
+.footer-info-content a {
+	color: white;
 }
