@@ -1,12 +1,40 @@
+.swingevents-container {
+	background-color: white;
+}
+
 .swingevents-title {
 	color: orange;
 	text-align: center;
 }
 
 .swingevents-list-item {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 3vw;
     line-height: 2;
     list-style: none;
+}
+
+.eventlist-irregular-event-warpper {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	color: black;
+	list-style: none;
+	flex-direction: column;
+}
+
+.eventlist-irregular-event-item {
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.eventlist-irregular-event-item-title {
+	color: black;
+}
+
+.eventlist-irregular-event-item-time {
+	color: black;
 }

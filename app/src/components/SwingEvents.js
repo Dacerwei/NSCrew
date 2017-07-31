@@ -1,4 +1,5 @@
 import React from 'react';
+import EventsCalendar from './EventsCalendar';
 import '../../assets/styles/swingevents.css';
 
 class SwingEvents extends React.Component {
@@ -12,6 +13,7 @@ class SwingEvents extends React.Component {
 					<li className='swingevents-list-item'>Friday:  20:00 - 23:00 @ 1914華山文創園區</li>
 					<li className='swingevents-list-item'>Sunday:  16:00 - 18:00 @ 松山文創園</li>
 				</ul>
+				<EventsCalendar />
 			</div>
 		);
 	}
