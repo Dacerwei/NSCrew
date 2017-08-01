@@ -1,5 +1,7 @@
 import React from 'react';
 import qs from 'qs';
+import Paper from 'material-ui/Paper';
+import moment from 'moment';
 require('es6-promise').polyfill();
 
 const GOOGLE_API_KEY = 'AIzaSyBjXUGkrRwgKE8ljzUWXqUij1HJZ2E-o1o';
@@ -32,11 +34,15 @@ export default class EventsCalendar extends React.Component {
 		}).then((resp) => {
 			resp.map((event) => {
 				eventList.push(
-				<li className="eventlist-irregular-event-item" key={event.id}>
-					<h1 className="eventlist-irregular-event-item-title">{event.summary}</h1>
-					<p className="eventlist-irregular-event-item-time">{event.start[Object.keys(event.start)[0]]}</p>
-					<p className="eventlist-irregular-event-item-time">{event.end[Object.keys(event.end)[0]]}</p>
-				</li>
+				<Paper className="eventlist-irregular-event-item" key={event.id}>
+					<div className="eventlist-irregular-event-item-date">
+						<p className="eventlist-irregular-event-item-time">{event.start[Object.keys(event.start)[0]]}</p>
+					</div> 
+					<div className="eventlist-irregular-event-item-info">
+						<h1 className="eventlist-irregular-event-item-title">{event.summary}</h1>
+						<p className="eventlist-irregular-event-item-time">{event.end[Object.keys(event.end)[0]]}</p>
+					</div>
+				</Paper>
 				);
 			});
 			this.setState({
