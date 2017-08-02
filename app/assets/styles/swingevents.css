@@ -1,22 +1,44 @@
 .swingevents-container {
-	background-color: white;
+	background-image: url(https://naughtyswing.blob.core.windows.net/naughtyswing/swingevents_background_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
-.swingevents-title {
+.swingevents-regular-events-wrapper {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.swingevents-regular-events-title {
+	margin: 0;
 	color: orange;
 	text-align: center;
 }
 
-.swingevents-list-item {
-    color: black;
+.swingevents-regular-events-list {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.swingevents-regular-events-list-item {
+    color: white;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 2;
     list-style: none;
 }
 
-.eventlist-irregular-event-warpper {
-	margin: 0 auto;
+.swingevents-irragular-events-wrapper {
+	background-color: rgba(0, 0, 0, 0.6);	
+}
+
+.eventscalendar-title {
+	color: orange;
+	text-align: center;
+	margin: 0;
+}
+
+.eventscalendar-eventlist-warpper {
+	margin: 0px auto;
 	width: 80%;
 	display: flex;
 	color: black;
@@ -27,14 +49,53 @@
 .eventlist-irregular-event-item {
 	color: black;
 	text-align: center;
-	margin: 0 auto;
+	margin: 10px auto;
 	width: 50%;
+	display: inline-flex;
+	align-items: stretch;
+    justify-content: space-between;
+    height: 120px;
 }
 
+.eventlist-irregular-event-item-date {
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #364050;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.eventlist-irregular-event-item-date-startdate {
+	color: white;
+	font-size: 2vw;
+	text-align: center
+}
+
+.eventlist-irregular-event-item-info {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
 .eventlist-irregular-event-item-title {
 	color: black;
+	font-size: 2vw;
 }
 
 .eventlist-irregular-event-item-time {
-	color: black;
+	color: gray;
+	font-size: 0.5vw;
+}
+
+.eventlist-irregular-event-item-startdate-date {
+    color: white;
+    font-size: 2vw;
+    margin: 0;
+}
+.eventlist-irregular-event-item-startdate-month {
+	color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0;
 }
