@@ -19,8 +19,8 @@ class Footer extends React.Component{
 				</ul>
 				<MediaIcons />
 				<div className='footer-info-wrapper'>
-					<p className="footer-info-content">SITE BY CHINWEI HSU</p>
   					<p className="footer-info-content">Contact Us : naughtyswingtw@gmail.com</p>
+  					<p className="footer-info-content">SITE BY CHINWEI HSU</p>
 				</div>
 			</footer>
 		);

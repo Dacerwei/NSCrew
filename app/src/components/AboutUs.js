@@ -1,4 +1,5 @@
 import React from "react";
+import Brands from './Brands';
 import "../../assets/styles/aboutus.css";
 
 const AboutUs = () => {
@@ -30,6 +31,9 @@ const AboutUs = () => {
 				<div className="aboutus-mediaexplosure-en">
 					<p>Since founded in 2015,  Naughty Swing has be reported by different media through performance and collaboration. The media exposure has reached to the peak after releasing "I Charleston Taipei" film project launched in 2016, which  was reported on by  benchmark media, including TV, newspaper. magazine, and online media.</p>
 				</div>
+			</div>
+			<div className="aboutus-coopbrands-wrapper">
+				<Brands />
 			</div>
 		</div>
 	);
