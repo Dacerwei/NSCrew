@@ -33,12 +33,12 @@ class Header extends React.Component {
 
 	render() {
 		return(
-			<header className= { this.state.isActive ? "header active" : "header" } >
-				<div id="logo-container"><Link to="/"><NSLogo /></Link></div>
-				<MediaQuery query='(min-width: 1224px)'>
+			<header className= { this.state.isActive ? "header-container active" : "header-container" } >
+				<div className="logo-container"><Link to="/"><NSLogo /></Link></div>
+				<MediaQuery query='(min-width: 768px)'>
 					<Menu />
 				</MediaQuery>
-				<MediaQuery query='(max-width: 1224px)'>
+				<MediaQuery query='(max-width: 768px)'>
 					<MobileMenu />
 				</MediaQuery>
 			</header>
