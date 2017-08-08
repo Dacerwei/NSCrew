@@ -8,7 +8,9 @@ default header menu
   top: 0;
   width: 100%;
 }
-
+/*----------------------------------------------
+    header menu active
+----------------------------------------------*/
 .header-container.active {
   background-color: black;
   height: 75px;
@@ -16,21 +18,25 @@ default header menu
   padding: 10px;
 }
 
-.header-container.active .logo-container #nslogo {
-  height: 50px;
+.header-container.active .logo-container .nslogo-img {
+  width: 20%;
+  min-width: 90px;
 }
-
+/*----------------------------------------------
+    active end
+----------------------------------------------*/
 .logo-container {
   width: 25%;
 }
 
-#logo-container a {
-  color: orange;
-  font-size: 20pt;  
+.nslogo-container {
+  width: 100%;
+  text-align: center;
 }
 
-.logo-container #nslogo {
-    height: 80px;
+.logo-container .nslogo-img {
+  width: 50%;
+  min-width: 200px;
 }
 
 .default-menu-container {
