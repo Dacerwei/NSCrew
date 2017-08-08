@@ -27,7 +27,7 @@ const brands = [
 	},
 	{
 		name: 'Coretronic',
-		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/brand_liontravel.png',
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/brand_coretronic.jpg',
 		width: null,
 		height: null,
 	},
