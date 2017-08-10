@@ -41,8 +41,6 @@ export default Event = (props) => {
 		endTime: end.time || null,
 	};
 
-	console.log( eventDetails);
-
 	return(
 		<Paper className="eventlist-irregular-event-item">
 			<div className="eventlist-irregular-event-item-date">

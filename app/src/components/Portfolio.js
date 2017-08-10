@@ -4,7 +4,7 @@ import PorfolioItemLayout from './PorfolioItemLayout';
 const photo_set = [
 	{
 		ID: 0,
-		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_1.jpg',
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/portfolio_00_lalaland_mini.jpg',
 		width: 3939,
 		height: 2303,
 		title: 'La La Land',
@@ -31,16 +31,16 @@ const photo_set = [
 	},
 	{
 		ID: 3,
-		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/porfolio_lalaland.gif',
-		width: 400,
-		height: 225,
-		title: 'La La Land',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/portfolio_03_goldenhourse_mini.jpg',
+		width: 3520,
+		height: 2347,
+		title: '金馬奇幻影展',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.777
+		aspectRatio: 1.499
 	},
 	{
 		ID: 4,
-		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/DSC08229.jpg',
+		src: 'https://naughtyswing.blob.core.windows.net/naughtyswing/portfolio_04_solocherletonparty_mini.jpg',
 		width: 4240,
 		height: 2384,
 		title: 'Solo Charleston Party',
@@ -49,12 +49,12 @@ const photo_set = [
 	},
 	{
 		ID: 5,
-		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/03%E9%87%91%E9%A6%AC%E5%A5%87%E5%B9%BB%E5%BD%B1%E5%B1%95.jpg',
-		width: 3520,
-		height: 2347,
-		title: '金馬奇幻影展',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/porfolio_lalaland.gif',
+		width: 400,
+		height: 225,
+		title: 'La La Land',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.499
+		aspectRatio: 1.777
 	},
 	{
 		ID: 6,
@@ -67,7 +67,7 @@ const photo_set = [
 	},	
 	{
 		ID: 7,
-		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/04%E5%A9%9A%E7%A6%AE%E5%AE%A2%E8%A3%BD%E5%8C%96%E8%A1%A8%E6%BC%94%E6%95%99%E5%AD%B8.jpg',
+		src:'https://naughtyswing.blob.core.windows.net/naughtyswing/portfolio_07_fisrtdanceinwedding_mini.jpg',
 		width: 4240,
 		height: 2384,
 		title: 'First Dance of Wedding',

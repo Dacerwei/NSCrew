@@ -18,3 +18,25 @@
 	-moz-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
+.coophighlight-container {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.coophighlight-services-wrapper {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.coophighlight-services-serviceitem {
+	margin: 0 auto;
+    width: 30%;
+    min-width: 150px;
+    text-align: justify;
+}

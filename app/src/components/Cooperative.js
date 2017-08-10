@@ -8,16 +8,16 @@ const CoopSet = [
 	title: "Performance | 表演",
 	contentPreview: "好得舞蹈表演永遠不嫌少！透過搖擺舞、爵士樂，與Naughty Swing專業的演出能力，為你的記者會、舞會等活動增添美麗與歡樂的色彩！",
 	contentReadMore: " There's never too much of a good performance, especially when it comes to social dance! Want to add some elements which entertain your audience, invigorate your event and give you all a total enjoyment with profession and passion? We ARE just the one you're looking for!",
-	mediaTitle: "ltsdc-lalaland",
-	mediaSrc: "https://naughtyswing.blob.core.windows.net/naughtyswing/01%E8%A1%A8%E6%BC%94.jpg"
+	mediaTitle: "performance",
+	mediaSrc: 'https://naughtyswing.blob.core.windows.net/naughtyswing/coop_performance_mini.jpg'
 },
 {
 	id: "coop-videoshooting",
 	title:"Video Production | 影片",
 	contentPreview: "影片所能傳遞的訊息勝過千言萬語，更遑論透過搖擺舞的影片拍攝，將肢體語言的豐富情感傳達至舞蹈影片中，帶領觀眾一同進步故事裡！",
 	contentReadMore:"'A picture says a thousand words.' - while a video shows a thousand images, and nothing's more contagious than a Swing Dance film! No words needed! we tell stories through jazz music and dance moves, as the chemistry among the dancers says it all. Happen to have something to be promoted through a good story? Tell us now!",
-	mediaTitle: "lee-jeans",
-	mediaSrc: "https://naughtyswing.blob.core.windows.net/naughtyswing/00-2%E5%BD%B1%E7%89%87Shooting.jpg"
+	mediaTitle: "i charleston taipei",
+	mediaSrc: 'https://naughtyswing.blob.core.windows.net/naughtyswing/coop_shooting_mini.jpg'
 },
 {
 	id: "coop-teaching",

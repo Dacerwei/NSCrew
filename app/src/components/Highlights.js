@@ -2,8 +2,8 @@ import React from 'react';
 import AboutUs from '../components/AboutUs';
 import Portfolio from '../components/Portfolio';
 import Classes from '../components/Classes';
-import Cooperative from '../components/Cooperative';
 import SwingEvents from '../components/SwingEvents';
+import CoopHighlight from './CoopHighlight';
 
 class Highlights extends React.Component{
 
@@ -11,8 +11,7 @@ class Highlights extends React.Component{
 		return(
 			<div className="highlights-container">
 				<AboutUs />
-				<Cooperative />
-				<Classes />
+				<CoopHighlight />
 				<Portfolio />
 				<SwingEvents />
 			</div>

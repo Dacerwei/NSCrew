@@ -1,0 +1,21 @@
+{
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 6,
+	},
+	"plugins": [
+		"react",
+		"jsx-ally",
+		"import"
+	],
+	"env": {
+		"es6":true,
+		"browser": true,
+		"node": true
+	},
+	"extends": "airbnb",
+	"rules": {
+		"no-console": 0,
+		
+	}
+}

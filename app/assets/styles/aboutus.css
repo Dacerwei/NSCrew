@@ -67,19 +67,23 @@
 	flex-wrap: wrap;
 	margin: 0 auto;
 	align-items: center;
-	width: 80%;
+	width: 100%;
 	justify-content: space-around;
 }
 
 .brands-item {
     text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    min-width: 150px;
+    max-height: 100px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
     width: 20%;
+    overflow: hidden;
 }
 
 .brands-item-img {
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 }

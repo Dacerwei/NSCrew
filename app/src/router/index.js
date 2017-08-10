@@ -19,6 +19,8 @@ class AppRoutes extends React.Component{
 			<Router history={history}>
 				<Switch>
 					<Route exact path="/" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0); 
 						return(
 							<div>
 								<div id="container">
@@ -32,6 +34,8 @@ class AppRoutes extends React.Component{
 						)
 					}}/>
 					<Route path="/about" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0);
 						return(
 							<div>
 								<div id="container">
@@ -45,6 +49,8 @@ class AppRoutes extends React.Component{
 						)
 					}}/>
 					<Route path="/portfolio" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0);
 						return(
 							<div>
 								<div id="container">
@@ -58,6 +64,8 @@ class AppRoutes extends React.Component{
 						)
 					}}/>
 					<Route path="/cooperative" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0);
 						return(
 							<div>
 								<div id="container">
@@ -71,6 +79,8 @@ class AppRoutes extends React.Component{
 						)
 					}}/>
 					<Route path="/classes" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0);
 						return(
 							<div>
 								<div id="container">
@@ -84,6 +94,8 @@ class AppRoutes extends React.Component{
 						)
 					}}/>
 					<Route path="/swingevents" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0);
 						return(
 							<div>
 								<div id="container">
@@ -97,6 +109,8 @@ class AppRoutes extends React.Component{
 						)
 					}}/>
 					<Route path="/*" component={()=>{
+						// TODO: find a better way
+						window.scrollTo(0,0);
 						return(
 							<div>
 								<div id="container">
