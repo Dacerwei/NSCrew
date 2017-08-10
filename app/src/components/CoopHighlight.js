@@ -42,37 +42,34 @@ class CoopHighlight extends React.Component {
                 <div className="coophighlight-services-wrapper">
                     <div className="coophighlight-services-serviceitem">
                         <div className="coophighlight-services-serviceitem-icon-container">
-                            <img className="coophighlight-services-serviceitem-icon-src" src={VideoProductionIcon} />
+                            <img id="coophighlight-videoproduction-icon" className="coophighlight-services-serviceitem-icon-src" src={VideoProductionIcon} />
                         </div>
                         <div className="coophighlight-services-serviceitem-title">
-                            <h1>Video Produciton</h1>
+                            <h1>Video Production</h1>
                         </div>
                         <div className="coophighlight-services-serviceitem-content">
-                            <p>{CoopSet[1].contentReadMore}</p>
                             <p>{CoopSet[1].contentPreview}</p>
                         </div>
                     </div>
                     <div className="coophighlight-services-serviceitem">
                         <div className="coophighlight-services-serviceitem-icon-container">
-                            <img className="coophighlight-services-serviceitem-icon-src" src={PerformanceIcon} />
+                            <img id="coophighlight-performance-icon" className="coophighlight-services-serviceitem-icon-src" src={PerformanceIcon} />
                         </div>
                         <div className="coophighlight-services-serviceitem-title">
                             <h1>Performance</h1>
                         </div>
                         <div className="coophighlight-services-serviceitem-content">
-                            <p>{CoopSet[0].contentReadMore}</p>
                             <p>{CoopSet[0].contentPreview}</p>
                         </div>
                     </div>
                     <div className="coophighlight-services-serviceitem">
                         <div className="coophighlight-services-serviceitem-icon-container">
-                            <img className="coophighlight-services-serviceitem-icon-src" src={LessonIcon} />
+                            <img id="coophighlight-lesson-icon" className="coophighlight-services-serviceitem-icon-src" src={LessonIcon} />
                         </div>
                         <div className="coophighlight-services-serviceitem-title">
                             <h1>Swing Dance Lessons</h1>
                         </div>
                         <div className="coophighlight-services-serviceitem-content">
-                            <p>{CoopSet[2].contentReadMore}</p>
                             <p>{CoopSet[2].contentPreview}</p>
                         </div>
                     </div>

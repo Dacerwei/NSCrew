@@ -3,7 +3,6 @@ import PortfolioSet from '../helpers/PortfolioSet';
 import PorfolioItemLayout from './PorfolioItemLayout';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Link } from 'react-router-dom';
-
 import _ from 'lodash';
 
 class PortfolioHighlight extends React.Component {
@@ -12,12 +11,12 @@ class PortfolioHighlight extends React.Component {
 		return(
 			<section className="portfoliohighlight-container">
 				<h1 className="portfoliohighlight-title">
-					Portfolio || 作品集
+					Portfolio | 作品集
 				</h1>
 				<div className="portfoliohighlight-portfolio-wrapper">
 					<PorfolioItemLayout photo_set={highlightPortfolioItems} />
 				</div>
-				<Link to="portfolio"><RaisedButton label={'MORE'} primary={true} className="portfoliohighlight-more-btn"/></Link>
+				<Link className="portfoliohighlight-more-btn" to="portfolio"><RaisedButton label={'MORE'} primary={true}/></Link>
 			</section>
 		);
 	}

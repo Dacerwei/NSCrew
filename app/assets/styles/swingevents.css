@@ -9,6 +9,7 @@
 }
 
 .swingevents-regular-events-title {
+	font-size: 3vw;
 	margin: 0;
 	color: orange;
 	text-align: center;
@@ -32,6 +33,7 @@
 }
 
 .eventscalendar-title {
+	font-size: 3vw;
 	color: orange;
 	text-align: center;
 	margin: 0;
