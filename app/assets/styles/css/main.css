@@ -1,0 +1,1307 @@
+/* line 5, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../scss/components/_IndexPage.scss */
+.indexpage-container {
+  position: relative;
+  height: 100%;
+}
+
+/* line 10, ../scss/components/_IndexPage.scss */
+#slogan-2 {
+  color: white;
+  height: 100%;
+  font-size: 7vw;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10%;
+  padding-top: 4%;
+  font-family: fantasy;
+  text-align: center;
+  -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  -moz-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+/* line 25, ../scss/components/_IndexPage.scss */
+.coophighlight-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* line 36, ../scss/components/_IndexPage.scss */
+.coophighlight-services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+/* line 43, ../scss/components/_IndexPage.scss */
+.coophighlight-services-serviceitem {
+  margin: 0 auto;
+  width: 30%;
+  min-width: 200px;
+}
+
+/* line 49, ../scss/components/_IndexPage.scss */
+.coophighlight-services-serviceitem-icon-container {
+  display: flex;
+  overflow: hidden;
+  background: rgba(113, 200, 213, 0.8);
+  border-radius: 10px;
+}
+
+/* line 56, ../scss/components/_IndexPage.scss */
+.coophighlight-services-serviceitem-icon-src {
+  margin: 0 auto;
+  color: orange;
+  text-align: center;
+}
+
+/* line 62, ../scss/components/_IndexPage.scss */
+#coophighlight-performance-icon {
+  width: 80%;
+}
+
+/* line 66, ../scss/components/_IndexPage.scss */
+#coophighlight-performance-icon {
+  width: 110%;
+}
+
+/* line 70, ../scss/components/_IndexPage.scss */
+.coophighlight-services-serviceitem-title {
+  color: orange;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/* line 77, ../scss/components/_IndexPage.scss */
+.portfoliohighlight-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 86, ../scss/components/_IndexPage.scss */
+.portfoliohighlight-title {
+  margin: 0px;
+  color: orange;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 3vw;
+}
+
+/* line 94, ../scss/components/_IndexPage.scss */
+.portfoliohighlight-more-btn {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* line 4, ../scss/components/_aboutus.scss */
+.aboutus-container {
+  /* padding: 2%; */
+}
+
+/* .aboutus-img-wrapper {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.aboutus-img {
+	width: 100%;
+} */
+/* line 18, ../scss/components/_aboutus.scss */
+.aboutus-introduction-wrapper {
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  padding: 0;
+  color: white;
+  font-size: 16pt;
+  line-height: 2em;
+  text-align: justify;
+  background-image: url("https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_mainphoto_mini.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 32, ../scss/components/_aboutus.scss */
+.aboutus-introduction-title {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  font-size: 3vw;
+  color: orange;
+}
+
+/* line 42, ../scss/components/_aboutus.scss */
+.aboutus-introduction-content {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+/* line 51, ../scss/components/_aboutus.scss */
+.aboutus-experience-wrapper {
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  padding: 5%;
+  color: white;
+  font-size: 16pt;
+  line-height: 2em;
+  text-align: justify;
+}
+
+/* line 61, ../scss/components/_aboutus.scss */
+.aboutus-introduction-content-ch {
+  margin: 0;
+}
+
+/* line 65, ../scss/components/_aboutus.scss */
+.aboutus-introduction-content-en {
+  margin: 0;
+}
+
+/* line 69, ../scss/components/_aboutus.scss */
+.aboutus-experience-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 73, ../scss/components/_aboutus.scss */
+.aboutus-experience-title {
+  font-size: 3vw;
+  color: orange;
+}
+
+/* line 78, ../scss/components/_aboutus.scss */
+.aboutus-mediaexplosure-wrapper {
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  color: white;
+  font-size: 16pt;
+  line-height: 2em;
+  text-align: justify;
+  background-image: url("https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_experience_mini.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 91, ../scss/components/_aboutus.scss */
+.aboutus-mediaexplosure-title {
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 3vw;
+  color: orange;
+}
+
+/* line 102, ../scss/components/_aboutus.scss */
+.aboutus-mediaexplosure-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+/* line 111, ../scss/components/_aboutus.scss */
+.aboutus-mediaexplosure-ch {
+  color: white;
+}
+
+/* line 115, ../scss/components/_aboutus.scss */
+.aboutus-mediaexplosure-en {
+  color: white;
+}
+
+/* line 119, ../scss/components/_aboutus.scss */
+.brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* line 128, ../scss/components/_aboutus.scss */
+.brands-item {
+  text-align: center;
+  min-width: 75px;
+  max-height: 100px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 20%;
+  overflow: hidden;
+}
+
+/* line 140, ../scss/components/_aboutus.scss */
+.brands-item-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 1, ../scss/components/_backgroundvideo.scss */
+#mainvideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+
+/*----------------------------------------------
+default header menu
+----------------------------------------------*/
+/* line 6, ../scss/components/_basic.scss */
+.header-container {
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*----------------------------------------------
+    header menu active
+----------------------------------------------*/
+/* line 15, ../scss/components/_basic.scss */
+.header-container.active {
+  background-color: black;
+  height: 75px;
+  top: 0px;
+  padding: 10px;
+}
+
+/* line 22, ../scss/components/_basic.scss */
+.header-container.active .logo-container .nslogo-img {
+  width: 20%;
+  min-width: 90px;
+}
+
+/*----------------------------------------------
+    active end
+----------------------------------------------*/
+/* line 29, ../scss/components/_basic.scss */
+.logo-container {
+  width: 25%;
+}
+
+/* line 33, ../scss/components/_basic.scss */
+.nslogo-container {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 38, ../scss/components/_basic.scss */
+.logo-container .nslogo-img {
+  width: 50%;
+  min-width: 200px;
+}
+
+/* line 43, ../scss/components/_basic.scss */
+.default-menu-container {
+  width: 75%;
+  display: inline-flex;
+  align-items: center;
+  top: 50px;
+}
+
+/* line 50, ../scss/components/_basic.scss */
+.default-menu-list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 70%;
+}
+
+/* line 59, ../scss/components/_basic.scss */
+.default-menu-item {
+  color: orange;
+}
+
+/* line 63, ../scss/components/_basic.scss */
+.default-menu-item-content {
+  justify-content: center;
+  font-size: 1.2vw;
+  display: inline-flex;
+  border-color: orange;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* line 74, ../scss/components/_basic.scss */
+.default-menu-item-content:hover {
+  color: white;
+  background-color: orange;
+}
+
+/* line 79, ../scss/components/_basic.scss */
+.icon-bar {
+  display: inline-block;
+  width: 20%;
+  color: white;
+}
+
+/* line 85, ../scss/components/_basic.scss */
+.icon-bar .icon {
+  margin: 4px;
+  color: white;
+}
+
+/*----------------------------------------------
+end
+----------------------------------------------*/
+/*----------------------------------------------
+mobile header menu
+----------------------------------------------*/
+/* line 97, ../scss/components/_basic.scss */
+.mobilenav-icon-wrapper {
+  position: absolute;
+  color: orange;
+  right: 5%;
+  top: 20px;
+  z-index: 100;
+}
+
+/* line 105, ../scss/components/_basic.scss */
+.mobilenav-icon-wrapper svg {
+  height: 2em;
+  width: 2em;
+}
+
+/* line 110, ../scss/components/_basic.scss */
+.mobilenav-wrapper {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 116, ../scss/components/_basic.scss */
+.mobile-menu-list {
+  text-align: center;
+  list-style: none;
+  color: orange;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+/* line 125, ../scss/components/_basic.scss */
+.mobile-menu .mobile-menu-list a {
+  line-height: 2em;
+  color: orange;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+/* line 132, ../scss/components/_basic.scss */
+.mobilenav-linklist-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  color: orange;
+  align-items: center;
+  list-style: none;
+  align-content: center;
+  flex-wrap: nowrap;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* line 146, ../scss/components/_basic.scss */
+.mobilenav-linklist-item {
+  display: flex;
+  align-items: center;
+  color: orange;
+  text-align: center;
+  height: 20%;
+  margin: 0 auto;
+  font-size: 5vw;
+}
+
+/*----------------------------------------------
+end
+----------------------------------------------*/
+/*----------------------------------------------
+footer
+----------------------------------------------*/
+/* line 162, ../scss/components/_basic.scss */
+.icon {
+  color: white;
+  margin: 1%;
+}
+
+/* line 167, ../scss/components/_basic.scss */
+#container {
+  position: relative;
+  height: auto;
+}
+
+/* line 172, ../scss/components/_basic.scss */
+.footer-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  height: auto;
+  z-index: 100;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+/* line 188, ../scss/components/_basic.scss */
+.footer-logo-warpper {
+  width: 80%;
+  text-align: center;
+  font-size: 3vw;
+}
+
+/* line 194, ../scss/components/_basic.scss */
+.footer-nav-list {
+  list-style: none;
+  margin: 0px auto;
+  padding: 0px;
+  width: 80%;
+  height: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 207, ../scss/components/_basic.scss */
+.footer-nav-list-item {
+  font-size: 100%;
+  min-width: 200px;
+  color: white;
+}
+
+/* line 213, ../scss/components/_basic.scss */
+.footer-container .icon-bar {
+  padding: 0px;
+  height: 100%;
+  width: 30%;
+  max-width: 150px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 224, ../scss/components/_basic.scss */
+.footer-info-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 231, ../scss/components/_basic.scss */
+.footer-info-content {
+  font-size: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* line 238, ../scss/components/_basic.scss */
+.footer-info-content a {
+  color: white;
+}
+
+/*----------------------------------------------
+end
+----------------------------------------------*/
+/* line 3, ../scss/components/_classes.scss */
+.classes-container-title {
+  color: orange;
+}
+
+/*----------------------------------------------
+Co-op Page
+----------------------------------------------*/
+/* line 6, ../scss/components/_coop.scss */
+.coop-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+/* line 14, ../scss/components/_coop.scss */
+.coop-introducion-wrapper {
+  padding-top: 3%;
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20pt;
+  color: white;
+  line-height: 2em;
+  font-family: "Microsoft JhengHei";
+  letter-spacing: 1pt;
+}
+
+/* line 27, ../scss/components/_coop.scss */
+.coop-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+/* line 34, ../scss/components/_coop.scss */
+.coop-section-left {
+  width: 45%;
+  min-width: 400px;
+  height: 600px;
+  margin: auto;
+}
+
+/* line 41, ../scss/components/_coop.scss */
+.coop-section-media-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 46, ../scss/components/_coop.scss */
+.coopblock-section-media-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 51, ../scss/components/_coop.scss */
+.coop-section-right {
+  width: 45%;
+  min-width: 400px;
+  height: 500px;
+  margin: auto;
+}
+
+/* line 58, ../scss/components/_coop.scss */
+.coop-section-content-title {
+  margin: 0;
+  color: orange;
+}
+
+/* line 63, ../scss/components/_coop.scss */
+.coop-section-content-intro {
+  font-size: 16pt;
+}
+
+/* line 67, ../scss/components/_coop.scss */
+.coop-section-content-intro-body {
+  color: white;
+}
+
+/* line 71, ../scss/components/_coop.scss */
+.coop-section-content-intro-readmore-target {
+  color: white;
+}
+
+/* line 75, ../scss/components/_coop.scss */
+.coop-section-content-intro-readmore-btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: orange;
+  border-color: orange;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: transparent;
+}
+
+/*----------------------------------------------
+showcase page
+----------------------------------------------*/
+/* line 7, ../scss/components/_portfolio.scss */
+.portfolioitemlayout-container .porfolioitem-container {
+  display: inline-block;
+  list-style: none;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  position: relative;
+}
+
+/* line 15, ../scss/components/_portfolio.scss */
+.porfolioitem-figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 21, ../scss/components/_portfolio.scss */
+.porfolioitem-img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  transition: transform 0.4s;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+/* line 30, ../scss/components/_portfolio.scss */
+.porfolioitem-figcaption {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: auto;
+  bottom: 20%;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+  padding: 20px;
+  background-color: transparent;
+}
+
+/* line 43, ../scss/components/_portfolio.scss */
+.porfolioitem-title {
+  text-align: center;
+  margin: 0;
+  font-size: 24pt;
+  padding: 0;
+  color: #fff;
+}
+
+/***************
+figure hover
+***************/
+/* line 55, ../scss/components/_portfolio.scss */
+.porfolioitem-container figure:hover img,
+.porfolioitem-container figure.cs-hover img {
+  filter: none;
+}
+
+/* line 60, ../scss/components/_portfolio.scss */
+.porfolioitem-container figure:hover figcaption,
+.porfolioitem-container figure.cs-hover figcaption {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+/***************
+hover end
+***************/
+/* line 71, ../scss/components/_portfolio.scss */
+.portfoliodetail-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5% 10%;
+  margin: 0px;
+}
+
+/* line 78, ../scss/components/_portfolio.scss */
+.portfoliodetail-title {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 84, ../scss/components/_portfolio.scss */
+.portfoliodetail-info {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------------------------------
+end
+----------------------------------------------*/
+/* line 4, ../scss/components/_style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../scss/components/_style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, ../scss/components/_style.scss */
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  font-family: "helvetica neue";
+}
+
+/* line 22, ../scss/components/_style.scss */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+/*----------------------------------------------
+Co-op Page
+----------------------------------------------*/
+/* line 34, ../scss/components/_style.scss */
+.coopblock {
+  clear: both;
+  padding: 1%;
+}
+
+/* line 39, ../scss/components/_style.scss */
+.coopblock .read-more-state {
+  display: none;
+}
+
+/* line 43, ../scss/components/_style.scss */
+.coopblock__media {
+  padding: 1%;
+}
+
+/* line 47, ../scss/components/_style.scss */
+.coopblock__media__content {
+  width: 100%;
+}
+
+/* line 51, ../scss/components/_style.scss */
+.coopblock__title {
+  font-size: 2.5vw;
+  color: orange;
+}
+
+/* line 56, ../scss/components/_style.scss */
+.coopblock .coopblock__content__readMore {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+/* line 63, ../scss/components/_style.scss */
+.read-more-state:checked ~ .coopblock__content__body .coopblock__content__readMore {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+/* line 69, ../scss/components/_style.scss */
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+/* line 73, ../scss/components/_style.scss */
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+/* line 77, ../scss/components/_style.scss */
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/*----------------------------------------------
+end
+----------------------------------------------*/
+/* line 91, ../scss/components/_style.scss */
+.content {
+  margin-top: 200px;
+}
+
+/* line 95, ../scss/components/_style.scss */
+.COOP-ContentPage .coop-content {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* line 101, ../scss/components/_style.scss */
+.COOP-ContentPage .coop-content .section-title {
+  color: orange;
+  float: left;
+  width: 100%;
+  font-size: 4vw;
+  /*margin: 0 auto;*/
+  display: block;
+}
+
+/* line 110, ../scss/components/_style.scss */
+.COOP-ContentPage .coop-content .textContent {
+  display: block;
+  width: 50%;
+  min-width: 320px;
+  float: left;
+  margin: 0 auto;
+  padding-right: 2%;
+  padding-left: 2%;
+  /*display: inline-block;*/
+  /*height: 600px;*/
+  /*overflow: hidden;*/
+}
+
+/* line 123, ../scss/components/_style.scss */
+.COOP-ContentPage .coop-content .mediaContent {
+  display: block;
+  width: 50%;
+  min-width: 320px;
+  float: left;
+  margin: 0 auto;
+  /*display: inline-block;
+  height: 600px;
+  overflow: hidden;*/
+}
+
+/* line 134, ../scss/components/_style.scss */
+.COOP-ContentPage .coop-content .video-title {
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+/* line 142, ../scss/components/_style.scss */
+.COOP-ContentPage .coop-content .coop-photo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 148, ../scss/components/_style.scss */
+.COOP-ContentPage ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 153, ../scss/components/_style.scss */
+.ContentPage p {
+  font-family: "Microsoft JhengHei";
+  line-height: 2em;
+  font-size: 1.5vw;
+  letter-spacing: 1pt;
+}
+
+/* line 160, ../scss/components/_style.scss */
+.ContentPage .profile {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 166, ../scss/components/_style.scss */
+.ContentPage .wrapper {
+  z-index: -10;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* line 173, ../scss/components/_style.scss */
+.ContentPage .wrapper #slogan {
+  position: relative;
+  top: -100px;
+  height: 800px;
+}
+
+/* line 179, ../scss/components/_style.scss */
+.video-container h1 {
+  text-align: center;
+}
+
+/* line 183, ../scss/components/_style.scss */
+.video-container iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 188, ../scss/components/_style.scss */
+#media-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 193, ../scss/components/_style.scss */
+#media-section h1 {
+  text-align: center;
+  color: orange;
+  font-size: 36pt;
+}
+
+/* line 199, ../scss/components/_style.scss */
+.iframe-rwd {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+
+/* line 206, ../scss/components/_style.scss */
+.iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2017-3-22 5:53:51
+ * http://animista.net
+ * T: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation tracking-in-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* line 4, ../scss/components/_swingevents.scss */
+.swingevents-container {
+  background-image: url(https://naughtyswing.blob.core.windows.net/naughtyswing/swingevents_background_1_mini.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* line 10, ../scss/components/_swingevents.scss */
+.swingevents-regular-events-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 14, ../scss/components/_swingevents.scss */
+.swingevents-regular-events-title {
+  font-size: 3vw;
+  margin: 0;
+  color: orange;
+  text-align: center;
+}
+
+/* line 21, ../scss/components/_swingevents.scss */
+.swingevents-regular-events-list {
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* line 26, ../scss/components/_swingevents.scss */
+.swingevents-regular-events-list-item {
+  color: white;
+  text-align: center;
+  font-size: 2vw;
+  line-height: 2;
+  list-style: none;
+}
+
+/* line 34, ../scss/components/_swingevents.scss */
+.swingevents-irragular-events-wrapper {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 38, ../scss/components/_swingevents.scss */
+.eventscalendar-title {
+  font-size: 3vw;
+  color: orange;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 45, ../scss/components/_swingevents.scss */
+.eventscalendar-eventlist-warpper {
+  margin: 0px auto;
+  padding: 0px;
+  width: 80%;
+  display: flex;
+  color: black;
+  list-style: none;
+  flex-direction: column;
+}
+
+/* line 55, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item {
+  color: black;
+  text-align: center;
+  margin: 10px auto;
+  width: 50%;
+  display: inline-flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 120px;
+}
+
+/* line 66, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-date {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: #364050;
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* line 76, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-date-startdate {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+}
+
+/* line 82, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-info {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 87, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-title {
+  color: black;
+  font-size: 2vw;
+}
+
+/* line 92, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-time {
+  color: gray;
+  font-size: 0.5vw;
+}
+
+/* line 97, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-startdate-date {
+  color: white;
+  font-size: 2vw;
+  margin: 0;
+}
+
+/* line 102, ../scss/components/_swingevents.scss */
+.eventlist-irregular-event-item-startdate-month {
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 1, ../scss/helpers/_display.scss */
+.inline-flex-center-container {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 9, ../scss/helpers/_display.scss */
+.flex-center-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 1, ../scss/helpers/_position.scss */
+.is-center-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* line 7, ../scss/helpers/_position.scss */
+.absl {
+  position: absolute;
+}
+/* line 10, ../scss/helpers/_position.scss */
+.absl.top {
+  top: 0;
+}
+/* line 14, ../scss/helpers/_position.scss */
+.absl.bottom {
+  bottom: 0;
+}
+/* line 18, ../scss/helpers/_position.scss */
+.absl.left {
+  left: 0;
+}
+/* line 22, ../scss/helpers/_position.scss */
+.absl.right {
+  right: 0;
+}
+
+/* line 1, ../scss/helpers/_sarari.scss */
+.column {
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

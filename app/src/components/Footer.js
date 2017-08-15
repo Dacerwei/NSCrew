@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import MediaIcons from './MediaIcons';
-import '../../assets/styles/basic.css';
 
 class Footer extends React.Component{
     render(){

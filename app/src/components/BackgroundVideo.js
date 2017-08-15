@@ -1,6 +1,5 @@
 import React from 'react';
 import Youtube from 'react-youtube';
-import '../../assets/styles/backgroundvideo.css';
 
 class BackgroundVideo extends React.Component {
     render() {

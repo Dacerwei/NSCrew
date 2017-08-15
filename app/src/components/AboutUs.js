@@ -1,6 +1,6 @@
 import React from 'react';
 import Brands from './Brands';
-import '../../assets/styles/aboutus.css';
+import Skrollr from 'skrollr';
 
 const AboutUs = () => {
   return (

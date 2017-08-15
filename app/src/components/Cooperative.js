@@ -1,6 +1,5 @@
 import React from 'react';
 import CoopBlock from './CoopBlock';
-import '../../assets/styles/coop.css';
 
 const CoopSet = [
 {

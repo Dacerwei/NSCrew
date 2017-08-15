@@ -1,6 +1,5 @@
 import React from 'react';
 import EventsCalendar from './EventsCalendar';
-import '../../assets/styles/swingevents.css';
 
 class SwingEvents extends React.Component {
 	render(){

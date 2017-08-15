@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../assets/styles/classes.css';
 
 class Classes extends React.Component{
 

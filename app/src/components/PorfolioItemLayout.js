@@ -1,7 +1,6 @@
 import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
 import PorfolioItem from './PorfolioItem';
-import '../../assets/styles/portfolio.css';
 import _ from 'lodash';
 
 Array.prototype.insert = function (index, item) {

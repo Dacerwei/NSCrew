@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import '../../assets/styles/portfolio.css';
-
 
 class PortfolioDetail extends React.Component {
 	render(){
