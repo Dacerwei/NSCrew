@@ -10,9 +10,9 @@ class PortfolioHighlight extends React.Component {
 		let highlightPortfolioItems = _.take(PortfolioSet, 3);
 		return(
 			<section className="portfoliohighlight-container">
-				<h1 className="portfoliohighlight-title">
+				<h2 className="portfoliohighlight-title">
 					Portfolio | 作品集
-				</h1>
+				</h2>
 				<div className="portfoliohighlight-portfolio-wrapper">
 					<PorfolioItemLayout photo_set={highlightPortfolioItems} />
 				</div>

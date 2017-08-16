@@ -10,6 +10,7 @@ class CoopHighlight extends React.Component {
         return(
             <section className="coophighlight-container">
                 <div className="coophighlight-introduction-wrapper">
+                    <h2 className="coophighlight-introduction-title">CO-OP | 合作項目</h2>
                     <div className="coophighlight-introduction-content">
                         <p>More than just a dance crew - Naughty Swing specializes in Swing Dance choreography, teaching and performance as well as video filming and editing. If you're amazed by the beauty of Swing Dance, why not pick some options below and work with us now!</p>
                         <p>Naughty Swing頑皮搖擺舞團專攻搖擺舞蹈編排、舞蹈教學、影片拍攝、舞蹈演出等！如果你也熱愛爵士樂，並且深深被Swing Dance搖擺舞的歡樂所吸引，就快來看看可以怎麼與我們合作吧！</p>

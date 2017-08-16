@@ -1,11 +1,11 @@
 import React from 'react';
 import Brands from './Brands';
-import Skrollr from 'skrollr';
+// import Skrollr from 'skrollr';
 
 class AboutUs extends React.Component {
 
   componentDidMount() {
-    const skrollr = Skrollr.init();
+    // const skrollr = Skrollr.init();
   }
   
   render() {
