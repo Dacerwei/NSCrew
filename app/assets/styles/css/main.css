@@ -116,28 +116,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .coophighlight-services-serviceitem-icon-container {
   display: flex;
   overflow: hidden;
+  margin: 0 auto;
   background: rgba(113, 200, 213, 0.8);
-  border-radius: 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 
-/* line 56, ../scss/components/_IndexPage.scss */
+/* line 59, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-src {
   margin: 0 auto;
   color: orange;
   text-align: center;
-}
-
-/* line 62, ../scss/components/_IndexPage.scss */
-#coophighlight-performance-icon {
-  width: 80%;
+  width: 100%;
 }
 
 /* line 66, ../scss/components/_IndexPage.scss */
-#coophighlight-performance-icon {
-  width: 110%;
-}
-
-/* line 70, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-title {
   color: orange;
   margin-top: 0;
@@ -145,7 +139,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 1.5vw;
 }
 
-/* line 77, ../scss/components/_IndexPage.scss */
+/* line 73, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-container {
   display: flex;
   flex-direction: column;
@@ -155,7 +149,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: rgba(0, 0, 0, 0.8);
 }
 
-/* line 86, ../scss/components/_IndexPage.scss */
+/* line 82, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-title {
   margin: 0px;
   color: orange;
@@ -165,7 +159,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 3vw;
 }
 
-/* line 94, ../scss/components/_IndexPage.scss */
+/* line 90, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn {
   margin: 0 auto;
   margin-top: 10px;
@@ -842,146 +836,12 @@ header {
   z-index: 50;
 }
 
-/*----------------------------------------------
-Co-op Page
-----------------------------------------------*/
-/* line 34, ../scss/components/_style.scss */
-.coopblock {
-  clear: both;
-  padding: 1%;
-}
-
-/* line 39, ../scss/components/_style.scss */
-.coopblock .read-more-state {
-  display: none;
-}
-
-/* line 43, ../scss/components/_style.scss */
-.coopblock__media {
-  padding: 1%;
-}
-
-/* line 47, ../scss/components/_style.scss */
-.coopblock__media__content {
-  width: 100%;
-}
-
-/* line 51, ../scss/components/_style.scss */
-.coopblock__title {
-  font-size: 2.5vw;
-  color: orange;
-}
-
-/* line 56, ../scss/components/_style.scss */
-.coopblock .coopblock__content__readMore {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
-}
-
-/* line 63, ../scss/components/_style.scss */
-.read-more-state:checked ~ .coopblock__content__body .coopblock__content__readMore {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-}
-
-/* line 69, ../scss/components/_style.scss */
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
-}
-
-/* line 73, ../scss/components/_style.scss */
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
-}
-
-/* line 77, ../scss/components/_style.scss */
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
-}
-
-/*----------------------------------------------
-end
-----------------------------------------------*/
-/* line 91, ../scss/components/_style.scss */
+/* line 29, ../scss/components/_style.scss */
 .content {
   margin-top: 200px;
 }
 
-/* line 95, ../scss/components/_style.scss */
-.COOP-ContentPage .coop-content {
-  display: block;
-  width: 100%;
-  padding-top: 10px;
-}
-
-/* line 101, ../scss/components/_style.scss */
-.COOP-ContentPage .coop-content .section-title {
-  color: orange;
-  float: left;
-  width: 100%;
-  font-size: 4vw;
-  /*margin: 0 auto;*/
-  display: block;
-}
-
-/* line 110, ../scss/components/_style.scss */
-.COOP-ContentPage .coop-content .textContent {
-  display: block;
-  width: 50%;
-  min-width: 320px;
-  float: left;
-  margin: 0 auto;
-  padding-right: 2%;
-  padding-left: 2%;
-  /*display: inline-block;*/
-  /*height: 600px;*/
-  /*overflow: hidden;*/
-}
-
-/* line 123, ../scss/components/_style.scss */
-.COOP-ContentPage .coop-content .mediaContent {
-  display: block;
-  width: 50%;
-  min-width: 320px;
-  float: left;
-  margin: 0 auto;
-  /*display: inline-block;
-  height: 600px;
-  overflow: hidden;*/
-}
-
-/* line 134, ../scss/components/_style.scss */
-.COOP-ContentPage .coop-content .video-title {
-  text-align: center;
-  font-size: 14pt;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: orange;
-}
-
-/* line 142, ../scss/components/_style.scss */
-.COOP-ContentPage .coop-content .coop-photo {
-  text-align: center;
-  margin: 0 auto;
-}
-
-/* line 148, ../scss/components/_style.scss */
-.COOP-ContentPage ul {
-  list-style: none;
-  padding: 0;
-}
-
-/* line 153, ../scss/components/_style.scss */
+/* line 33, ../scss/components/_style.scss */
 .ContentPage p {
   font-family: "Microsoft JhengHei";
   line-height: 2em;
@@ -989,51 +849,51 @@ end
   letter-spacing: 1pt;
 }
 
-/* line 160, ../scss/components/_style.scss */
+/* line 40, ../scss/components/_style.scss */
 .ContentPage .profile {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-/* line 166, ../scss/components/_style.scss */
+/* line 46, ../scss/components/_style.scss */
 .ContentPage .wrapper {
   z-index: -10;
   height: 500px;
   overflow: hidden;
 }
 
-/* line 173, ../scss/components/_style.scss */
+/* line 53, ../scss/components/_style.scss */
 .ContentPage .wrapper #slogan {
   position: relative;
   top: -100px;
   height: 800px;
 }
 
-/* line 179, ../scss/components/_style.scss */
+/* line 59, ../scss/components/_style.scss */
 .video-container h1 {
   text-align: center;
 }
 
-/* line 183, ../scss/components/_style.scss */
+/* line 63, ../scss/components/_style.scss */
 .video-container iframe {
   display: block;
   margin: 0 auto;
 }
 
-/* line 188, ../scss/components/_style.scss */
+/* line 68, ../scss/components/_style.scss */
 #media-section {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 193, ../scss/components/_style.scss */
+/* line 73, ../scss/components/_style.scss */
 #media-section h1 {
   text-align: center;
   color: orange;
   font-size: 36pt;
 }
 
-/* line 199, ../scss/components/_style.scss */
+/* line 79, ../scss/components/_style.scss */
 .iframe-rwd {
   margin-top: 1%;
   margin-bottom: 1%;
@@ -1043,7 +903,7 @@ end
   height: 0;
 }
 
-/* line 206, ../scss/components/_style.scss */
+/* line 86, ../scss/components/_style.scss */
 .iframe-rwd iframe {
   position: absolute;
   top: 0;

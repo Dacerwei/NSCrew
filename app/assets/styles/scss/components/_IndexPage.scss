@@ -49,22 +49,18 @@
 .coophighlight-services-serviceitem-icon-container {
     display: flex;
     overflow: hidden;
+    margin: 0 auto;
     background: rgba(113,200,213,0.8);
-    border-radius: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
 }
 
 .coophighlight-services-serviceitem-icon-src {
 	margin: 0 auto;
 	color: orange;
 	text-align: center;
-}
-
-#coophighlight-performance-icon {
-	width: 80%;
-}
-
-#coophighlight-performance-icon {
-	width: 110%;
+	width:100%
 }
 
 .coophighlight-services-serviceitem-title {

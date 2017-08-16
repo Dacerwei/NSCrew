@@ -1,7 +1,7 @@
 import React from 'react';
-import VideoProductionIcon from '../../assets/images/highlight_coop_video_production.svg';
-import PerformanceIcon from '../../assets/images/highlight_coop_performance_1.svg';
-import LessonIcon from '../../assets/images/highlight_coop_lessons.svg';
+import VideoProductionIcon from '../../assets/images/icon_video_production.svg';
+import PerformanceIcon from '../../assets/images/icon_performance.svg';
+import LessonIcon from '../../assets/images/icon_classes.svg';
 import CoopSet from '../helpers/CoopSet';
 
 class CoopHighlight extends React.Component {
