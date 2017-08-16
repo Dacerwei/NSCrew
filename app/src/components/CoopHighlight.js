@@ -5,6 +5,7 @@ import LessonIcon from '../../assets/images/icon_classes.svg';
 import CoopSet from '../helpers/CoopSet';
 
 class CoopHighlight extends React.Component {
+    
     render() {
         return(
             <section className="coophighlight-container">

@@ -1,4 +1,5 @@
 import React from 'react';
+import BackgroundVideo from './BackgroundVideo';
 import Highlights from './Highlights';
 import MediaQuery from 'react-responsive';
 

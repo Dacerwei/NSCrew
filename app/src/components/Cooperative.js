@@ -5,7 +5,7 @@ import CoopSet from '../helpers/CoopSet';
 const Cooperative = () => {
 
 	let CoopBlockSet = [];
-
+	
 	for(var i=0; i < CoopSet.length; i++){
 		CoopBlockSet.push(
 			<CoopBlock
