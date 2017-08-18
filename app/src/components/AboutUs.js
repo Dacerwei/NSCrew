@@ -1,12 +1,9 @@
 import React from 'react';
 import Brands from './Brands';
-// import Skrollr from 'skrollr';
+import Experience from './Experience';
+
 
 class AboutUs extends React.Component {
-
-  componentDidMount() {
-    // const skrollr = Skrollr.init();
-  }
   
   render() {
     return (
@@ -33,6 +30,7 @@ class AboutUs extends React.Component {
         </section>
         <section className="aboutus-experience-wrapper">
           <h2 className="aboutus-experience-title">Experience | 經歷</h2>
+          <Experience />
         </section>
         <section className="aboutus-mediaexplosure-wrapper">
           <h2 className="aboutus-mediaexplosure-title">Media Explosure | 媒體報導</h2>
