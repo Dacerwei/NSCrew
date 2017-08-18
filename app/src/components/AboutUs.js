@@ -2,9 +2,7 @@ import React from 'react';
 import Brands from './Brands';
 import Experience from './Experience';
 
-
 class AboutUs extends React.Component {
-  
   render() {
     return (
       <div className="aboutus-container">

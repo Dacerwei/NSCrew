@@ -2,21 +2,46 @@
 	position: relative;
     height: 100%;
 }
-
+.indexpage-main-wrapper {
+  height: 80vh;
+  display: flex;
+}
 
 #slogan-2 {
+	line-height: 1.5em;
 	color: white;
-	height: 100%;
 	font-size: 7vw;
 	width: 100%;
-	margin: auto;
-	margin-bottom: 10%;
-	padding-top: 4%;
+	margin: 0 auto;
 	font-family: fantasy;
 	text-align: center;
 	-webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	-moz-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.aboutushighlight-container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.aboutushighlight-title {
+	margin: 0px;
+    color: orange;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3vw;
+}
+
+.aboutushighlight-more-btn-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
 }
 
 .coophighlight-container {
@@ -78,13 +103,23 @@
 	font-size: 1.5vw;
 }
 
+.coophighlight-more-btn-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
 .portfoliohighlight-container {
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	background: rgba(0,0,0,0.8);
+	padding-right: 5%;
+	padding-left: 5%;
+	background: rgba(0,0,0,1);
 }
 
 .portfoliohighlight-title {
@@ -95,6 +130,14 @@
 	margin-bottom: 10px;
 	font-size: 3vw;
 }
+
+.portfoliohighlight-more-btn-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
 .portfoliohighlight-more-btn {
 	margin: 0 auto;
 	margin-top: 10px;

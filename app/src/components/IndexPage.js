@@ -13,10 +13,6 @@ class IndexPage extends React.Component {
         this.onReady = this.onReady.bind(this);
     }
 
-    componentDidMount() {
-        
-    }
-
     onReady() {
         console.log('video ready');
         this.setState({isVideoReady: true});
@@ -31,14 +27,12 @@ class IndexPage extends React.Component {
                         <source src="https://storage.googleapis.com/naughty-swing-official-website.appspot.com/indexpage/main_video_mini.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                </MediaQuery>
-                {
-                    isVideoReady &&
-                    <div>
+                    <div className="indexpage-main-wrapper">
                         <h1 className="indexpage-slogon" id="slogan-2">We're<br />Naughty<br />So We Swing</h1> 
-                        <Highlights />
                     </div>
-                }
+                </MediaQuery>
+                
+                <Highlights />
             </div>
         );
     }

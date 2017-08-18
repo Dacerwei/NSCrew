@@ -16,7 +16,9 @@ class PortfolioHighlight extends React.Component {
 				<div className="portfoliohighlight-portfolio-wrapper">
 					<PorfolioItemLayout photo_set={highlightPortfolioItems} />
 				</div>
-				<Link className="portfoliohighlight-more-btn" to="portfolio"><RaisedButton label={'MORE'} primary={true}/></Link>
+				<div className="portfoliohighlight-more-btn-wrapper">
+					<Link className="portfoliohighlight-more-btn" to="portfolio"><RaisedButton label={'MORE'} primary={true}/></Link>
+				</div>
 			</section>
 		);
 	}

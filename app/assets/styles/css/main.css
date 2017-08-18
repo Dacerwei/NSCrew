@@ -69,15 +69,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
 }
 
-/* line 7, ../scss/components/_IndexPage.scss */
+/* line 5, ../scss/components/_IndexPage.scss */
+.indexpage-main-wrapper {
+  height: 80vh;
+  display: flex;
+}
+
+/* line 10, ../scss/components/_IndexPage.scss */
 #slogan-2 {
+  line-height: 1.5em;
   color: white;
-  height: 100%;
   font-size: 7vw;
   width: 100%;
-  margin: auto;
-  margin-bottom: 10%;
-  padding-top: 4%;
+  margin: 0 auto;
   font-family: fantasy;
   text-align: center;
   -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -85,7 +89,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-/* line 22, ../scss/components/_IndexPage.scss */
+/* line 23, ../scss/components/_IndexPage.scss */
+.aboutushighlight-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 31, ../scss/components/_IndexPage.scss */
+.aboutushighlight-title {
+  margin: 0px;
+  color: orange;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 3vw;
+}
+
+/* line 40, ../scss/components/_IndexPage.scss */
+.aboutushighlight-more-btn-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 47, ../scss/components/_IndexPage.scss */
 .coophighlight-container {
   display: flex;
   flex-direction: column;
@@ -99,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: white;
 }
 
-/* line 35, ../scss/components/_IndexPage.scss */
+/* line 60, ../scss/components/_IndexPage.scss */
 .coophighlight-introduction-title {
   margin: 0px;
   color: orange;
@@ -109,7 +140,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 3vw;
 }
 
-/* line 44, ../scss/components/_IndexPage.scss */
+/* line 69, ../scss/components/_IndexPage.scss */
 .coophighlight-services-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -117,14 +148,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: start;
 }
 
-/* line 51, ../scss/components/_IndexPage.scss */
+/* line 76, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem {
   margin: 0 auto;
   width: 30%;
   min-width: 200px;
 }
 
-/* line 57, ../scss/components/_IndexPage.scss */
+/* line 82, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-container {
   display: flex;
   overflow: hidden;
@@ -135,7 +166,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 150px;
 }
 
-/* line 67, ../scss/components/_IndexPage.scss */
+/* line 92, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-src {
   margin: 0 auto;
   color: orange;
@@ -143,7 +174,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 
-/* line 74, ../scss/components/_IndexPage.scss */
+/* line 99, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-title {
   color: orange;
   margin-top: 0;
@@ -151,17 +182,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 1.5vw;
 }
 
-/* line 81, ../scss/components/_IndexPage.scss */
+/* line 106, ../scss/components/_IndexPage.scss */
+.coophighlight-more-btn-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 113, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
-  background: rgba(0, 0, 0, 0.8);
+  padding-right: 5%;
+  padding-left: 5%;
+  background: black;
 }
 
-/* line 90, ../scss/components/_IndexPage.scss */
+/* line 125, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-title {
   margin: 0px;
   color: orange;
@@ -171,7 +212,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 3vw;
 }
 
-/* line 98, ../scss/components/_IndexPage.scss */
+/* line 134, ../scss/components/_IndexPage.scss */
+.portfoliohighlight-more-btn-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 141, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn {
   margin: 0 auto;
   margin-top: 10px;
@@ -535,6 +584,7 @@ default header menu
   top: 0;
   width: 100%;
   z-index: 10;
+  height: 20vh;
   -webkit-transform: translateZ(1px);
   -moz-transform: translateZ(1px);
   -o-transform: translateZ(1px);
@@ -544,7 +594,7 @@ default header menu
 /*----------------------------------------------
     header menu active
 ----------------------------------------------*/
-/* line 19, ../scss/components/_basic.scss */
+/* line 20, ../scss/components/_basic.scss */
 .header-container.active {
   background-color: black;
   height: 75px;
@@ -552,7 +602,7 @@ default header menu
   padding: 10px;
 }
 
-/* line 26, ../scss/components/_basic.scss */
+/* line 27, ../scss/components/_basic.scss */
 .header-container.active .logo-container .nslogo-img {
   width: 20%;
   min-width: 90px;
@@ -561,24 +611,24 @@ default header menu
 /*----------------------------------------------
     active end
 ----------------------------------------------*/
-/* line 33, ../scss/components/_basic.scss */
+/* line 34, ../scss/components/_basic.scss */
 .logo-container {
   width: 25%;
 }
 
-/* line 37, ../scss/components/_basic.scss */
+/* line 38, ../scss/components/_basic.scss */
 .nslogo-container {
   width: 100%;
   text-align: center;
 }
 
-/* line 42, ../scss/components/_basic.scss */
+/* line 43, ../scss/components/_basic.scss */
 .logo-container .nslogo-img {
   width: 50%;
   min-width: 200px;
 }
 
-/* line 47, ../scss/components/_basic.scss */
+/* line 48, ../scss/components/_basic.scss */
 .default-menu-container {
   width: 75%;
   display: inline-flex;
@@ -586,7 +636,7 @@ default header menu
   top: 50px;
 }
 
-/* line 54, ../scss/components/_basic.scss */
+/* line 55, ../scss/components/_basic.scss */
 .default-menu-list {
   display: inline-flex;
   align-items: center;
@@ -596,12 +646,12 @@ default header menu
   width: 70%;
 }
 
-/* line 63, ../scss/components/_basic.scss */
+/* line 64, ../scss/components/_basic.scss */
 .default-menu-item {
   color: orange;
 }
 
-/* line 67, ../scss/components/_basic.scss */
+/* line 68, ../scss/components/_basic.scss */
 .default-menu-item-content {
   justify-content: center;
   font-size: 1.2vw;
@@ -613,20 +663,20 @@ default header menu
   padding: 8px;
 }
 
-/* line 78, ../scss/components/_basic.scss */
+/* line 79, ../scss/components/_basic.scss */
 .default-menu-item-content:hover {
   color: white;
   background-color: orange;
 }
 
-/* line 83, ../scss/components/_basic.scss */
+/* line 84, ../scss/components/_basic.scss */
 .icon-bar {
   display: inline-block;
   width: 20%;
   color: white;
 }
 
-/* line 89, ../scss/components/_basic.scss */
+/* line 90, ../scss/components/_basic.scss */
 .icon-bar .icon {
   margin: 4px;
   color: white;
@@ -638,7 +688,7 @@ end
 /*----------------------------------------------
 mobile header menu
 ----------------------------------------------*/
-/* line 101, ../scss/components/_basic.scss */
+/* line 102, ../scss/components/_basic.scss */
 .mobilenav-icon-wrapper {
   position: absolute;
   color: orange;
@@ -647,20 +697,20 @@ mobile header menu
   z-index: 100;
 }
 
-/* line 109, ../scss/components/_basic.scss */
+/* line 110, ../scss/components/_basic.scss */
 .mobilenav-icon-wrapper svg {
   height: 2em;
   width: 2em;
 }
 
-/* line 114, ../scss/components/_basic.scss */
+/* line 115, ../scss/components/_basic.scss */
 .mobilenav-wrapper {
   z-index: 10;
   width: 100%;
   height: 100%;
 }
 
-/* line 120, ../scss/components/_basic.scss */
+/* line 121, ../scss/components/_basic.scss */
 .mobile-menu-list {
   text-align: center;
   list-style: none;
@@ -670,7 +720,7 @@ mobile header menu
   margin-top: 20%;
 }
 
-/* line 129, ../scss/components/_basic.scss */
+/* line 130, ../scss/components/_basic.scss */
 .mobile-menu .mobile-menu-list a {
   line-height: 2em;
   color: orange;
@@ -678,7 +728,7 @@ mobile header menu
   font-size: 3em;
 }
 
-/* line 136, ../scss/components/_basic.scss */
+/* line 137, ../scss/components/_basic.scss */
 .mobilenav-linklist-list {
   display: flex;
   flex-direction: column;
@@ -693,7 +743,7 @@ mobile header menu
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 150, ../scss/components/_basic.scss */
+/* line 151, ../scss/components/_basic.scss */
 .mobilenav-linklist-item {
   display: flex;
   align-items: center;
@@ -710,19 +760,19 @@ end
 /*----------------------------------------------
 footer
 ----------------------------------------------*/
-/* line 166, ../scss/components/_basic.scss */
+/* line 167, ../scss/components/_basic.scss */
 .icon {
   color: white;
   margin: 1%;
 }
 
-/* line 171, ../scss/components/_basic.scss */
+/* line 172, ../scss/components/_basic.scss */
 #container {
   position: relative;
   height: auto;
 }
 
-/* line 176, ../scss/components/_basic.scss */
+/* line 177, ../scss/components/_basic.scss */
 .footer-container {
   padding: 20px;
   display: flex;
@@ -739,14 +789,14 @@ footer
   color: white;
 }
 
-/* line 192, ../scss/components/_basic.scss */
+/* line 193, ../scss/components/_basic.scss */
 .footer-logo-warpper {
   width: 80%;
   text-align: center;
   font-size: 3vw;
 }
 
-/* line 198, ../scss/components/_basic.scss */
+/* line 199, ../scss/components/_basic.scss */
 .footer-nav-list {
   list-style: none;
   margin: 0px auto;
@@ -760,14 +810,14 @@ footer
   justify-content: space-around;
 }
 
-/* line 211, ../scss/components/_basic.scss */
+/* line 212, ../scss/components/_basic.scss */
 .footer-nav-list-item {
   font-size: 100%;
   min-width: 200px;
   color: white;
 }
 
-/* line 217, ../scss/components/_basic.scss */
+/* line 218, ../scss/components/_basic.scss */
 .footer-container .icon-bar {
   padding: 0px;
   height: 100%;
@@ -779,7 +829,7 @@ footer
   justify-content: space-around;
 }
 
-/* line 228, ../scss/components/_basic.scss */
+/* line 229, ../scss/components/_basic.scss */
 .footer-info-wrapper {
   display: flex;
   height: 100%;
@@ -787,7 +837,7 @@ footer
   align-items: center;
 }
 
-/* line 235, ../scss/components/_basic.scss */
+/* line 236, ../scss/components/_basic.scss */
 .footer-info-content {
   font-size: 70%;
   margin-top: 5px;
@@ -795,7 +845,7 @@ footer
   color: white;
 }
 
-/* line 242, ../scss/components/_basic.scss */
+/* line 243, ../scss/components/_basic.scss */
 .footer-info-content a {
   color: white;
 }
@@ -1023,11 +1073,6 @@ body {
 }
 
 /* line 19, ../scss/components/_style.scss */
-.content {
-  margin-top: 200px;
-}
-
-/* line 23, ../scss/components/_style.scss */
 .ContentPage p {
   font-family: "Microsoft JhengHei";
   line-height: 2em;
@@ -1035,51 +1080,51 @@ body {
   letter-spacing: 1pt;
 }
 
-/* line 30, ../scss/components/_style.scss */
+/* line 26, ../scss/components/_style.scss */
 .ContentPage .profile {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-/* line 36, ../scss/components/_style.scss */
+/* line 32, ../scss/components/_style.scss */
 .ContentPage .wrapper {
   z-index: -10;
   height: 500px;
   overflow: hidden;
 }
 
-/* line 43, ../scss/components/_style.scss */
+/* line 39, ../scss/components/_style.scss */
 .ContentPage .wrapper #slogan {
   position: relative;
   top: -100px;
   height: 800px;
 }
 
-/* line 49, ../scss/components/_style.scss */
+/* line 45, ../scss/components/_style.scss */
 .video-container h1 {
   text-align: center;
 }
 
-/* line 53, ../scss/components/_style.scss */
+/* line 49, ../scss/components/_style.scss */
 .video-container iframe {
   display: block;
   margin: 0 auto;
 }
 
-/* line 58, ../scss/components/_style.scss */
+/* line 54, ../scss/components/_style.scss */
 #media-section {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 63, ../scss/components/_style.scss */
+/* line 59, ../scss/components/_style.scss */
 #media-section h1 {
   text-align: center;
   color: orange;
   font-size: 36pt;
 }
 
-/* line 69, ../scss/components/_style.scss */
+/* line 65, ../scss/components/_style.scss */
 .iframe-rwd {
   margin-top: 1%;
   margin-bottom: 1%;
@@ -1089,7 +1134,7 @@ body {
   height: 0;
 }
 
-/* line 76, ../scss/components/_style.scss */
+/* line 72, ../scss/components/_style.scss */
 .iframe-rwd iframe {
   position: absolute;
   top: 0;
