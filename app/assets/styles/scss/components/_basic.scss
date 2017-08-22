@@ -183,7 +183,7 @@ footer
     bottom: 0;
     background-color: black;
     text-align: center;
-    height: auto;
+    min-height: 300px;
     z-index: 100;
     width: 100%;
     margin: 0 auto;
@@ -193,7 +193,10 @@ footer
 .footer-logo-warpper {
   width: 80%;
   text-align: center;
-  font-size: 3vw;
+}
+
+.footer-logo-source {
+  font-size: 24pt;
 }
 
 .footer-nav-list {
@@ -220,17 +223,17 @@ footer
     height: 100%;
     width: 30%;
     max-width: 150px;
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;   
+    // display: inline-flex;
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: space-around;   
 }
 
 .footer-info-wrapper {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
+    // display: flex;
+    // height: 100%;
+    // flex-direction: column;
+    // align-items: center;
 }
 
 .footer-info-content {

@@ -782,7 +782,7 @@ footer
   bottom: 0;
   background-color: black;
   text-align: center;
-  height: auto;
+  min-height: 300px;
   z-index: 100;
   width: 100%;
   margin: 0 auto;
@@ -793,10 +793,14 @@ footer
 .footer-logo-warpper {
   width: 80%;
   text-align: center;
-  font-size: 3vw;
 }
 
-/* line 199, ../scss/components/_basic.scss */
+/* line 198, ../scss/components/_basic.scss */
+.footer-logo-source {
+  font-size: 24pt;
+}
+
+/* line 202, ../scss/components/_basic.scss */
 .footer-nav-list {
   list-style: none;
   margin: 0px auto;
@@ -810,34 +814,22 @@ footer
   justify-content: space-around;
 }
 
-/* line 212, ../scss/components/_basic.scss */
+/* line 215, ../scss/components/_basic.scss */
 .footer-nav-list-item {
   font-size: 100%;
   min-width: 200px;
   color: white;
 }
 
-/* line 218, ../scss/components/_basic.scss */
+/* line 221, ../scss/components/_basic.scss */
 .footer-container .icon-bar {
   padding: 0px;
   height: 100%;
   width: 30%;
   max-width: 150px;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
 }
 
-/* line 229, ../scss/components/_basic.scss */
-.footer-info-wrapper {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* line 236, ../scss/components/_basic.scss */
+/* line 239, ../scss/components/_basic.scss */
 .footer-info-content {
   font-size: 70%;
   margin-top: 5px;
@@ -845,7 +837,7 @@ footer
   color: white;
 }
 
-/* line 243, ../scss/components/_basic.scss */
+/* line 246, ../scss/components/_basic.scss */
 .footer-info-content a {
   color: white;
 }
