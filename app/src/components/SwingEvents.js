@@ -5,6 +5,21 @@ class SwingEvents extends React.Component {
 	render(){
 		return (
 			<div className='swingevents-container'>
+				<div className="swingevents-highlight-events-wrapper">
+				<iframe
+					className="swingevents-highlight-event"
+					src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnsintaiwan%2F&tabs=events&width=500&height=441&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=757696621076512" 
+					width="500" 
+					height="441" 
+					style={{
+						border: 'none',
+						overflow: 'hidden'
+					}} 
+					scrolling="no" 
+					frameBorder="0" 
+					allowTransparency="true">
+				</iframe>
+				</div>
 				<div className='swingevents-regular-events-wrapper'>
 					<h1 className='swingevents-regular-events-title'>Regular Social Party </h1>
 					<ul className='swingevents-regular-events-list'>

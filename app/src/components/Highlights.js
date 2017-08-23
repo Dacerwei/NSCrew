@@ -1,8 +1,8 @@
 import React from 'react';
 import AboutUsHighlight from './AboutUsHighlight';
 import PortfolioHighlight from './PortfolioHighlight';
-import Classes from '../components/Classes';
-import SwingEvents from '../components/SwingEvents';
+import Classes from './Classes';
+import SwingEventsHighlight from './SwingEventsHighlight';
 import CoopHighlight from './CoopHighlight';
 
 class Highlights extends React.Component{
@@ -13,7 +13,7 @@ class Highlights extends React.Component{
 				<AboutUsHighlight />
 				<CoopHighlight />
 				<PortfolioHighlight />
-				<SwingEvents />
+				<SwingEventsHighlight />
 			</div>
 		);
 	}
