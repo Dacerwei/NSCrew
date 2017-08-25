@@ -117,8 +117,8 @@
 	justify-content: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	padding-right: 5%;
-	padding-left: 5%;
+	// padding-right: 5%;
+	// padding-left: 5%;
 	background: rgba(0,0,0,1);
 }
 
@@ -129,6 +129,11 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 3vw;
+}
+
+.portfoliohighlight-portfolio-wrapper {
+    // width: 90%;
+    // margin: 0 auto;
 }
 
 .portfoliohighlight-more-btn-wrapper {

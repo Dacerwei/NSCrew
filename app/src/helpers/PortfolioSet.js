@@ -29,8 +29,8 @@ const portfolio_set = [
 	{
 		ID: 3,
 		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_03_goldenhourse_mini.jpg?alt=media&token=822d9d8e-8f8c-44f8-8804-7aaf275f050f',
-		width: 3520,
-		height: 2347,
+		width: 1408,
+		height: 939,
 		title: '金馬奇幻影展',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
 		aspectRatio: 1.499
@@ -38,8 +38,8 @@ const portfolio_set = [
 	{
 		ID: 4,
 		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_04_solocherletonparty_mini.jpg?alt=media&token=aba2c2bd-d0d1-48a5-afbe-0a8989b44272',
-		width: 4240,
-		height: 2384,
+		width: 1272,
+		height: 715,
 		title: 'Solo Charleston Party',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
 		aspectRatio: 1.779
@@ -65,8 +65,8 @@ const portfolio_set = [
 	{
 		ID: 7,
 		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_07_fisrtdanceinwedding_mini.jpg?alt=media&token=1414acfe-6aff-461f-9a58-8258d1faffb2',
-		width: 4240,
-		height: 2384,
+		width: 1272,
+		height: 715,
 		title: 'First Dance of Wedding',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
 		aspectRatio: 1.778
@@ -74,8 +74,8 @@ const portfolio_set = [
 	{
 		ID: 8,
 		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_08_tasterclass_mini.jpg?alt=media&token=764cd2d3-d864-425b-a604-77236421a761',
-		width: 4240,
-		height: 2384,
+		width: 1272,
+		height: 715,
 		title: 'Taster classes',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
 		aspectRatio: 1.778

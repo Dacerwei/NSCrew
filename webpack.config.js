@@ -26,6 +26,7 @@ module.exports = {
 		publicPath:'/'
 		// publicPath: 'http://localhost:3050'
  	},
+ 	devtool: 'cheap-module-eval-source-map',
  	devServer: {
  		historyApiFallback: true,
  		contentBase: './',

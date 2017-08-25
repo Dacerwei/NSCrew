@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioSet from '../helpers/PortfolioSet';
-import PorfolioItemLayout from './PorfolioItemLayout';
+import PortfolioItemLayout from './PortfolioItemLayout';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Link } from 'react-router-dom';
 import _ from 'lodash';
@@ -14,7 +14,7 @@ class PortfolioHighlight extends React.Component {
 					Portfolio | 作品集
 				</h2>
 				<div className="portfoliohighlight-portfolio-wrapper">
-					<PorfolioItemLayout photo_set={highlightPortfolioItems} />
+					<PortfolioItemLayout photo_set={highlightPortfolioItems} />
 				</div>
 				<div className="portfoliohighlight-more-btn-wrapper">
 					<Link className="portfoliohighlight-more-btn" to="portfolio"><RaisedButton label={'MORE'} primary={true}/></Link>

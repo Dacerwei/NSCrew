@@ -1,7 +1,7 @@
 /*----------------------------------------------
 showcase page
 ----------------------------------------------*/
-.portfolioitemlayout-container .porfolioitem-container {
+.portfolioitemlayout-container .portfolioitem-container {
   display: inline-block;
   list-style: none;
   margin-top: -4px;
@@ -9,13 +9,13 @@ showcase page
   position: relative;
 }
 
-.porfolioitem-figure {
+.portfolioitem-figure {
   margin: 0;
   position: relative;
   overflow: hidden;
 }
 
-.porfolioitem-img {
+.portfolioitem-img {
   max-width: 100%;
   display: block;
   position: relative;
@@ -24,7 +24,7 @@ showcase page
   -webkit-filter: grayscale(1);
 }
 
-.porfolioitem-figcaption {
+.portfolioitem-figcaption {
   height: 100px;
   width: 100%;
   position: absolute;
@@ -37,7 +37,7 @@ showcase page
   background-color: transparent;
 }
 
-.porfolioitem-title {
+.portfolioitem-title {
   text-align: center;
   margin: 0;
   font-size: 24pt;
@@ -49,13 +49,13 @@ showcase page
 figure hover
 ***************/
 
-.porfolioitem-container figure:hover img,
-.porfolioitem-container figure.cs-hover img {
+.portfolioitem-container figure:hover img,
+.portfolioitem-container figure.cs-hover img {
   filter: none;
 }
 
-.porfolioitem-container figure:hover figcaption,
-.porfolioitem-container figure.cs-hover figcaption {
+.portfolioitem-container figure:hover figcaption,
+.portfolioitem-container figure.cs-hover figcaption {
   opacity: 1;
   transform: translateY(0px);
   transition: transform 0.4s, opacity 0.1s;

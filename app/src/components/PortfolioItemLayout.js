@@ -1,13 +1,13 @@
 import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
-import PorfolioItem from './PorfolioItem';
+import PortfolioItem from './PortfolioItem';
 import _ from 'lodash';
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
 };
 
-class PorfolioItemLayout extends React.Component{
+class PortfolioItemLayout extends React.Component{
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -17,7 +17,6 @@ class PorfolioItemLayout extends React.Component{
 			isExpandDetail: false,
 			expandRow: null,
 			detailID: null
-
 		}
 		this.getRowLimit = this.getRowLimit.bind(this);
 		this.handleResize = this.handleResize.bind(this);
@@ -76,6 +75,7 @@ class PorfolioItemLayout extends React.Component{
 
 	handleResize() {
 		const containerWidth = Math.floor(this.refs.LayoutArea.clientWidth);
+		console.log(containerWidth);
 		const rowLimit = this.getRowLimit(containerWidth);
 		const layoutArray = this.getRearrangeArray(this.props.photo_set, containerWidth, rowLimit);
 		this.setState({
@@ -87,7 +87,7 @@ class PorfolioItemLayout extends React.Component{
 
 	getRearrangeArray(photo_set, containerWidth, rowLimit) {
 		let output = [];
-		let remainder = photo_set.length % rowLimit;
+		const remainder = photo_set.length % rowLimit;
 		let lastRowWidth=null;
 		let lastRowIndex=null;
 
@@ -99,7 +99,6 @@ class PorfolioItemLayout extends React.Component{
 		for(let i=0; i<photo_set.length; i+=rowLimit){
 			let totlalAspectRatio = 0 ;
 			let rowHeight = 0;
-			//
 			for(let j=i; j<i+rowLimit; j++){
 
 				if( j == photo_set.length) {
@@ -110,9 +109,9 @@ class PorfolioItemLayout extends React.Component{
 			}
 
 			if (i === lastRowIndex) {
-				rowHeight = lastRowWidth / totlalAspectRatio;  //決定最後一行行高
+				rowHeight = lastRowWidth/totlalAspectRatio;  //決定最後一行行高
 			}else {
-				rowHeight = containerWidth / totlalAspectRatio; //決定一般行行高
+				rowHeight = containerWidth/totlalAspectRatio; //決定一般行行高
 			}
 
 			for(let k=i; k<i+rowLimit; k++){  //將同一行的照片推入output array
@@ -120,7 +119,7 @@ class PorfolioItemLayout extends React.Component{
 					break;
 				}
 				output.push(
-					<PorfolioItem 
+					<PortfolioItem 
 						key={photo_set[k].ID}
 						row={i}
 						onClick = { this.handleItemClick } 
@@ -142,4 +141,4 @@ class PorfolioItemLayout extends React.Component{
 	}
 }
 
-export default PorfolioItemLayout;
+export default PortfolioItemLayout;

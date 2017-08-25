@@ -47,7 +47,7 @@ class CoopBlock extends React.Component{
 				</div>
 				<div className="coop-section-right" data-aos="fade-left" data-aos-once >
 					<div className="coop-section-content-wrapper">
-						<h1 className="coop-section-content-title">{ title }</h1>
+						<h2 className="coop-section-content-title">{ title }</h2>
 						<div className="coop-section-content-intro">
 							<p className="coop-section-content-intro-body"> { contentPreview }
 							{ expanded ? <span className="coop-section-content-intro-readmore-target"> { contentReadMore } </span> : undefined}
