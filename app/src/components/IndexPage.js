@@ -14,7 +14,7 @@ class IndexPage extends React.Component {
     }
 
     onReady() {
-        console.log('video ready');
+        // console.log('video ready');
         this.setState({isVideoReady: true});
     }
 
@@ -31,7 +31,6 @@ class IndexPage extends React.Component {
                         <h1 className="indexpage-slogon" id="slogan-2">We're<br />Naughty<br />So We Swing</h1> 
                     </div>
                 </MediaQuery>
-                
                 <Highlights />
             </div>
         );

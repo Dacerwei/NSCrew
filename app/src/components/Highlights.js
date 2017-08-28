@@ -13,7 +13,7 @@ class Highlights extends React.Component{
 				<AboutUsHighlight />
 				<CoopHighlight />
 				<PortfolioHighlight />
-				<SwingEventsHighlight />
+				{/*<SwingEventsHighlight />*/}
 			</div>
 		);
 	}

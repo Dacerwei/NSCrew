@@ -29,12 +29,21 @@
 }
 
 .aboutushighlight-title {
-	margin: 0px;
-    color: orange;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 3vw;
+	color: orange;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 28pt;
+}
+
+.aboutushighlight-introduction-content {
+	font-family: "Microsoft JhengHei";
+    font-size: 16pt;
+    text-align: justify;
+    line-height: 2em;
+    padding: 2%
 }
 
 .aboutushighlight-more-btn-wrapper {
@@ -58,12 +67,21 @@
 }
 
 .coophighlight-introduction-title {
-	margin: 0px;
 	color: orange;
 	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 3vw;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 28pt;
+}
+
+.coophighlight-introduction-content {
+	font-family: "Microsoft JhengHei";
+    font-size: 16pt;
+    text-align: center;
+    line-height: 2em;
+    padding: 2%
 }
 
 .coophighlight-services-wrapper {
@@ -76,7 +94,7 @@
 .coophighlight-services-serviceitem {
 	margin: 0 auto;
     width: 30%;
-    min-width: 200px;
+    min-width: 350px;
 }
 
 .coophighlight-services-serviceitem-icon-container {
@@ -100,7 +118,9 @@
 	color: orange;
 	margin-top: 0;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 20pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .coophighlight-more-btn-wrapper {
@@ -108,6 +128,12 @@
 	margin-bottom: 10px;
 	width: 100%;
 	text-align: center;
+}
+
+.coophighlight-services-serviceitem-content {
+	font-family: "Microsoft JhengHei";
+	font-size: 14pt;
+    line-height: 1.5em;
 }
 
 .portfoliohighlight-container {
@@ -123,12 +149,13 @@
 }
 
 .portfoliohighlight-title {
-	margin: 0px;
 	color: orange;
 	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 3vw;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 28pt;
 }
 
 .portfoliohighlight-portfolio-wrapper {

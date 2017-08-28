@@ -15,7 +15,7 @@ Co-op Page
   text-align: justify;
   width: 80%;
   margin: 0 auto;
-  font-size: 18pt;
+  font-size: 16pt;
   color: white;
   line-height: 2em;
   font-family: "Microsoft JhengHei";
@@ -27,13 +27,16 @@ Co-op Page
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
 }
 
 .coop-section-left {
   width: 45%;
   min-width: 400px;
-  height: 600px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .coop-section-media-wrapper{
@@ -49,36 +52,34 @@ Co-op Page
 .coop-section-right {
   width: 45%;
   min-width: 400px;
-  height: 500px;
-  margin: auto;
+  height: auto;
+  margin: 0 auto;
 }
 
 .coop-section-content-title {
   margin: 0;
   color: orange;
+  font-size: 26pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .coop-section-content-intro {
   font-size: 16pt;
 }
 
-.coop-section-content-intro-body {
+.coop-section-content-intro-body-ch {
+  font-family: "Microsoft JhengHei";
+  padding: 5px;
+  line-height: 1.5em;
   color:  white;
+  letter-spacing: 1.2pt;
 }
 
-.coop-section-content-intro-readmore-target {
-  color: white;
-}
-
-.coop-section-content-intro-readmore-btn {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  color: orange;
-  border-color: orange;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 8px;
-  background-color: transparent;
+.coop-section-content-intro-body-en {
+  font-family: "Microsoft JhengHei";
+  padding: 5px;
+  line-height: 1.5em;
+  color:  white;
+  letter-spacing: 1.2pt;
 }

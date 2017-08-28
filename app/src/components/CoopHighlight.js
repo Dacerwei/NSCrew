@@ -27,7 +27,7 @@ class CoopHighlight extends React.Component {
                             <h1>Video Production</h1>
                         </div>
                         <div className="coophighlight-services-serviceitem-content">
-                            <p>{CoopSet[1].contentPreview}</p>
+                            <p>{CoopSet[1].contentChinese}</p>
                         </div>
                     </div>
                     <div className="coophighlight-services-serviceitem">
@@ -38,7 +38,7 @@ class CoopHighlight extends React.Component {
                             <h1>Performance</h1>
                         </div>
                         <div className="coophighlight-services-serviceitem-content">
-                            <p>{CoopSet[0].contentPreview}</p>
+                            <p>{CoopSet[0].contentChinese}</p>
                         </div>
                     </div>
                     <div className="coophighlight-services-serviceitem">
@@ -49,7 +49,7 @@ class CoopHighlight extends React.Component {
                             <h1>Swing Dance Lessons</h1>
                         </div>
                         <div className="coophighlight-services-serviceitem-content">
-                            <p>{CoopSet[2].contentPreview}</p>
+                            <p>{CoopSet[2].contentChinese}</p>
                         </div>
                     </div>
                 </div>

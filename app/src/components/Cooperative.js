@@ -12,8 +12,8 @@ const Cooperative = () => {
 				key = { CoopSet[i].id }
 				id = { CoopSet[i].id }
 				title= { CoopSet[i].title }
-				contentPreview = { CoopSet[i].contentPreview }
-				contentReadMore = { CoopSet[i].contentReadMore }
+				contentChinese = { CoopSet[i].contentChinese }
+				contentEnglish = { CoopSet[i].contentEnglish }
 				mediaTitle = { CoopSet[i].mediaTitle }
 				mediaSrc= { CoopSet[i].mediaSrc }
 			/>

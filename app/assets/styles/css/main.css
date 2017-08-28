@@ -100,15 +100,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 31, ../scss/components/_IndexPage.scss */
 .aboutushighlight-title {
-  margin: 0px;
   color: orange;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 3vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 28pt;
 }
 
-/* line 40, ../scss/components/_IndexPage.scss */
+/* line 41, ../scss/components/_IndexPage.scss */
+.aboutushighlight-introduction-content {
+  font-family: "Microsoft JhengHei";
+  font-size: 16pt;
+  text-align: justify;
+  line-height: 2em;
+  padding: 2%;
+}
+
+/* line 49, ../scss/components/_IndexPage.scss */
 .aboutushighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -116,7 +126,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 47, ../scss/components/_IndexPage.scss */
+/* line 56, ../scss/components/_IndexPage.scss */
 .coophighlight-container {
   display: flex;
   flex-direction: column;
@@ -130,17 +140,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: white;
 }
 
-/* line 60, ../scss/components/_IndexPage.scss */
+/* line 69, ../scss/components/_IndexPage.scss */
 .coophighlight-introduction-title {
-  margin: 0px;
   color: orange;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 3vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 28pt;
 }
 
-/* line 69, ../scss/components/_IndexPage.scss */
+/* line 79, ../scss/components/_IndexPage.scss */
+.coophighlight-introduction-content {
+  font-family: "Microsoft JhengHei";
+  font-size: 16pt;
+  text-align: center;
+  line-height: 2em;
+  padding: 2%;
+}
+
+/* line 87, ../scss/components/_IndexPage.scss */
 .coophighlight-services-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -148,14 +168,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: start;
 }
 
-/* line 76, ../scss/components/_IndexPage.scss */
+/* line 94, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem {
   margin: 0 auto;
   width: 30%;
-  min-width: 200px;
+  min-width: 350px;
 }
 
-/* line 82, ../scss/components/_IndexPage.scss */
+/* line 100, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-container {
   display: flex;
   overflow: hidden;
@@ -166,7 +186,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 150px;
 }
 
-/* line 92, ../scss/components/_IndexPage.scss */
+/* line 110, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-src {
   margin: 0 auto;
   color: orange;
@@ -174,15 +194,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 
-/* line 99, ../scss/components/_IndexPage.scss */
+/* line 117, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-title {
   color: orange;
   margin-top: 0;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 20pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-/* line 106, ../scss/components/_IndexPage.scss */
+/* line 126, ../scss/components/_IndexPage.scss */
 .coophighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -190,7 +212,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 113, ../scss/components/_IndexPage.scss */
+/* line 133, ../scss/components/_IndexPage.scss */
+.coophighlight-services-serviceitem-content {
+  font-family: "Microsoft JhengHei";
+  font-size: 14pt;
+  line-height: 1.5em;
+}
+
+/* line 139, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-container {
   display: flex;
   flex-direction: column;
@@ -200,17 +229,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: black;
 }
 
-/* line 125, ../scss/components/_IndexPage.scss */
+/* line 151, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-title {
-  margin: 0px;
   color: orange;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 3vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 28pt;
 }
 
-/* line 139, ../scss/components/_IndexPage.scss */
+/* line 166, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -218,13 +248,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 146, ../scss/components/_IndexPage.scss */
+/* line 173, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn {
   margin: 0 auto;
   margin-top: 10px;
 }
 
-/* line 151, ../scss/components/_IndexPage.scss */
+/* line 178, ../scss/components/_IndexPage.scss */
 .swingeventshighlight-container {
   background-image: url(https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/swingevent%2Fswingevents_background_1_mini.jpg?alt=media&token=e4bbb429-99df-4290-8cfb-6690ad47a583);
   background-repeat: no-repeat;
@@ -237,7 +267,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 2%;
 }
 
-/* line 163, ../scss/components/_IndexPage.scss */
+/* line 190, ../scss/components/_IndexPage.scss */
 .swingeventshighlight-event {
   width: 90%;
 }
@@ -885,7 +915,7 @@ Co-op Page
   text-align: justify;
   width: 80%;
   margin: 0 auto;
-  font-size: 18pt;
+  font-size: 16pt;
   color: white;
   line-height: 2em;
   font-family: "Microsoft JhengHei";
@@ -898,69 +928,68 @@ Co-op Page
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-/* line 32, ../scss/components/_coop.scss */
+/* line 36, ../scss/components/_coop.scss */
 .coop-section-left {
   width: 45%;
   min-width: 400px;
-  height: 600px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-/* line 39, ../scss/components/_coop.scss */
+/* line 42, ../scss/components/_coop.scss */
 .coop-section-media-wrapper {
   height: 100%;
   overflow: hidden;
 }
 
-/* line 44, ../scss/components/_coop.scss */
+/* line 47, ../scss/components/_coop.scss */
 .coopblock-section-media-img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 49, ../scss/components/_coop.scss */
+/* line 52, ../scss/components/_coop.scss */
 .coop-section-right {
   width: 45%;
   min-width: 400px;
-  height: 500px;
-  margin: auto;
+  height: auto;
+  margin: 0 auto;
 }
 
-/* line 56, ../scss/components/_coop.scss */
+/* line 59, ../scss/components/_coop.scss */
 .coop-section-content-title {
   margin: 0;
   color: orange;
+  font-size: 26pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-/* line 61, ../scss/components/_coop.scss */
+/* line 67, ../scss/components/_coop.scss */
 .coop-section-content-intro {
   font-size: 16pt;
 }
 
-/* line 65, ../scss/components/_coop.scss */
-.coop-section-content-intro-body {
+/* line 71, ../scss/components/_coop.scss */
+.coop-section-content-intro-body-ch {
+  font-family: "Microsoft JhengHei";
+  padding: 5px;
+  line-height: 1.5em;
   color: white;
+  letter-spacing: 1.2pt;
 }
 
-/* line 69, ../scss/components/_coop.scss */
-.coop-section-content-intro-readmore-target {
+/* line 79, ../scss/components/_coop.scss */
+.coop-section-content-intro-body-en {
+  font-family: "Microsoft JhengHei";
+  padding: 5px;
+  line-height: 1.5em;
   color: white;
-}
-
-/* line 73, ../scss/components/_coop.scss */
-.coop-section-content-intro-readmore-btn {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  color: orange;
-  border-color: orange;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;
-  padding: 8px;
-  background-color: transparent;
+  letter-spacing: 1.2pt;
 }
 
 /*----------------------------------------------
@@ -1045,14 +1074,18 @@ hover end
 
 /* line 75, ../scss/components/_portfolio.scss */
 .portfoliodetail-title {
-  color: white;
-  margin: 0;
+  color: orange;
+  font-size: 28pt;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 
-/* line 81, ../scss/components/_portfolio.scss */
+/* line 84, ../scss/components/_portfolio.scss */
 .portfoliodetail-info {
   color: white;
+  font-size: 16pt;
   margin: 0;
   padding: 0;
 }
@@ -1082,58 +1115,50 @@ body {
 }
 
 /* line 19, ../scss/components/_style.scss */
-.ContentPage p {
-  font-family: "Microsoft JhengHei";
-  line-height: 2em;
-  font-size: 1.5vw;
-  letter-spacing: 1pt;
-}
-
-/* line 26, ../scss/components/_style.scss */
 .ContentPage .profile {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-/* line 32, ../scss/components/_style.scss */
+/* line 25, ../scss/components/_style.scss */
 .ContentPage .wrapper {
   z-index: -10;
   height: 500px;
   overflow: hidden;
 }
 
-/* line 39, ../scss/components/_style.scss */
+/* line 32, ../scss/components/_style.scss */
 .ContentPage .wrapper #slogan {
   position: relative;
   top: -100px;
   height: 800px;
 }
 
-/* line 45, ../scss/components/_style.scss */
+/* line 38, ../scss/components/_style.scss */
 .video-container h1 {
   text-align: center;
 }
 
-/* line 49, ../scss/components/_style.scss */
+/* line 42, ../scss/components/_style.scss */
 .video-container iframe {
   display: block;
   margin: 0 auto;
 }
 
-/* line 54, ../scss/components/_style.scss */
+/* line 47, ../scss/components/_style.scss */
 #media-section {
   width: 80%;
   margin: 0 auto;
 }
 
-/* line 59, ../scss/components/_style.scss */
+/* line 52, ../scss/components/_style.scss */
 #media-section h1 {
   text-align: center;
   color: orange;
   font-size: 36pt;
 }
 
-/* line 65, ../scss/components/_style.scss */
+/* line 58, ../scss/components/_style.scss */
 .iframe-rwd {
   margin-top: 1%;
   margin-bottom: 1%;
@@ -1143,7 +1168,7 @@ body {
   height: 0;
 }
 
-/* line 72, ../scss/components/_style.scss */
+/* line 65, ../scss/components/_style.scss */
 .iframe-rwd iframe {
   position: absolute;
   top: 0;
