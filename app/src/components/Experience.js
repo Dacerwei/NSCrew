@@ -5,40 +5,41 @@ import _ from 'lodash';
 class Experience extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      
+    }
 
     this.renderTimelineList = this.renderTimelineList.bind(this);
   }
 
-  renderTimelineList(events){
-    let output = [];
-    for (let i=0; i<events.length; i++) {
-      output.push(
+  renderTimelineList(experiencese) {
+    return _.reduce(experiencese, (acc, experience, i) => {
+      acc.push(
         <li className="experience-timeline-item period" key={i}>
           <div className="experience-timeline-item-info"></div>
           <div className="experience-timeline-item-marker"></div>
           <div className="experience-timeline-item-content">
-            <h2 className="experience-timeline-item-content-title">{events[i].year}</h2>
+            <h2 className="experience-timeline-item-content-title">{experience.year}</h2>
           </div>
         </li>
       );
-      let yearEvents = events[i].events;
-      for (let j=0; j<yearEvents.length; j++) {
-        output.push(
+      _.reduce(experience.events, (acc, event, j) =>{
+        acc.push(
           <li className="experience-timeline-item" key={ `${i}-${j}`}>
             <div className="experience-timeline-item-info">
-              <span>{yearEvents[j].date}</span>
+              <span>{event.date}</span>
             </div>
             <div className="experience-timeline-item-marker"></div>
             <div className="experience-timeline-item-content">
-              <h3 className="experience-timeline-item-content-title">{yearEvents[j].title}</h3>
-              <p className="experience-timeline-item-content-detail">{yearEvents[j].detail}</p>
+              <h3 className="experience-timeline-item-content-title">{event.title}</h3>
+              <p className="experience-timeline-item-content-detail">{event.detail}</p>
             </div>
           </li>
         );
-      }
-    }
-
-    return output;
+        return acc;
+      }, acc);
+      return acc;
+    },[]);
   }
 
   render() {
