@@ -81,8 +81,18 @@
     font-size: 16pt;
     text-align: center;
     line-height: 2em;
-    padding: 2%
+    padding: 2%;
 }
+
+.coophighlight-introduction-content-en {
+	word-spacing: 0.3em;
+	letter-spacing: 0.1em;
+}
+
+.coophighlight-introduction-content-ch {
+	letter-spacing: 0.3em;
+}
+
 
 .coophighlight-services-wrapper {
 	display: flex;
@@ -134,6 +144,7 @@
 	font-family: "Microsoft JhengHei";
 	font-size: 14pt;
     line-height: 1.5em;
+    letter-spacing: 0.3em;
 }
 
 .portfoliohighlight-container {

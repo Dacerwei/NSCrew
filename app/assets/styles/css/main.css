@@ -161,6 +161,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 87, ../scss/components/_IndexPage.scss */
+.coophighlight-introduction-content-en {
+  word-spacing: 0.3em;
+  letter-spacing: 0.1em;
+}
+
+/* line 92, ../scss/components/_IndexPage.scss */
+.coophighlight-introduction-content-ch {
+  letter-spacing: 0.3em;
+}
+
+/* line 97, ../scss/components/_IndexPage.scss */
 .coophighlight-services-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -168,14 +179,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: start;
 }
 
-/* line 94, ../scss/components/_IndexPage.scss */
+/* line 104, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem {
   margin: 0 auto;
   width: 30%;
   min-width: 350px;
 }
 
-/* line 100, ../scss/components/_IndexPage.scss */
+/* line 110, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-container {
   display: flex;
   overflow: hidden;
@@ -186,7 +197,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 150px;
 }
 
-/* line 110, ../scss/components/_IndexPage.scss */
+/* line 120, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-src {
   margin: 0 auto;
   color: orange;
@@ -194,7 +205,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
 }
 
-/* line 117, ../scss/components/_IndexPage.scss */
+/* line 127, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-title {
   color: orange;
   margin-top: 0;
@@ -204,7 +215,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 20px;
 }
 
-/* line 126, ../scss/components/_IndexPage.scss */
+/* line 136, ../scss/components/_IndexPage.scss */
 .coophighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -212,14 +223,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 133, ../scss/components/_IndexPage.scss */
+/* line 143, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-content {
   font-family: "Microsoft JhengHei";
   font-size: 14pt;
   line-height: 1.5em;
+  letter-spacing: 0.3em;
 }
 
-/* line 139, ../scss/components/_IndexPage.scss */
+/* line 150, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-container {
   display: flex;
   flex-direction: column;
@@ -229,7 +241,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: black;
 }
 
-/* line 151, ../scss/components/_IndexPage.scss */
+/* line 162, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-title {
   color: orange;
   text-align: center;
@@ -240,7 +252,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 28pt;
 }
 
-/* line 166, ../scss/components/_IndexPage.scss */
+/* line 177, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -248,13 +260,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 173, ../scss/components/_IndexPage.scss */
+/* line 184, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn {
   margin: 0 auto;
   margin-top: 10px;
 }
 
-/* line 178, ../scss/components/_IndexPage.scss */
+/* line 189, ../scss/components/_IndexPage.scss */
 .swingeventshighlight-container {
   background-image: url(https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/swingevent%2Fswingevents_background_1_mini.jpg?alt=media&token=e4bbb429-99df-4290-8cfb-6690ad47a583);
   background-repeat: no-repeat;
@@ -267,7 +279,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 2%;
 }
 
-/* line 190, ../scss/components/_IndexPage.scss */
+/* line 201, ../scss/components/_IndexPage.scss */
 .swingeventshighlight-event {
   width: 90%;
 }
@@ -295,7 +307,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 16pt;
   line-height: 2em;
   text-align: justify;
-  background-image: url("https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_mainphoto_mini.jpg");
+  background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

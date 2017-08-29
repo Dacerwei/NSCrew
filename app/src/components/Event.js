@@ -5,16 +5,16 @@ import Paper from 'material-ui/Paper';
 const dateParser = (dateTimeObj, type) => {
 		if (dateTimeObj['date']) {
 			return {
-				year: moment(dateTimeObj.date,"YYYY-MM-DD").format('YYYY'),
-				month: moment(dateTimeObj.date,"YYYY-MM-DD").format('MMM'),
-				date: moment(dateTimeObj.date,"YYYY-MM-DD").format('Do'),
+				year: moment(dateTimeObj.date, "YYYY-MM-DD").format('YYYY'),
+				month: moment(dateTimeObj.date, "YYYY-MM-DD").format('MMM'),
+				date: moment(dateTimeObj.date, "YYYY-MM-DD").format('Do'),
 			}
 		} else {
 			return {
-				year: moment(dateTimeObj.dateTime,moment.ISO_8601).format('YYYY'),
-				month:  moment(dateTimeObj.dateTime,moment.ISO_8601).format('MMM'),
-				date: moment(dateTimeObj.dateTime,moment.ISO_8601).format('Do'),
-				time: moment(dateTimeObj.dateTime,moment.ISO_8601).format('HH : mm'),
+				year: moment(dateTimeObj.dateTime, moment.ISO_8601).format('YYYY'),
+				month: moment(dateTimeObj.dateTime, moment.ISO_8601).format('MMM'),
+				date: moment(dateTimeObj.dateTime, moment.ISO_8601).format('Do'),
+				time: moment(dateTimeObj.dateTime, moment.ISO_8601).format('HH : mm'),
 			}
 		}
 };
