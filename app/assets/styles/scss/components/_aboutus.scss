@@ -20,6 +20,7 @@
     font-size: 16pt;
     line-height: 2em;
     text-align: justify;
+    height: 100vh;
 }
 
 .aboutus-introduction-title {
@@ -60,8 +61,13 @@
 }
 
 .aboutus-experience-wrapper {
-    // background-color: rgba(255, 255, 255, 1);
-    color: black;
+    background-color: black;
+    // background-image: url(https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_02_mini.jpg?alt=media&token=0f20a463-f14d-47e2-a51f-154c2d3f9644);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    color: white;
+
 }
 
 .aboutus-experience-title {
@@ -189,7 +195,8 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
         padding: 40px 0 70px;
     }
     .experience-timeline-item-content-title {
-        color: #3D4351;
+        // color: #3D4351;
+        color: lightgray;
         margin-top: 0;
         margin: 0;
         display: block;
@@ -242,10 +249,8 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     font-size: 16pt;
     line-height: 2em;
     text-align: justify;
-    background-image: url('https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_experience_mini.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
 }
 
 .aboutus-mediaexplosure-title {

@@ -378,9 +378,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 16pt;
   line-height: 2em;
   text-align: justify;
+  height: 100vh;
 }
 
-/* line 25, ../scss/components/_aboutus.scss */
+/* line 26, ../scss/components/_aboutus.scss */
 .aboutus-introduction-title {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -391,7 +392,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: orange;
 }
 
-/* line 35, ../scss/components/_aboutus.scss */
+/* line 36, ../scss/components/_aboutus.scss */
 .aboutus-introduction-content {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -400,7 +401,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 0;
 }
 
-/* line 44, ../scss/components/_aboutus.scss */
+/* line 45, ../scss/components/_aboutus.scss */
 .aboutus-experience-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -411,22 +412,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: justify;
 }
 
-/* line 54, ../scss/components/_aboutus.scss */
+/* line 55, ../scss/components/_aboutus.scss */
 .aboutus-introduction-content-ch {
   margin: 0;
 }
 
-/* line 58, ../scss/components/_aboutus.scss */
+/* line 59, ../scss/components/_aboutus.scss */
 .aboutus-introduction-content-en {
   margin: 0;
 }
 
-/* line 62, ../scss/components/_aboutus.scss */
+/* line 63, ../scss/components/_aboutus.scss */
 .aboutus-experience-wrapper {
-  color: black;
+  background-color: black;
+  color: white;
 }
 
-/* line 67, ../scss/components/_aboutus.scss */
+/* line 73, ../scss/components/_aboutus.scss */
 .aboutus-experience-title {
   font-size: 24pt;
   color: orange;
@@ -438,14 +440,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * experience section
  * ----------------------------------------
  */
-/* line 81, ../scss/components/_aboutus.scss */
+/* line 87, ../scss/components/_aboutus.scss */
 .experience-container {
   display: inline-flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-/* line 87, ../scss/components/_aboutus.scss */
+/* line 93, ../scss/components/_aboutus.scss */
 .experience-timeline {
   line-height: 1.4em;
   list-style: none;
@@ -453,26 +455,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   min-width: 320px;
   width: 30%;
 }
-/* line 95, ../scss/components/_aboutus.scss */
+/* line 101, ../scss/components/_aboutus.scss */
 .experience-timeline h1, .experience-timeline h2, .experience-timeline h3, .experience-timeline h4, .experience-timeline h5, .experience-timeline h6 {
   line-height: inherit;
 }
-/* line 98, ../scss/components/_aboutus.scss */
+/* line 104, ../scss/components/_aboutus.scss */
 .experience-timeline h3 {
   font-size: 10pt;
 }
 
-/* line 103, ../scss/components/_aboutus.scss */
+/* line 109, ../scss/components/_aboutus.scss */
 .experience-timeline-item {
   padding-left: 40px;
   position: relative;
 }
-/* line 106, ../scss/components/_aboutus.scss */
+/* line 112, ../scss/components/_aboutus.scss */
 .experience-timeline-item:last-child {
   padding-bottom: 0;
 }
 
-/* line 111, ../scss/components/_aboutus.scss */
+/* line 117, ../scss/components/_aboutus.scss */
 .experience-timeline-item-info {
   font-size: 8pt;
   font-weight: 700;
@@ -482,7 +484,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   white-space: nowrap;
 }
 
-/* line 120, ../scss/components/_aboutus.scss */
+/* line 126, ../scss/components/_aboutus.scss */
 .experience-timeline-item-marker {
   position: absolute;
   top: 0;
@@ -490,7 +492,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   width: 15px;
 }
-/* line 124, ../scss/components/_aboutus.scss */
+/* line 130, ../scss/components/_aboutus.scss */
 .experience-timeline-item-marker:before {
   background: #FF6B6B;
   border: 3px solid transparent;
@@ -504,7 +506,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 15px;
   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
-/* line 137, ../scss/components/_aboutus.scss */
+/* line 143, ../scss/components/_aboutus.scss */
 .experience-timeline-item-marker:after {
   content: "";
   width: 3px;
@@ -515,36 +517,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   bottom: 0;
   left: 6px;
 }
-/* line 145, ../scss/components/_aboutus.scss */
+/* line 151, ../scss/components/_aboutus.scss */
 .experience-timeline-item:last-child .experience-timeline-item-marker:after {
   content: none;
 }
 
-/* line 150, ../scss/components/_aboutus.scss */
+/* line 156, ../scss/components/_aboutus.scss */
 .experience-timeline-item:not(.period):hover .experience-timeline-item-marker:before {
   background: transparent;
   border: 3px solid #FF6B6B;
 }
 
-/* line 155, ../scss/components/_aboutus.scss */
+/* line 161, ../scss/components/_aboutus.scss */
 .experience-timeline-item-content {
   width: 70%;
   padding-bottom: 40px;
 }
-/* line 158, ../scss/components/_aboutus.scss */
+/* line 164, ../scss/components/_aboutus.scss */
 .experience-timeline-item-content p:last-child {
   margin-bottom: 0;
 }
 
-/* line 163, ../scss/components/_aboutus.scss */
+/* line 169, ../scss/components/_aboutus.scss */
 .period {
   padding: 0;
 }
-/* line 165, ../scss/components/_aboutus.scss */
+/* line 171, ../scss/components/_aboutus.scss */
 .period .experience-timeline-item-info {
   display: none;
 }
-/* line 169, ../scss/components/_aboutus.scss */
+/* line 175, ../scss/components/_aboutus.scss */
 .period .experience-timeline-item-marker:before {
   background: transparent;
   content: "";
@@ -558,35 +560,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-top: 3px solid #CCD5DB;
   border-bottom: 3px solid #CCD5DB;
 }
-/* line 182, ../scss/components/_aboutus.scss */
+/* line 188, ../scss/components/_aboutus.scss */
 .period .experience-timeline-item-marker:after {
   content: "";
   height: 32px;
   top: auto;
 }
-/* line 188, ../scss/components/_aboutus.scss */
+/* line 194, ../scss/components/_aboutus.scss */
 .period .experience-timeline-item-content {
   padding: 40px 0 70px;
 }
-/* line 191, ../scss/components/_aboutus.scss */
+/* line 197, ../scss/components/_aboutus.scss */
 .period .experience-timeline-item-content-title {
-  color: #3D4351;
+  color: lightgray;
   margin-top: 0;
   margin: 0;
   display: block;
 }
 
 @media (min-width: 768px) {
-  /* line 201, ../scss/components/_aboutus.scss */
+  /* line 208, ../scss/components/_aboutus.scss */
   .timeline-split .experience-timeline {
     display: table;
   }
-  /* line 204, ../scss/components/_aboutus.scss */
+  /* line 211, ../scss/components/_aboutus.scss */
   .timeline-split .experience-timeline-item {
     display: table-row;
     padding: 0;
   }
-  /* line 208, ../scss/components/_aboutus.scss */
+  /* line 215, ../scss/components/_aboutus.scss */
   .timeline-split .experience-timeline-item-info,
   .timeline-split .experience-timeline-item-marker,
   .timeline-split .experience-timeline-item-content,
@@ -594,19 +596,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: table-cell;
     vertical-align: top;
   }
-  /* line 215, ../scss/components/_aboutus.scss */
+  /* line 222, ../scss/components/_aboutus.scss */
   .timeline-split .experience-timeline-item-marker {
     position: relative;
   }
-  /* line 218, ../scss/components/_aboutus.scss */
+  /* line 225, ../scss/components/_aboutus.scss */
   .timeline-split .experience-timeline-item-content {
     padding-left: 30px;
   }
-  /* line 221, ../scss/components/_aboutus.scss */
+  /* line 228, ../scss/components/_aboutus.scss */
   .timeline-split .experience-timeline-item-info {
     padding-right: 30px;
   }
-  /* line 224, ../scss/components/_aboutus.scss */
+  /* line 231, ../scss/components/_aboutus.scss */
   .timeline-split .period .experience-timeline-item-content-title {
     font-size: 12pt;
     position: relative;
@@ -619,7 +621,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * END
  * ----------------------------------------
  */
-/* line 238, ../scss/components/_aboutus.scss */
+/* line 245, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -627,13 +629,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 16pt;
   line-height: 2em;
   text-align: justify;
-  background-image: url("https://naughtyswing.blob.core.windows.net/naughtyswing/aboutus_experience_mini.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 251, ../scss/components/_aboutus.scss */
+/* line 256, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -644,7 +644,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: orange;
 }
 
-/* line 262, ../scss/components/_aboutus.scss */
+/* line 267, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -653,17 +653,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: white;
 }
 
-/* line 271, ../scss/components/_aboutus.scss */
+/* line 276, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-ch {
   color: white;
 }
 
-/* line 275, ../scss/components/_aboutus.scss */
+/* line 280, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-en {
   color: white;
 }
 
-/* line 279, ../scss/components/_aboutus.scss */
+/* line 284, ../scss/components/_aboutus.scss */
 .brands-container {
   display: flex;
   padding: 5%;
@@ -674,7 +674,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: space-around;
 }
 
-/* line 290, ../scss/components/_aboutus.scss */
+/* line 295, ../scss/components/_aboutus.scss */
 .brands-item {
   text-align: center;
   min-width: 75px;
@@ -687,7 +687,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
 }
 
-/* line 302, ../scss/components/_aboutus.scss */
+/* line 307, ../scss/components/_aboutus.scss */
 .brands-item-img {
   width: 80%;
   margin: 0 auto;

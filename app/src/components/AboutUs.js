@@ -7,7 +7,10 @@ class AboutUs extends React.Component {
   render() {
     return (
       <div className="aboutus-container">
-      <Parallax strength={500} bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Fportfolio_03_goldenhourse_mini.jpg?alt=media&token=9623545b-96f9-4ebb-8b7e-3e9692542873">
+      <Parallax
+        strength={500}
+        bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_01_mini.jpg?alt=media&token=d2829090-0a94-4465-b416-b69d6e0f7a62"
+      >
         <section className="aboutus-introduction-wrapper">
           <h2 className="aboutus-introduction-title">Introduction | 舞團介紹</h2>
           <div className="aboutus-introduction-content">
@@ -29,13 +32,18 @@ class AboutUs extends React.Component {
           </div>
         </section>
       </Parallax>
-      <Parallax strength={500} bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/coop%2Fcoop_02_videoproduction_mini.jpg?alt=media&token=a1b13952-3191-4d6c-af0e-706c15b05093">
+      <Parallax
+        strength={500}
+      >
         <section className="aboutus-experience-wrapper">
           <h2 className="aboutus-experience-title">Experience | 經歷</h2>
           <Experience />
         </section>
       </Parallax>
-      <Parallax strength={500} bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Fportfolio_04_solocherletonparty_mini.jpg?alt=media&token=15c9b056-c678-4827-9ebe-95cdadf2f9ce">
+      <Parallax
+        strength={500}
+        bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_03_mini.jpg?alt=media&token=47aeac8c-1589-4e99-96fd-4ff4e66876b8"
+      >
         <section className="aboutus-mediaexplosure-wrapper">
           <h2 className="aboutus-mediaexplosure-title">Media Explosure | 媒體報導</h2>
           <div className="aboutus-mediaexplosure-content">
@@ -53,11 +61,13 @@ class AboutUs extends React.Component {
             </p>
           </div>
         </section>
-        </Parallax>
-        <Parallax strength={500} bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_mainphoto_mini.jpg?alt=media&token=87a5f805-fafa-44ee-94ed-9ef8bbeda1b9">
-        <section className="aboutus-coopbrands-wrapper">
-          <Brands />
-        </section>
+      </Parallax>
+        <Parallax
+          strength={500}
+        >
+          <section className="aboutus-coopbrands-wrapper">
+            <Brands />
+          </section>
         </Parallax>
       </div>
     );
