@@ -196,7 +196,11 @@ footer
 }
 
 .footer-logo-source {
+  color: white;
   font-size: 24pt;
+  &:hover {
+    color: orange;
+  }
 }
 
 .footer-nav-list {
@@ -216,6 +220,9 @@ footer
     font-size: 100%;
     min-width: 200px;
     color: white;
+    &:hover {
+      color: orange;
+    }
 }
 
 .footer-container .icon-bar {

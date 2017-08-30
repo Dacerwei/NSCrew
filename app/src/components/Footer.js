@@ -6,9 +6,9 @@ class Footer extends React.Component{
     render(){
         return(
             <footer className='footer-container'>
-                <div className='footer-logo-wrapper'>
+                <NavLink to="/" ><div className='footer-logo-wrapper'>
                     <h1 className='footer-logo-source'>Naughty Swing</h1>
-                </div>
+                </div></NavLink>
                 <ul className='footer-nav-list'>
                     <NavLink to="/about" ><li className='footer-nav-list-item'>About Us</li></NavLink>
                     <NavLink to="/portfolio" ><li className='footer-nav-list-item'>Portfolio</li></NavLink>

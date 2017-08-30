@@ -10,7 +10,7 @@ import Classes from '../components/Classes';
 import SwingEvents from '../components/SwingEvents';
 import NotFoundPage from '../components/NotFoundPage';
 
-class AppRoutes extends React.Component{
+class AppRoutes extends React.Component {
 	render() {
 		let {history} = this.props;
 		return(
