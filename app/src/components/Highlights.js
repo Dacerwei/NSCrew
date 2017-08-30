@@ -4,6 +4,7 @@ import PortfolioHighlight from './PortfolioHighlight';
 import Classes from './Classes';
 import SwingEventsHighlight from './SwingEventsHighlight';
 import CoopHighlight from './CoopHighlight';
+import Brands from './Brands';
 
 class Highlights extends React.Component{
 
@@ -14,6 +15,7 @@ class Highlights extends React.Component{
 				<CoopHighlight />
 				<PortfolioHighlight />
 				{/*<SwingEventsHighlight />*/}
+				<Brands />
 			</div>
 		);
 	}

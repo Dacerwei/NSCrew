@@ -1,12 +1,13 @@
 import React from 'react';
 import MenuIcon from 'react-icons/lib/fa/bars';
 import Drawer from 'material-ui/Drawer';
+import FlatButton from 'material-ui/FlatButton';
+import CloseIcon from 'material-ui/svg-icons/navigation/close';
 import { Link } from 'react-router-dom';
 
 class MobileMenu extends React.Component {
-	constructor(){
+	constructor() {
 		super();
-
 		this.state = {
 			'isOpen': false
 		}
@@ -15,18 +16,18 @@ class MobileMenu extends React.Component {
 		this.onClickLink = this.onClickLink.bind(this);
 	}
 
-	onClickIcon(){
+	onClickIcon() {
 		const {isOpen} = this.state;
 		this.setState({
 			isOpen: !isOpen,
 		});
 	}
 
-	onClickLink(){
+	onClickLink() {
 		this.setState({isOpen: false});
 	}
 
-	render(){
+	render() {
 		const {isOpen} = this.state;
 		return(
 			<div className='mobilenav-container'>
@@ -35,10 +36,35 @@ class MobileMenu extends React.Component {
 					openSecondary={true}
 					open={isOpen} 
 					containerStyle={{backgroundColor: 'rgba(0,0,0,0.8)'}}
-					width={'100%'}
-					height={'100vh'} >
-					<ul
-						className='mobilenav-linklist-list'>
+					width={'80%'}
+					height={'100vh'}
+				>
+					<FlatButton
+							style={{
+								position: 'absolute',
+								top: '0',
+								left: '0',
+								width: '50px',
+								height: '50px',
+								minWidth: 'none',
+							}}
+							icon={
+								<CloseIcon color={'orange'} 
+								style={{
+									height: '100%',
+									width: '100%',
+								}}
+							/>}
+							onClick={ this.onClickLink }
+					/>
+					<ul className='mobilenav-linklist-list'>
+						<Link
+							className='mobilenav-linklist-item'
+							to="/" 
+							onClick = { this.onClickLink }
+							>
+								<li>Home</li>
+						</Link>
 						<Link
 							className='mobilenav-linklist-item'
 							to="/about" 

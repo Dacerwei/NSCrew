@@ -95,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 10%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
 }
 
 /* line 31, ../scss/components/_IndexPage.scss */
@@ -183,7 +183,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .coophighlight-services-serviceitem {
   margin: 0 auto;
   width: 30%;
-  min-width: 350px;
+  min-width: 250px;
 }
 
 /* line 110, ../scss/components/_IndexPage.scss */
@@ -672,6 +672,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: center;
   width: 100%;
   justify-content: space-around;
+  background-color: black;
 }
 
 /* line 295, ../scss/components/_aboutus.scss */
