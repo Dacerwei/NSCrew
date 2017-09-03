@@ -1162,25 +1162,15 @@ hover end
 /* line 68, ../scss/components/_portfolio.scss */
 .portfoliodetail-container {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 5% 10%;
+  background-color: black;
   margin: 0px;
 }
 
 /* line 75, ../scss/components/_portfolio.scss */
-.portfoliodetail-title {
-  color: orange;
-  font-size: 28pt;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 20px;
-  padding: 0;
-}
-
-/* line 84, ../scss/components/_portfolio.scss */
 .portfoliodetail-info {
   color: white;
-  font-size: 16pt;
+  font-size: 14pt;
+  text-align: justify;
   margin: 0;
   padding: 0;
 }
@@ -1217,11 +1207,27 @@ body {
 }
 
 /* line 7, ../scss/components/_swingevents.scss */
-.swingevents-regular-events-wrapper {
+.swingevents-highlight-events-wrapper {
+  text-align: center;
+  padding: 2%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 11, ../scss/components/_swingevents.scss */
+/* line 13, ../scss/components/_swingevents.scss */
+.swingevents-highlight-events-title {
+  font-size: 24pt;
+  margin: 0;
+  color: orange;
+  text-align: center;
+}
+
+/* line 20, ../scss/components/_swingevents.scss */
+.swingevents-regular-events-wrapper {
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 25, ../scss/components/_swingevents.scss */
 .swingevents-regular-events-title {
   font-size: 3vw;
   margin: 0;
@@ -1229,13 +1235,13 @@ body {
   text-align: center;
 }
 
-/* line 18, ../scss/components/_swingevents.scss */
+/* line 32, ../scss/components/_swingevents.scss */
 .swingevents-regular-events-list {
   padding: 0;
   margin: 0 auto;
 }
 
-/* line 23, ../scss/components/_swingevents.scss */
+/* line 37, ../scss/components/_swingevents.scss */
 .swingevents-regular-events-list-item {
   color: white;
   text-align: center;
@@ -1244,20 +1250,20 @@ body {
   list-style: none;
 }
 
-/* line 31, ../scss/components/_swingevents.scss */
+/* line 45, ../scss/components/_swingevents.scss */
 .swingevents-irragular-events-wrapper {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 35, ../scss/components/_swingevents.scss */
+/* line 49, ../scss/components/_swingevents.scss */
 .eventscalendar-title {
-  font-size: 3vw;
+  font-size: 24pt;
   color: orange;
   text-align: center;
   margin: 0;
 }
 
-/* line 42, ../scss/components/_swingevents.scss */
+/* line 56, ../scss/components/_swingevents.scss */
 .eventscalendar-eventlist-warpper {
   margin: 0px auto;
   padding: 0px;
@@ -1268,7 +1274,7 @@ body {
   flex-direction: column;
 }
 
-/* line 52, ../scss/components/_swingevents.scss */
+/* line 66, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item {
   color: black;
   text-align: center;
@@ -1280,7 +1286,7 @@ body {
   height: 120px;
 }
 
-/* line 63, ../scss/components/_swingevents.scss */
+/* line 77, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-date {
   justify-content: center;
   flex-direction: column;
@@ -1291,40 +1297,40 @@ body {
   margin: 0 auto;
 }
 
-/* line 73, ../scss/components/_swingevents.scss */
+/* line 87, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-date-startdate {
   color: white;
   font-size: 2vw;
   text-align: center;
 }
 
-/* line 79, ../scss/components/_swingevents.scss */
+/* line 93, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-info {
   width: 80%;
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 84, ../scss/components/_swingevents.scss */
+/* line 98, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-title {
   color: black;
   font-size: 2vw;
 }
 
-/* line 89, ../scss/components/_swingevents.scss */
+/* line 103, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-time {
   color: gray;
   font-size: 0.5vw;
 }
 
-/* line 94, ../scss/components/_swingevents.scss */
+/* line 108, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-startdate-date {
   color: white;
   font-size: 2vw;
   margin: 0;
 }
 
-/* line 99, ../scss/components/_swingevents.scss */
+/* line 113, ../scss/components/_swingevents.scss */
 .eventlist-irregular-event-item-startdate-month {
   color: white;
   font-size: 2.5vw;

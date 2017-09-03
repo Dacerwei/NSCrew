@@ -11,7 +11,7 @@ if (process.env.NODE_ENV !== 'production') {
 	const webpackConfig = require('./webpack.config.js');
 	const compiler = webpack(webpackConfig);
 
-	app.use(webpackDevMiddleware(compiler,{
+	app.use(webpackDevMiddleware(compiler, {
 		noInfo: true
 	}));
 
@@ -24,4 +24,4 @@ if (process.env.NODE_ENV !== 'production') {
 	});
 }
 
-app.listen(PORT, ()=> console.log('Listening on port:'+PORT));
+app.listen(PORT, () => console.log('Listening on port:'+PORT));

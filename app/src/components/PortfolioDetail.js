@@ -1,21 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import Youtube from 'react-youtube';
 
 class PortfolioDetail extends React.Component {
-	render(){
-		let { detailTitle, detailInfo } = this.props;
+	render() {
+		const { 
+			detailInfo,
+			youtubeVideoID,
+		} = this.props;
+
 		return(
 			<div className="portfoliodetail-container">
-				<h1 className="portfoliodetail-title">{ detailTitle }</h1>
 				<p className="portfoliodetail-info">{ detailInfo }</p>
+				{
+					youtubeVideoID &&
+					<Youtube
+						videoId={youtubeVideoID}
+						id={youtubeVideoID}
+						className="portfoliodetail-youtubevideo"
+						opts={{
+							width: '560px',
+							height: '315px',
+						}}
+					/>
+				}
 			</div>
 		);
 	}
 }
 
 PortfolioDetail.propTypes = {
-	detailTitle: PropTypes.string,
-	detailInfo: PropTypes.string
+	detailInfo: PropTypes.string,
+	youtubeVideoID: PropTypes.string
 };
 
 

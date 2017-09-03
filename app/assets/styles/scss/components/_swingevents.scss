@@ -4,7 +4,21 @@
 	background-size: 100%;
 }
 
+.swingevents-highlight-events-wrapper {
+	text-align: center;
+	padding: 2%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.swingevents-highlight-events-title {
+	font-size: 24pt;
+	margin: 0;
+	color: orange;
+	text-align: center;
+}
+
 .swingevents-regular-events-wrapper {
+	padding: 2%;
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -33,7 +47,7 @@
 }
 
 .eventscalendar-title {
-	font-size: 3vw;
+	font-size: 24pt;
 	color: orange;
 	text-align: center;
 	margin: 0;

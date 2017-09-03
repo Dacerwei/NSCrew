@@ -6,7 +6,8 @@ const portfolio_set = [
 		height: 691,
 		title: 'La La Land',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.710
+		aspectRatio: 1.710,
+		youtubeVideoID: null
 	},
 	{
 		ID: 1,
@@ -15,7 +16,8 @@ const portfolio_set = [
 		height: 851,
 		title: 'What the Pa!!',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.623
+		aspectRatio: 1.623,
+		youtubeVideoID: 'IcJ--xNeyVo'
 	},
 	{
 		ID: 2,
@@ -24,7 +26,8 @@ const portfolio_set = [
 		height: 225,
 		title: 'La La Land',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.777
+		aspectRatio: 1.777,
+		youtubeVideoID: 'qpfpLyG-4o4'
 	},
 	{
 		ID: 3,
@@ -33,7 +36,8 @@ const portfolio_set = [
 		height: 939,
 		title: '金馬奇幻影展',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.499
+		aspectRatio: 1.499,
+		youtubeVideoID: null
 	},
 	{
 		ID: 4,
@@ -42,7 +46,8 @@ const portfolio_set = [
 		height: 715,
 		title: 'Solo Charleston Party',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.779
+		aspectRatio: 1.779,
+		youtubeVideoID: null
 	},
 	{
 		ID: 5,
@@ -51,7 +56,8 @@ const portfolio_set = [
 		height: 683,
 		title: 'Lee Jeans Commercial Shooting',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.5
+		aspectRatio: 1.5,
+		youtubeVideoID: null
 	},
 	{
 		ID: 6,
@@ -60,7 +66,8 @@ const portfolio_set = [
 		height: 225,
 		title: 'On the Westside of Taipei',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.777
+		aspectRatio: 1.777,
+		youtubeVideoID: '1_gajuOitMU'
 	},
 	{
 		ID: 7,
@@ -69,7 +76,8 @@ const portfolio_set = [
 		height: 715,
 		title: 'First Dance of Wedding',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.778
+		aspectRatio: 1.778,
+		youtubeVideoID: null
 	},
 	{
 		ID: 8,
@@ -78,7 +86,8 @@ const portfolio_set = [
 		height: 715,
 		title: 'Taster classes',
 		info: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.778
+		aspectRatio: 1.778,
+		youtubeVideoID: null
 	},
 ];
 

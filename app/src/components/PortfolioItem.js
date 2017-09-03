@@ -5,7 +5,7 @@ class PortfolioItem extends React.Component{
 	render() {
 		const { onClick, opt, height, row } = this.props;
 		return(
-			<div className="portfolioitem-container"  onClick = { onClick.bind(this, row, opt) } >
+			<div className="portfolioitem-container"  onClick = { onClick.bind(this, opt) } >
 				<figure className="portfolioitem-figure">
 					<img className="portfolioitem-img"
 						src={ opt.src } 

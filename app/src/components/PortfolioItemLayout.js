@@ -1,7 +1,30 @@
 import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
 import PortfolioItem from './PortfolioItem';
+import Dialog from 'material-ui/Dialog';
+import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
+import CloseIcon from 'material-ui/svg-icons/navigation/close';
 import _ from 'lodash';
+
+const dialogRoot = {
+	display: 'flex',
+	alignItems: 'center',
+	justifyContent: 'center',
+	paddingTop: 0,
+}
+
+const dialogContent = {
+    position: "relative",
+    width: "80vw",
+    transform: "",
+    backgroundColor: 'black',
+}
+
+const dialogBody = {
+    paddingBottom: 0,
+    backgroundColor: 'black',
+};
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
@@ -15,12 +38,12 @@ class PortfolioItemLayout extends React.Component{
 			layoutArray: null,
 			rowLimit: 0,
 			isExpandDetail: false,
-			expandRow: null,
-			detailID: null
+			detailData: null
 		}
 		this.getRowLimit = this.getRowLimit.bind(this);
 		this.handleResize = this.handleResize.bind(this);
 		this.handleItemClick = this.handleItemClick.bind(this);
+		this.handleDetailClose = this.handleDetailClose.bind(this);
 		this.getRearrangeArray = this.getRearrangeArray.bind(this);
 	}
 
@@ -52,30 +75,22 @@ class PortfolioItemLayout extends React.Component{
 		}
 	}
 
-	handleItemClick(i, opt) {
+	handleItemClick(opt) {
 
-		let { layoutArray, rowLimit, isExpandDetail, detailID, expandRow } = this.state;
-		if(detailID !== opt.ID){
-			if(isExpandDetail){
-				_.pullAt(layoutArray, expandRow+rowLimit);
-			}
-
-			let position = i + rowLimit;
-			
-			layoutArray.insert(position, <PortfolioDetail key={opt.ID+10} detailTitle={opt.title} detailInfo={opt.info} />);
+		let { isExpandDetail, detailID } = this.state;
 			
 			this.setState({
-				layoutArray:layoutArray,
 				isExpandDetail: true,
-				expandRow: i,
-				detailID: opt.ID
+				detailData: opt,
 			});
-		}
+	}
+
+	handleDetailClose() {
+		this.setState({isExpandDetail: false});
 	}
 
 	handleResize() {
 		const containerWidth = Math.floor(this.refs.LayoutArea.clientWidth);
-		console.log(containerWidth);
 		const rowLimit = this.getRowLimit(containerWidth);
 		const layoutArray = this.getRearrangeArray(this.props.photo_set, containerWidth, rowLimit);
 		this.setState({
@@ -133,9 +148,46 @@ class PortfolioItemLayout extends React.Component{
 	}
 
 	render() {
+		const {
+			isExpandDetail,
+			layoutArray,
+			detailData,
+		} = this.state;
+
+	    const actions = [
+	    	<FlatButton
+	    		icon={<CloseIcon color={'orange'}/>}
+	        	onClick={this.handleDetailClose}
+	    	/>,
+	    ];
+
 		return(
 			<div className="portfolioitemlayout-container" ref="LayoutArea" >
-				{ this.state.layoutArray }
+				{	
+					isExpandDetail &&
+					<Dialog
+						title={detailData.title}
+						style={dialogRoot}
+						titleStyle={{
+							color: 'orange',
+							textAlign: 'center',
+							fontSize: '20pt',
+							backgroundColor: 'black',
+						}}
+						contentStyle={dialogContent}
+						bodyStyle={dialogBody}
+						actionsContainerStyle={{
+							backgroundColor: 'black',
+						}}
+						open={isExpandDetail}
+						modal={false}
+						actions={actions}
+						onRequestClose={this.handleDetailClose}
+					>
+						<PortfolioDetail key={detailData.ID} detailInfo={detailData.info} youtubeVideoID={detailData.youtubeVideoID} />
+					</Dialog>
+				}
+				{ layoutArray }
 			</div>
 		);
 	}

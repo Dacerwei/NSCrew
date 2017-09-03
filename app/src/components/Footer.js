@@ -13,7 +13,7 @@ class Footer extends React.Component{
                     <NavLink to="/about" ><li className='footer-nav-list-item'>About Us</li></NavLink>
                     <NavLink to="/portfolio" ><li className='footer-nav-list-item'>Portfolio</li></NavLink>
                     <NavLink to="/cooperative" ><li className='footer-nav-list-item'>Co-op</li></NavLink>
-                    <NavLink to="/classes" ><li className='footer-nav-list-item'>Classes</li></NavLink>
+                    {/*<NavLink to="/classes" ><li className='footer-nav-list-item'>Classes</li></NavLink>*/}
                     <NavLink to="/swingevents" ><li className='footer-nav-list-item'>Swing Events</li></NavLink>
                 </ul>
                 <MediaIcons />
