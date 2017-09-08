@@ -1,7 +1,6 @@
 const experiencese = [
 {
-  year: 2017,
-  events: [
+  2017: [
     {
       date: '2017',
       title: '恆春古城點亮計畫 表演舞團',
@@ -20,8 +19,7 @@ const experiencese = [
   ],
 },
 {
-  year: 2016,
-  events: [
+  2016: [
     {
       date: '2016',
       title: 'E&A鈞霈公關尾牙表演',
@@ -85,8 +83,7 @@ const experiencese = [
   ],
 },
 {
-  year: 2015,
-  events: [
+  2015: [
     {
       date: '2015',
       title: '藝穗節Pita production舞者',

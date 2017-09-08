@@ -8,8 +8,8 @@ class AboutUs extends React.Component {
     return (
       <div className="aboutus-container">
       <Parallax
-        strength={500}
-        bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_01_mini.jpg?alt=media&token=d2829090-0a94-4465-b416-b69d6e0f7a62"
+        strength={300}
+        bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_01_2480_drakcorner_mini.jpg?alt=media&token=9be74eeb-d1da-4459-b36d-2df1a7129d74"
       >
         <section className="aboutus-introduction-wrapper">
           <h2 className="aboutus-introduction-title">Introduction | 舞團介紹</h2>
@@ -33,7 +33,7 @@ class AboutUs extends React.Component {
         </section>
       </Parallax>
       <Parallax
-        strength={500}
+        strength={300}
       >
         <section className="aboutus-experience-wrapper">
           <h2 className="aboutus-experience-title">Experience | 經歷</h2>
@@ -41,8 +41,8 @@ class AboutUs extends React.Component {
         </section>
       </Parallax>
       <Parallax
-        strength={500}
-        bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_03_mini.jpg?alt=media&token=47aeac8c-1589-4e99-96fd-4ff4e66876b8"
+        strength={300}
+        bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_03_2480_mini.jpg?alt=media&token=da7bfd31-2cac-4229-a24d-96d6b7e7a19f"
       >
         <section className="aboutus-mediaexplosure-wrapper">
           <h2 className="aboutus-mediaexplosure-title">Media Explosure | 媒體報導</h2>
@@ -63,7 +63,7 @@ class AboutUs extends React.Component {
         </section>
       </Parallax>
         <Parallax
-          strength={500}
+          strength={300}
         >
           <section className="aboutus-coopbrands-wrapper">
             <Brands />

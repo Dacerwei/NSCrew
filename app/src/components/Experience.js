@@ -7,25 +7,31 @@ class Experience extends React.Component {
   constructor(props) {
     super(props);
 
+    this.state = {
+      year: 2017,
+      events: [],
+    };
+
+    this.onChageYear = this.onChageYear.bind(this);
     this.renderTimelineList = this.renderTimelineList.bind(this);
   }
 
+  onChageYear(newYear) {
+    const { year } = this.state;
+    let events = this.renderTimelineList(Experiencese,newYear);
+    if(newYear !== year) {
+      this.setState({
+        year: newYear,
+        events: events,
+      });
+    }
+  }
+
   renderTimelineList(experiencese, year) {
-    console.log(experiencese);
-    console.log(year);
-    let output = [];
-    output.push(
-      <li className="experience-timeline-item period" key={year}>
-        <div className="experience-timeline-item-info"></div>
-        <div className="experience-timeline-item-marker"></div>
-        <div className="experience-timeline-item-content">
-          <h2 className="experience-timeline-item-content-title">{year}</h2>
-        </div>
-      </li>
-    );
-    return _.reduce(experiencese.events, (acc, event, i) => {
-      acc.push(
-        <li className="experience-timeline-item" key={ `${year}-${i}`}>
+    console.log('render time list');
+    return _.map(experiencese[`${year}`], (event) => {
+      output.push(
+        <li className="experience-timeline-item" key={i}>
           <div className="experience-timeline-item-info">
             <span>{event.date}</span>
           </div>
@@ -36,30 +42,21 @@ class Experience extends React.Component {
           </div>
         </li>
       );
-      return acc;
-    }, output);
+    });
   }
 
   render() {
+    const {year, events} = this.state;
     return (
       <section className="experience-container">
-        <ul className="experience-timeline timeline-split">
-        {
-          this.renderTimelineList(_.find(Experiencese, (exp) => {return exp.year === 2017}), 2017)
-        }
+        <ul className="experience-selectbar">
+          <li onClick={this.onChageYear.bind(this, 2017)}>2017</li>
+          <li onClick={this.onChageYear.bind(this, 2016)}>2016</li>
+          <li onClick={this.onChageYear.bind(this, 2015)}>2015</li>
         </ul>
         <ul className="experience-timeline timeline-split">
-        {
-          this.renderTimelineList(_.find(Experiencese, (exp) => {return exp.year === 2016}), 2016)
-        }
+        { events }
         </ul>
-        <MediaQuery query='(min-width: 1024px)'>
-          <ul className="experience-timeline timeline-split">
-          {
-            this.renderTimelineList(_.find(Experiencese, (exp) => {return exp.year === 2015}), 2015)
-          }
-          </ul>
-        </MediaQuery>
       </section>
     );
   }
