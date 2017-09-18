@@ -1,5 +1,5 @@
 import React from 'react';
-import brands from '../helpers/Brands.js'
+import brands from '../../helpers/Brands.js'
 const Brands = () => {
 	let brandsArray = [];
 	for( let i=0; i < brands.length; i++) {

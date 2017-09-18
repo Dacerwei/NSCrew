@@ -1,13 +1,12 @@
 import React from 'react';
-import VideoProductionIcon from '../../assets/images/icon_video_production.svg';
-import PerformanceIcon from '../../assets/images/icon_performance.svg';
-import LessonIcon from '../../assets/images/icon_classes.svg';
-import CoopSet from '../helpers/CoopSet';
+import VideoProductionIcon from '../../../assets/images/icon_video_production.svg';
+import PerformanceIcon from '../../../assets/images/icon_performance.svg';
+import LessonIcon from '../../../assets/images/icon_classes.svg';
+import CoopSet from '../../helpers/CoopSet';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Link } from 'react-router-dom';
 
 class CoopHighlight extends React.Component {
-    
     render() {
         return(
             <section className="coophighlight-container">

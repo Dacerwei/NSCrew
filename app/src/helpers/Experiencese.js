@@ -1,4 +1,4 @@
-const experiencese = [
+const experiencese =
 {
   2017: [
     {
@@ -17,8 +17,6 @@ const experiencese = [
       detail: '',
     },
   ],
-},
-{
   2016: [
     {
       date: '2016',
@@ -81,8 +79,6 @@ const experiencese = [
       detail: '',
     },
   ],
-},
-{
   2015: [
     {
       date: '2015',
@@ -108,9 +104,8 @@ const experiencese = [
       date: '2015',
       title: '空軍總部表演',
       detail: '',
-    },
+    }
   ],
-},
-];
+};
 
 export default experiencese;

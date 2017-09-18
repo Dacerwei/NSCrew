@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioItemLayout from './PortfolioItemLayout';
-import PortfolioSet from '../helpers/PortfolioSet';
+import PortfolioSet from '../../helpers/PortfolioSet';
 
 class Portfolio extends React.Component {
 	render(){

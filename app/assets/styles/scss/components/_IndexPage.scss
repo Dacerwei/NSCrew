@@ -20,6 +20,15 @@
 	animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+.phone-indexpage-main-wrapper {
+  height: 80vh;
+  color: white;
+}
+
+/* ----------------------------------------------
+Aboutus Hightlight
+* ---------------------------------------------- */
+/* Desktop */
 .aboutushighlight-container {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -52,7 +61,48 @@
 	width: 100%;
 	text-align: center;
 }
+/* End */
+/* Phone */
+.phone .aboutushighlight-container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(255, 255, 255, 1.0);
+}
 
+.phone .aboutushighlight-title {
+	color: orange;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 16pt;
+}
+
+.phone .aboutushighlight-introduction-content {
+  font-family: "Microsoft JhengHei";
+  font-size: 12pt;
+  text-align: justify;
+  line-height: 1.5em;
+  padding: 2%;
+}
+
+.phone .aboutushighlight-more-btn-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+/* End */
+/* ----------------------------------------------
+Aboutus Hightlight End
+* ---------------------------------------------- */
+/* ----------------------------------------------
+Coop Hightlight
+* ---------------------------------------------- */
+/* Desktop */
 .coophighlight-container {
 	display: flex;
     flex-direction: column;
@@ -102,60 +152,128 @@
 }
 
 .coophighlight-services-serviceitem {
-	margin: 0 auto;
-    width: 30%;
-    min-width: 250px;
+  margin: 0 auto;
+  width: 30%;
 }
 
 .coophighlight-services-serviceitem-icon-container {
-    display: flex;
-    overflow: hidden;
-    margin: 0 auto;
-    background: rgba(113,200,213,0.8);
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(113,200,213,0.8);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 
 .coophighlight-services-serviceitem-icon-src {
-	margin: 0 auto;
-	color: orange;
-	text-align: center;
-	width:100%
+  margin: 0 auto;
+  color: orange;
+  text-align: center;
+  width:100%;
 }
 
 .coophighlight-services-serviceitem-title {
-	color: orange;
-	margin-top: 0;
-	text-align: center;
-	font-size: 20pt;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.coophighlight-more-btn-wrapper {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 100%;
-	text-align: center;
+  color: orange;
+  margin-top: 0;
+  text-align: center;
+  font-size: 20pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .coophighlight-services-serviceitem-content {
-	font-family: "Microsoft JhengHei";
-	font-size: 14pt;
-    line-height: 1.5em;
-    letter-spacing: 0.3em;
+  font-family: "Microsoft JhengHei";
+  font-size: 14pt;
+  line-height: 1.5em;
+  letter-spacing: 0.3em;
 }
 
-.portfoliohighlight-container {
+.coophighlight-more-btn-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
 
+/* End */
+/* Phone */
+.phone .coophighlight-introduction-title {
+	color: orange;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 16pt;
+}
+
+.phone .coophighlight-introduction-content {
+  font-family: "Microsoft JhengHei";
+  font-size: 12pt;
+  text-align: justify;
+  line-height: 1.5em;
+  padding: 4%;
+}
+
+.phone .coophighlight-services-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone .coophighlight-services-serviceitem {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 250px;
+}
+
+.phone .coophighlight-services-serviceitem-icon-container {
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+  background: rgba(113,200,213,0.8);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.phone .coophighlight-services-serviceitem-icon-src {
+  margin: 0 auto;
+  color: orange;
+  text-align: center;
+  width:100%;
+}
+
+.phone .coophighlight-services-serviceitem-title {
+  color: orange;
+  margin-top: 0;
+  text-align: center;
+  font-size: 14pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.phone .coophighlight-services-serviceitem-content {
+  font-family: "Microsoft JhengHei";
+  font-size: 12pt;
+  line-height: 1.5em;
+  letter-spacing: 0.3em;
+}
+/* End */
+/* ----------------------------------------------
+Coop Hightlight End
+* ---------------------------------------------- */
+/* ----------------------------------------------
+Portfolio Hightlight
+* ---------------------------------------------- */
+/* Desktop */
+.portfoliohighlight-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 2%;
 	padding-bottom: 2%;
-	// padding-right: 5%;
-	// padding-left: 5%;
 	background: rgba(0,0,0,1);
 }
 
@@ -169,11 +287,6 @@
 	font-size: 28pt;
 }
 
-.portfoliohighlight-portfolio-wrapper {
-    // width: 90%;
-    // margin: 0 auto;
-}
-
 .portfoliohighlight-more-btn-wrapper {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -185,6 +298,42 @@
 	margin: 0 auto;
 	margin-top: 10px;
 }
+/* Desktop End */
+/* Phone */
+.phone .portfoliohighlight-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background: rgba(0,0,0,1);
+}
+
+.phone .portfoliohighlight-title {
+	color: orange;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 16pt;
+}
+
+.phone .portfoliohighlight-more-btn-wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.phone .portfoliohighlight-more-btn {
+	margin: 0 auto;
+	margin-top: 10px;
+}
+/* Phone End */
+/* ----------------------------------------------
+Portfolio Hightlight End
+* ---------------------------------------------- */
 
 .swingeventshighlight-container {
 	background-image: url(https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/swingevent%2Fswingevents_background_1_mini.jpg?alt=media&token=e4bbb429-99df-4290-8cfb-6690ad47a583);
@@ -201,6 +350,7 @@
 .swingeventshighlight-event {
 	width: 90%;
 }
+
 
 /* ----------------------------------------------
  * Generated by Animista on 2017-3-22 5:53:51
