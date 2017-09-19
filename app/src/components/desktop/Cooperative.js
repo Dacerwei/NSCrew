@@ -1,6 +1,6 @@
 import React from 'react';
 import CoopBlock from './CoopBlock';
-import CoopSet from '../helpers/CoopSet';
+import CoopSet from '../../helpers/CoopSet';
 
 const Cooperative = () => {
 

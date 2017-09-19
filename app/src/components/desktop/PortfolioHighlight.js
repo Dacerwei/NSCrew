@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioSet from '../helpers/PortfolioSet';
+import PortfolioSet from '../../helpers/PortfolioSet';
 import PortfolioItemLayout from './PortfolioItemLayout';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Link } from 'react-router-dom';

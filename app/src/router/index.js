@@ -1,13 +1,13 @@
 import React from 'react';
 import { HashRouter, Route, Link, Switch } from 'react-router-dom';
-import Layout from '../components/Layout';
-import IndexPage from '../components/IndexPage';
-import AboutUs from '../components/AboutUs';
-import Portfolio from '../components/Portfolio';
-import Cooperative from '../components/Cooperative';
+import Layout from '../containers/Layout';
+import IndexPage from '../containers/IndexPage';
+import AboutUsPage from '../containers/AboutUsPage';
+import PortfolioPage from '../containers/PortfolioPage';
+import CooperativePage from '../containers/CooperativePage';
 // import Classes from '../components/Classes';
-import SwingEvents from '../components/SwingEvents';
-import NotFoundPage from '../components/NotFoundPage';
+import EventsPage from '../containers/EventsPage';
+import NotFoundPage from '../containers/NotFoundPage';
 
 class AppRoutes extends React.Component {
 	render() {
@@ -16,11 +16,11 @@ class AppRoutes extends React.Component {
 				<Layout>
 					<Switch>
 						<Route exact path="/" component={IndexPage}/>
-						<Route path="/about" component={AboutUs}/>
-						<Route path="/portfolio" component={Portfolio}/>
-						<Route path="/cooperative" component={Cooperative}/>
+						<Route path="/about" component={AboutUsPage}/>
+						<Route path="/portfolio" component={PortfolioPage}/>
+						<Route path="/cooperative" component={CooperativePage}/>
 						{/*<Route path="/classes" component={Classes}/>*/}
-						<Route path="/swingevents" component={SwingEvents}/>
+						<Route path="/swingevents" component={EventsPage}/>
 						<Route path="/*" component={NotFoundPage}/>
 					</Switch>
 				</Layout>
