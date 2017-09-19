@@ -7,7 +7,7 @@ import PortfolioPage from '../containers/PortfolioPage';
 import CooperativePage from '../containers/CooperativePage';
 // import Classes from '../components/Classes';
 import EventsPage from '../containers/EventsPage';
-import NotFoundPage from '../components/NotFoundPage';
+import NotFoundPage from '../containers/NotFoundPage';
 
 class AppRoutes extends React.Component {
 	render() {

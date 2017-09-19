@@ -2,7 +2,8 @@ import React from 'react';
 import DesktopBreakpoint from '../responsive_utilities/DesktopBreakpoint';
 import TabletBreakpoint from '../responsive_utilities/TabletBreakpoint';
 import PhoneBreakpoint from '../responsive_utilities/PhoneBreakpoint';
-import DesktopCooperative from '../components/Cooperative';
+import DesktopCooperative from '../components/desktop/Cooperative';
+import PhoneCooperative from '../components/phone/Cooperative';
 
 
 class CooperativePage extends React.Component {
@@ -14,13 +15,13 @@ class CooperativePage extends React.Component {
         return(
             <div className="cooperative-page-container">
                 <DesktopBreakpoint>
-                    <DesktopCooperative/>
+                    <DesktopCooperative />
                 </DesktopBreakpoint>
                 <TabletBreakpoint>
-                    <DesktopCooperative/>
+                    <DesktopCooperative />
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <h1>phone coop</h1>
+                    <PhoneCooperative />
                 </PhoneBreakpoint>
             </div>
         );

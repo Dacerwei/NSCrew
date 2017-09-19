@@ -3,7 +3,7 @@ import DesktopBreakpoint from '../responsive_utilities/DesktopBreakpoint';
 import TabletBreakpoint from '../responsive_utilities/TabletBreakpoint';
 import PhoneBreakpoint from '../responsive_utilities/PhoneBreakpoint';
 import DesktopPortfolio from '../components/desktop/Portfolio';
-
+import PhonePortfolio from '../components/phone/Portfolio';
 class PortfolioPage extends React.Component {
     constructor(props) {
         super(props);
@@ -19,7 +19,7 @@ class PortfolioPage extends React.Component {
                     <DesktopPortfolio/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <h1>mobile AboutUs</h1>
+                    <PhonePortfolio />
                 </PhoneBreakpoint>
             </div>
         );

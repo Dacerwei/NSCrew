@@ -632,7 +632,8 @@ Introduction Section End
 /* ----------------------------------------------
 Experience Section
 * ---------------------------------------------- */
-/* line 89, ../scss/components/_aboutus.scss */
+/* Desktop */
+/* line 90, ../scss/components/_aboutus.scss */
 .aboutus-experience-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -643,25 +644,25 @@ Experience Section
   text-align: justify;
 }
 
-/* line 98, ../scss/components/_aboutus.scss */
+/* line 99, ../scss/components/_aboutus.scss */
 .aboutus-experience-wrapper {
   background-color: black;
   color: white;
 }
 
-/* line 102, ../scss/components/_aboutus.scss */
+/* line 103, ../scss/components/_aboutus.scss */
 .aboutus-experience-title {
   font-size: 24pt;
   color: orange;
   margin-bottom: 20px;
 }
 
-/* line 107, ../scss/components/_aboutus.scss */
+/* line 108, ../scss/components/_aboutus.scss */
 .experience-container {
   width: 100%;
 }
 
-/* line 111, ../scss/components/_aboutus.scss */
+/* line 112, ../scss/components/_aboutus.scss */
 .experience-selectbar {
   width: 50%;
   margin: 0 auto;
@@ -669,19 +670,66 @@ Experience Section
   justify-content: space-around;
 }
 
-/* line 118, ../scss/components/_aboutus.scss */
+/* line 119, ../scss/components/_aboutus.scss */
 .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
 }
 
+/* Desktop End */
+/* Phone */
+/* line 125, ../scss/components/_aboutus.scss */
+.phone .aboutus-experience-wrapper {
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  padding: 5%;
+  color: white;
+  font-size: 12pt;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+/* line 134, ../scss/components/_aboutus.scss */
+.phone .aboutus-experience-wrapper {
+  background-color: black;
+  color: white;
+}
+
+/* line 138, ../scss/components/_aboutus.scss */
+.phone .aboutus-experience-title {
+  font-size: 16pt;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+/* line 143, ../scss/components/_aboutus.scss */
+.phone .experience-container {
+  width: 100%;
+}
+
+/* line 147, ../scss/components/_aboutus.scss */
+.phone .experience-selectbar {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 154, ../scss/components/_aboutus.scss */
+.phone .experience-selectbar-yearitem {
+  width: 100px;
+  text-align: center;
+}
+
+/* Phone End */
 /* ----------------------------------------------
 Experience Section End
 * ---------------------------------------------- */
 /* ----------------------------------------------
 Media Explosure Section
 * ---------------------------------------------- */
-/* line 128, ../scss/components/_aboutus.scss */
+/* Desktop */
+/* line 166, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -693,7 +741,7 @@ Media Explosure Section
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 139, ../scss/components/_aboutus.scss */
+/* line 177, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -704,7 +752,7 @@ Media Explosure Section
   color: orange;
 }
 
-/* line 149, ../scss/components/_aboutus.scss */
+/* line 187, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -713,16 +761,63 @@ Media Explosure Section
   color: white;
 }
 
-/* line 157, ../scss/components/_aboutus.scss */
+/* line 195, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-ch {
   color: white;
 }
 
-/* line 161, ../scss/components/_aboutus.scss */
+/* line 199, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-en {
   color: white;
 }
 
+/* Desktop End */
+/* Phone */
+/* line 204, ../scss/components/_aboutus.scss */
+.phone .aboutus-mediaexplosure-wrapper {
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  color: white;
+  font-size: 12pt;
+  line-height: 1.5em;
+  text-align: justify;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 215, ../scss/components/_aboutus.scss */
+.phone .aboutus-mediaexplosure-title {
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 16pt;
+  color: orange;
+}
+
+/* line 225, ../scss/components/_aboutus.scss */
+.phone .aboutus-mediaexplosure-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  color: white;
+}
+
+/* line 233, ../scss/components/_aboutus.scss */
+.phone .aboutus-mediaexplosure-content-ch {
+  padding: 10px;
+  color: white;
+}
+
+/* line 238, ../scss/components/_aboutus.scss */
+.phone .aboutus-mediaexplosure-content-en {
+  padding: 10px;
+  color: white;
+}
+
+/* Phone End */
 /* ----------------------------------------------
 Media Explosure Section End
 * ---------------------------------------------- */
@@ -730,7 +825,7 @@ Media Explosure Section End
 Brands
 * ---------------------------------------------- */
 /* Desktop */
-/* line 172, ../scss/components/_aboutus.scss */
+/* line 251, ../scss/components/_aboutus.scss */
 .brands-container {
   display: flex;
   padding: 5%;
@@ -742,7 +837,7 @@ Brands
   background-color: black;
 }
 
-/* line 183, ../scss/components/_aboutus.scss */
+/* line 262, ../scss/components/_aboutus.scss */
 .brands-item {
   text-align: center;
   min-width: 75px;
@@ -755,7 +850,7 @@ Brands
   overflow: hidden;
 }
 
-/* line 195, ../scss/components/_aboutus.scss */
+/* line 274, ../scss/components/_aboutus.scss */
 .brands-item-img {
   width: 80%;
   margin: 0 auto;
@@ -763,7 +858,7 @@ Brands
 
 /* Desktop End */
 /* Phone */
-/* line 202, ../scss/components/_aboutus.scss */
+/* line 281, ../scss/components/_aboutus.scss */
 .phone .brands-container {
   display: flex;
   padding: 5%;
@@ -775,7 +870,7 @@ Brands
   background-color: black;
 }
 
-/* line 213, ../scss/components/_aboutus.scss */
+/* line 292, ../scss/components/_aboutus.scss */
 .phone .brands-item {
   text-align: center;
   min-width: 75px;
@@ -788,7 +883,7 @@ Brands
   overflow: hidden;
 }
 
-/* line 225, ../scss/components/_aboutus.scss */
+/* line 304, ../scss/components/_aboutus.scss */
 .phone .brands-item-img {
   width: 80%;
   margin: 0 auto;
@@ -922,9 +1017,22 @@ default header menu
 end
 ----------------------------------------------*/
 /*----------------------------------------------
+Mobile Header 
+----------------------------------------------*/
+/* line 101, ../scss/components/_basic.scss */
+.mobile-phone .logo-container .nslogo-img {
+  width: 50%;
+  min-width: 120px;
+  padding-left: 30%;
+}
+
+/*----------------------------------------------
+Mobile Header End
+----------------------------------------------*/
+/*----------------------------------------------
 mobile header menu
 ----------------------------------------------*/
-/* line 102, ../scss/components/_basic.scss */
+/* line 113, ../scss/components/_basic.scss */
 .mobilenav-icon-wrapper {
   position: absolute;
   color: orange;
@@ -933,20 +1041,20 @@ mobile header menu
   z-index: 100;
 }
 
-/* line 110, ../scss/components/_basic.scss */
+/* line 121, ../scss/components/_basic.scss */
 .mobilenav-icon-wrapper svg {
   height: 2em;
   width: 2em;
 }
 
-/* line 115, ../scss/components/_basic.scss */
+/* line 126, ../scss/components/_basic.scss */
 .mobilenav-wrapper {
   z-index: 10;
   width: 100%;
   height: 100%;
 }
 
-/* line 121, ../scss/components/_basic.scss */
+/* line 132, ../scss/components/_basic.scss */
 .mobile-menu-list {
   text-align: center;
   list-style: none;
@@ -956,7 +1064,7 @@ mobile header menu
   margin-top: 20%;
 }
 
-/* line 130, ../scss/components/_basic.scss */
+/* line 141, ../scss/components/_basic.scss */
 .mobile-menu .mobile-menu-list a {
   line-height: 2em;
   color: orange;
@@ -964,7 +1072,7 @@ mobile header menu
   font-size: 3em;
 }
 
-/* line 137, ../scss/components/_basic.scss */
+/* line 148, ../scss/components/_basic.scss */
 .mobilenav-linklist-list {
   display: flex;
   flex-direction: column;
@@ -979,7 +1087,7 @@ mobile header menu
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 151, ../scss/components/_basic.scss */
+/* line 162, ../scss/components/_basic.scss */
 .mobilenav-linklist-item {
   display: flex;
   align-items: center;
@@ -996,19 +1104,20 @@ end
 /*----------------------------------------------
 footer
 ----------------------------------------------*/
-/* line 167, ../scss/components/_basic.scss */
+/* Desktop */
+/* line 179, ../scss/components/_basic.scss */
 .icon {
   color: white;
   margin: 1%;
 }
 
-/* line 172, ../scss/components/_basic.scss */
+/* line 184, ../scss/components/_basic.scss */
 #container {
   position: relative;
   height: auto;
 }
 
-/* line 177, ../scss/components/_basic.scss */
+/* line 189, ../scss/components/_basic.scss */
 .footer-container {
   padding: 20px;
   display: flex;
@@ -1025,23 +1134,23 @@ footer
   color: white;
 }
 
-/* line 193, ../scss/components/_basic.scss */
+/* line 205, ../scss/components/_basic.scss */
 .footer-logo-warpper {
   width: 80%;
   text-align: center;
 }
 
-/* line 198, ../scss/components/_basic.scss */
+/* line 210, ../scss/components/_basic.scss */
 .footer-logo-source {
   color: white;
   font-size: 24pt;
 }
-/* line 201, ../scss/components/_basic.scss */
+/* line 213, ../scss/components/_basic.scss */
 .footer-logo-source:hover {
   color: orange;
 }
 
-/* line 206, ../scss/components/_basic.scss */
+/* line 218, ../scss/components/_basic.scss */
 .footer-nav-list {
   list-style: none;
   margin: 0px auto;
@@ -1055,18 +1164,18 @@ footer
   justify-content: space-around;
 }
 
-/* line 219, ../scss/components/_basic.scss */
+/* line 231, ../scss/components/_basic.scss */
 .footer-nav-list-item {
   font-size: 100%;
   min-width: 200px;
   color: white;
 }
-/* line 223, ../scss/components/_basic.scss */
+/* line 235, ../scss/components/_basic.scss */
 .footer-nav-list-item:hover {
   color: orange;
 }
 
-/* line 228, ../scss/components/_basic.scss */
+/* line 240, ../scss/components/_basic.scss */
 .footer-container .icon-bar {
   padding: 0px;
   height: 100%;
@@ -1074,7 +1183,7 @@ footer
   max-width: 150px;
 }
 
-/* line 235, ../scss/components/_basic.scss */
+/* line 247, ../scss/components/_basic.scss */
 .footer-info-content {
   font-size: 70%;
   margin-top: 5px;
@@ -1082,11 +1191,95 @@ footer
   color: white;
 }
 
-/* line 242, ../scss/components/_basic.scss */
+/* line 254, ../scss/components/_basic.scss */
 .footer-info-content a {
   color: white;
 }
 
+/* Desktop End */
+/* Phone */
+/* line 259, ../scss/components/_basic.scss */
+.mobile-phone .icon {
+  color: white;
+  margin: 1%;
+}
+
+/* line 264, ../scss/components/_basic.scss */
+.mobile-phone .footer-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  min-height: 300px;
+  z-index: 100;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+/* line 280, ../scss/components/_basic.scss */
+.mobile-phone .footer-logo-warpper {
+  width: 80%;
+  text-align: center;
+}
+
+/* line 285, ../scss/components/_basic.scss */
+.mobile-phone .footer-logo-source {
+  color: white;
+  font-size: 18pt;
+}
+/* line 288, ../scss/components/_basic.scss */
+.mobile-phone .footer-logo-source:hover {
+  color: orange;
+}
+
+/* line 293, ../scss/components/_basic.scss */
+.mobile-phone .footer-nav-list {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 302, ../scss/components/_basic.scss */
+.mobile-phone .footer-nav-list-item {
+  font-size: 100%;
+  min-width: 200px;
+  color: white;
+}
+/* line 306, ../scss/components/_basic.scss */
+.mobile-phone .footer-nav-list-item:hover {
+  color: orange;
+}
+
+/* line 311, ../scss/components/_basic.scss */
+.mobile-phone .footer-container .icon-bar {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  max-width: 150px;
+}
+
+/* line 318, ../scss/components/_basic.scss */
+.mobile-phone .footer-info-content {
+  font-size: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* line 325, ../scss/components/_basic.scss */
+.mobile-phone .footer-info-content a {
+  color: white;
+}
+
+/* Phone End */
 /*----------------------------------------------
 end
 ----------------------------------------------*/
@@ -1098,7 +1291,8 @@ end
 /*----------------------------------------------
 Co-op Page
 ----------------------------------------------*/
-/* line 4, ../scss/components/_coop.scss */
+/* Desktop */
+/* line 5, ../scss/components/_coop.scss */
 .coop-container {
   position: relative;
   width: auto;
@@ -1107,7 +1301,7 @@ Co-op Page
   padding-left: 3%;
 }
 
-/* line 12, ../scss/components/_coop.scss */
+/* line 13, ../scss/components/_coop.scss */
 .coop-introducion-wrapper {
   padding-top: 3%;
   padding-bottom: 3%;
@@ -1121,7 +1315,7 @@ Co-op Page
   letter-spacing: 1.2pt;
 }
 
-/* line 25, ../scss/components/_coop.scss */
+/* line 26, ../scss/components/_coop.scss */
 .coop-section-container {
   display: flex;
   justify-content: space-between;
@@ -1132,34 +1326,32 @@ Co-op Page
   margin-bottom: 2%;
 }
 
-/* line 36, ../scss/components/_coop.scss */
+/* line 37, ../scss/components/_coop.scss */
 .coop-section-left {
   width: 45%;
-  min-width: 400px;
   margin: 0 auto;
 }
 
-/* line 42, ../scss/components/_coop.scss */
+/* line 43, ../scss/components/_coop.scss */
 .coop-section-media-wrapper {
   height: 100%;
   overflow: hidden;
 }
 
-/* line 47, ../scss/components/_coop.scss */
+/* line 48, ../scss/components/_coop.scss */
 .coopblock-section-media-img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 52, ../scss/components/_coop.scss */
+/* line 53, ../scss/components/_coop.scss */
 .coop-section-right {
   width: 45%;
-  min-width: 400px;
   height: auto;
   margin: 0 auto;
 }
 
-/* line 59, ../scss/components/_coop.scss */
+/* line 60, ../scss/components/_coop.scss */
 .coop-section-content-title {
   margin: 0;
   color: orange;
@@ -1168,12 +1360,12 @@ Co-op Page
   padding-bottom: 10px;
 }
 
-/* line 67, ../scss/components/_coop.scss */
+/* line 68, ../scss/components/_coop.scss */
 .coop-section-content-intro {
   font-size: 16pt;
 }
 
-/* line 71, ../scss/components/_coop.scss */
+/* line 72, ../scss/components/_coop.scss */
 .coop-section-content-intro-body-ch {
   font-family: "Microsoft JhengHei";
   padding: 5px;
@@ -1182,7 +1374,7 @@ Co-op Page
   letter-spacing: 1.2pt;
 }
 
-/* line 79, ../scss/components/_coop.scss */
+/* line 80, ../scss/components/_coop.scss */
 .coop-section-content-intro-body-en {
   font-family: "Microsoft JhengHei";
   padding: 5px;
@@ -1191,6 +1383,103 @@ Co-op Page
   letter-spacing: 1.2pt;
 }
 
+/* Desktop End */
+/* Phone */
+/* line 89, ../scss/components/_coop.scss */
+.phone .coop-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+/* line 97, ../scss/components/_coop.scss */
+.phone .coop-introducion-wrapper {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: justify;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 12pt;
+  color: white;
+  line-height: 2em;
+  font-family: "Microsoft JhengHei";
+  letter-spacing: 1.2pt;
+}
+
+/* line 110, ../scss/components/_coop.scss */
+.phone .coop-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* line 121, ../scss/components/_coop.scss */
+.phone .coop-section-left {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 126, ../scss/components/_coop.scss */
+.phone .coop-section-media-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 131, ../scss/components/_coop.scss */
+.phone .coopblock-section-media-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 136, ../scss/components/_coop.scss */
+.phone .coop-section-right {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* line 142, ../scss/components/_coop.scss */
+.phone .coop-section-content-title {
+  margin: 0;
+  color: orange;
+  font-size: 16pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 150, ../scss/components/_coop.scss */
+.phone .coop-section-content-intro {
+  font-size: 12pt;
+}
+
+/* line 154, ../scss/components/_coop.scss */
+.phone .coop-section-content-intro-body-ch {
+  font-family: "Microsoft JhengHei";
+  padding: 2%;
+  line-height: 1.5em;
+  color: white;
+  letter-spacing: 1.2pt;
+}
+
+/* line 162, ../scss/components/_coop.scss */
+.phone .coop-section-content-intro-body-en {
+  font-family: "Microsoft JhengHei";
+  padding: 2%;
+  line-height: 1.5em;
+  color: white;
+  letter-spacing: 1.2pt;
+}
+
+/* Phone End */
+/*----------------------------------------------
+Co-op Page End
+----------------------------------------------*/
 /*----------------------------------------------
 showcase page
 ----------------------------------------------*/

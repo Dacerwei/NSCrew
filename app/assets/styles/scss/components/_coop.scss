@@ -1,6 +1,7 @@
 /*----------------------------------------------
 Co-op Page
 ----------------------------------------------*/
+/* Desktop */
 .coop-container {
   position: relative;
   width: auto;
@@ -35,7 +36,7 @@ Co-op Page
 
 .coop-section-left {
   width: 45%;
-  min-width: 400px;
+  // min-width: 400px;
   margin: 0 auto;
 }
 
@@ -51,7 +52,7 @@ Co-op Page
 
 .coop-section-right {
   width: 45%;
-  min-width: 400px;
+  // min-width: 400px;
   height: auto;
   margin: 0 auto;
 }
@@ -83,3 +84,89 @@ Co-op Page
   color:  white;
   letter-spacing: 1.2pt;
 }
+/* Desktop End */
+/* Phone */
+.phone .coop-container {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.phone .coop-introducion-wrapper {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: justify;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 12pt;
+  color: white;
+  line-height: 2em;
+  font-family: "Microsoft JhengHei";
+  letter-spacing: 1.2pt;
+}
+
+.phone .coop-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+.phone .coop-section-left {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.phone .coop-section-media-wrapper{
+  height: 100%;
+  overflow: hidden;
+}
+
+.phone .coopblock-section-media-img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.phone .coop-section-right {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.phone .coop-section-content-title {
+  margin: 0;
+  color: orange;
+  font-size: 16pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.phone .coop-section-content-intro {
+  font-size: 12pt;
+}
+
+.phone .coop-section-content-intro-body-ch {
+  font-family: "Microsoft JhengHei";
+  padding: 2%;
+  line-height: 1.5em;
+  color:  white;
+  letter-spacing: 1.2pt;
+}
+
+.phone .coop-section-content-intro-body-en {
+  font-family: "Microsoft JhengHei";
+  padding: 2%;
+  line-height: 1.5em;
+  color:  white;
+  letter-spacing: 1.2pt;
+}
+/* Phone End */
+/*----------------------------------------------
+Co-op Page End
+----------------------------------------------*/

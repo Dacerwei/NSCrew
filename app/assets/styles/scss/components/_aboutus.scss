@@ -86,6 +86,7 @@ Introduction Section End
 /* ----------------------------------------------
 Experience Section
 * ---------------------------------------------- */
+/* Desktop */
 .aboutus-experience-wrapper {
     font-family: "Microsoft JhengHei";
     width: 100%;
@@ -119,12 +120,49 @@ Experience Section
   width: 100px;
   text-align: center;
 }
+/* Desktop End */
+/* Phone */
+.phone .aboutus-experience-wrapper {
+    font-family: "Microsoft JhengHei";
+    width: 100%;
+    padding: 5%;
+    color: white;
+    font-size: 12pt;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.phone .aboutus-experience-wrapper {
+    background-color: black;
+    color: white;
+}
+.phone .aboutus-experience-title {
+    font-size: 16pt;
+    color: orange;
+    margin-bottom: 20px;
+}
+.phone .experience-container {
+  width: 100%;
+}
+
+.phone .experience-selectbar {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone .experience-selectbar-yearitem {
+  width: 100px;
+  text-align: center;
+}
+/* Phone End */
 /* ----------------------------------------------
 Experience Section End
 * ---------------------------------------------- */
 /* ----------------------------------------------
 Media Explosure Section
 * ---------------------------------------------- */
+/* Desktop */
 .aboutus-mediaexplosure-wrapper {
     font-family: "Microsoft JhengHei";
     width: 100%;
@@ -161,6 +199,47 @@ Media Explosure Section
 .aboutus-mediaexplosure-en {
     color: white;
 }
+/* Desktop End */
+/* Phone */
+.phone .aboutus-mediaexplosure-wrapper {
+    font-family: "Microsoft JhengHei";
+    width: 100%;
+    color: white;
+    font-size: 12pt;
+    line-height: 1.5em;
+    text-align: justify;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.phone .aboutus-mediaexplosure-title {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 16pt;
+    color: orange;
+}
+
+.phone .aboutus-mediaexplosure-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+}
+
+.phone .aboutus-mediaexplosure-content-ch {
+    padding: 10px;
+    color: white;
+}
+
+.phone .aboutus-mediaexplosure-content-en {
+    padding: 10px;
+    color: white;
+}
+/* Phone End */
 /* ----------------------------------------------
 Media Explosure Section End
 * ---------------------------------------------- */
