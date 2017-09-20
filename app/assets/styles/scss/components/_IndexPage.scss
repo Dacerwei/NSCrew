@@ -20,6 +20,10 @@
 	animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+
+/* ----------------------------------------------
+mobile main section
+* ---------------------------------------------- */
 .phone-indexpage-main-wrapper {
   height: 80vh;
   color: white;
@@ -27,6 +31,7 @@
 .mobile-phone-main {
   height: 95vh;
   width: 100%;
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,10 +47,10 @@
   letter-spacing: 10px;
   font-family: serif;
   font-weight: bold;
-  padding-top: 40%;
-  padding-left: 10%;
-  padding-right: 5%;
-  padding-bottom: 15%;
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  left: 10%;
 }
 
 .naughty {
@@ -92,9 +97,9 @@
   }
 }
 
-
-
-
+/* ----------------------------------------------
+mobile main section End
+* ---------------------------------------------- */
 /* ----------------------------------------------
 Aboutus Hightlight
 * ---------------------------------------------- */
