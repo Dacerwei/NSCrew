@@ -19,7 +19,9 @@ class PortfolioPage extends React.Component {
                     <DesktopPortfolio/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <PhonePortfolio />
+                    <div className="mobile-phone">
+                        <PhonePortfolio />
+                    </div>
                 </PhoneBreakpoint>
             </div>
         );

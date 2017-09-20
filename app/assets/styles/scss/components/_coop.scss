@@ -23,6 +23,16 @@ Co-op Page
   letter-spacing: 1.2pt;
 }
 
+.coop-introducion-ch {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.coop-introducion-en {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .coop-section-container {
   display: flex;
   justify-content: space-between;
@@ -71,18 +81,18 @@ Co-op Page
 
 .coop-section-content-intro-body-ch {
   font-family: "Microsoft JhengHei";
-  padding: 5px;
-  line-height: 1.5em;
+  line-height: 2em;
   color:  white;
-  letter-spacing: 1.2pt;
+  letter-spacing: 1px;
+  padding: 4%;
 }
 
 .coop-section-content-intro-body-en {
   font-family: "Microsoft JhengHei";
-  padding: 5px;
-  line-height: 1.5em;
+  line-height: 2em;
   color:  white;
-  letter-spacing: 1.2pt;
+  letter-spacing: 1px;
+  padding: 4%;
 }
 /* Desktop End */
 /* Phone */

@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
                     </video>
                 </div>
                 <div className="indexpage-main-wrapper">
-                    <h1 className="indexpage-slogon" id="slogan-2">We're<br />Naughty<br />So We Swing</h1> 
+                    <h1 className="indexpage-slogon" id="slogan-2">We're<br /><strong className="naughty">Naughty</strong><br />So We <strong className="naughty">Swing</strong></h1> 
                 </div>
                 <Highlights />
             </div>

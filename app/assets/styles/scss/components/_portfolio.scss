@@ -1,6 +1,7 @@
 /*----------------------------------------------
-showcase page
+Portfolio
 ----------------------------------------------*/
+/* Desktop */
 .portfolioitemlayout-container .portfolioitem-container {
   display: inline-block;
   list-style: none;
@@ -25,22 +26,19 @@ showcase page
 }
 
 .portfolioitem-figcaption {
-  height: 100px;
   width: 100%;
   position: absolute;
-  top: auto;
-  bottom: 20%;
+  top: 40%;
   opacity: 0;
-  transform: translateY(100%);
-  transition: transform 0.4s, opacity 0.1s 0.3s;
-  padding: 20px;
-  background-color: transparent;
+  transition: opacity 0.1s;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .portfolioitem-title {
   text-align: center;
   margin: 0;
-  font-size: 24pt;
+  font-size: 18pt;
   padding: 0;
   color: #fff;
 }
@@ -57,8 +55,7 @@ figure hover
 .portfolioitem-container figure:hover figcaption,
 .portfolioitem-container figure.cs-hover figcaption {
   opacity: 1;
-  transform: translateY(0px);
-  transition: transform 0.4s, opacity 0.1s;
+  transition: opacity 0.1s;
 }
 
 /***************
@@ -80,7 +77,10 @@ hover end
   padding: 0;
 }
 
+/* Desktop End*/
+/* Phone */
 
+/* Phone End*/
 /*----------------------------------------------
-end
+Portfolio End
 ----------------------------------------------*/

@@ -4,7 +4,7 @@ import Highlights from './Highlights';
 class IndexPage extends React.Component {    
     render() {
         return (
-            <div className='phone indexpage-container'>
+            <div className='indexpage-container'>
                 <Highlights />
             </div>
         );

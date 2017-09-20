@@ -20,7 +20,9 @@ class AboutusPage extends React.Component {
                     <DesktopAboutUs/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <PhoneAboutUs/>
+                    <div className="mobile-phone">
+                        <PhoneAboutUs/>
+                    </div>
                 </PhoneBreakpoint>
             </div>
         );

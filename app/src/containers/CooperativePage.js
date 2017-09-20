@@ -21,7 +21,9 @@ class CooperativePage extends React.Component {
                     <DesktopCooperative />
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <PhoneCooperative />
+                    <div className="mobile-phone">
+                        <PhoneCooperative />
+                    </div>
                 </PhoneBreakpoint>
             </div>
         );

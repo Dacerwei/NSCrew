@@ -5,7 +5,7 @@ import PortfolioSet from '../../helpers/PortfolioSet';
 class Portfolio extends React.Component {
 	render(){
 		return (
-			<div className='phone portfolio-container' >
+			<div className='portfolio-container' >
 				<PortfolioItemLayout photo_set={ PortfolioSet } />
 			</div>
 		);

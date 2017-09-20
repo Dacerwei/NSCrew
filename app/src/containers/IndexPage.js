@@ -16,7 +16,9 @@ class IndexPage extends React.Component {
                     <DesktopIndexPage/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <PhoneIndexPage />
+                    <div className="mobile-phone">
+                        <PhoneIndexPage />
+                    </div>
                 </PhoneBreakpoint>
             </div>
         );
