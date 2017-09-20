@@ -462,8 +462,8 @@ Coop Hightlight
 .phone .coophighlight-services-serviceitem-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
-  line-height: 2em;
-  letter-spacing: 2px;
+  line-height: 2.5em;
+  letter-spacing: 0px;
 }
 
 /* End */
@@ -693,42 +693,41 @@ Introduction Section
   width: 100%;
   padding: 0;
   color: white;
-  text-align: justify;
   height: auto;
 }
 
-/* line 52, ../scss/components/_aboutus.scss */
+/* line 51, ../scss/components/_aboutus.scss */
 .phone .aboutus-introduction-title {
   padding-top: 2%;
   padding-bottom: 2%;
   padding-right: 5%;
   padding-left: 5%;
   margin: 0;
+  text-align: left;
   font-size: 16pt;
   color: orange;
 }
 
 /* line 61, ../scss/components/_aboutus.scss */
 .phone .aboutus-introduction-content {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding: 4%;
   font-size: 12pt;
-  line-height: 1.5em;
+  line-height: 2em;
+  text-align: left;
+  letter-spacing: 0px;
   margin: 0;
 }
 
-/* line 71, ../scss/components/_aboutus.scss */
+/* line 70, ../scss/components/_aboutus.scss */
 .phone .aboutus-introduction-content-ch {
   margin: 0;
-  padding: 10px;
+  padding: 4%;
 }
 
-/* line 77, ../scss/components/_aboutus.scss */
+/* line 75, ../scss/components/_aboutus.scss */
 .phone .aboutus-introduction-content-en {
   margin: 0;
-  padding: 10px;
+  padding: 4%;
 }
 
 /* Phone End */
@@ -739,7 +738,7 @@ Introduction Section End
 Experience Section
 * ---------------------------------------------- */
 /* Desktop */
-/* line 90, ../scss/components/_aboutus.scss */
+/* line 88, ../scss/components/_aboutus.scss */
 .aboutus-experience-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -750,25 +749,25 @@ Experience Section
   text-align: justify;
 }
 
-/* line 99, ../scss/components/_aboutus.scss */
+/* line 97, ../scss/components/_aboutus.scss */
 .aboutus-experience-wrapper {
   background-color: black;
   color: white;
 }
 
-/* line 103, ../scss/components/_aboutus.scss */
+/* line 101, ../scss/components/_aboutus.scss */
 .aboutus-experience-title {
   font-size: 24pt;
   color: orange;
   margin-bottom: 20px;
 }
 
-/* line 108, ../scss/components/_aboutus.scss */
+/* line 106, ../scss/components/_aboutus.scss */
 .experience-container {
   width: 100%;
 }
 
-/* line 112, ../scss/components/_aboutus.scss */
+/* line 110, ../scss/components/_aboutus.scss */
 .experience-selectbar {
   width: 50%;
   margin: 0 auto;
@@ -776,7 +775,7 @@ Experience Section
   justify-content: space-around;
 }
 
-/* line 119, ../scss/components/_aboutus.scss */
+/* line 117, ../scss/components/_aboutus.scss */
 .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
@@ -784,7 +783,7 @@ Experience Section
 
 /* Desktop End */
 /* Phone */
-/* line 125, ../scss/components/_aboutus.scss */
+/* line 123, ../scss/components/_aboutus.scss */
 .phone .aboutus-experience-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -795,25 +794,25 @@ Experience Section
   text-align: justify;
 }
 
-/* line 134, ../scss/components/_aboutus.scss */
+/* line 132, ../scss/components/_aboutus.scss */
 .phone .aboutus-experience-wrapper {
   background-color: black;
   color: white;
 }
 
-/* line 138, ../scss/components/_aboutus.scss */
+/* line 136, ../scss/components/_aboutus.scss */
 .phone .aboutus-experience-title {
   font-size: 16pt;
   color: orange;
   margin-bottom: 20px;
 }
 
-/* line 143, ../scss/components/_aboutus.scss */
+/* line 141, ../scss/components/_aboutus.scss */
 .phone .experience-container {
   width: 100%;
 }
 
-/* line 147, ../scss/components/_aboutus.scss */
+/* line 145, ../scss/components/_aboutus.scss */
 .phone .experience-selectbar {
   width: 50%;
   margin: 0 auto;
@@ -821,7 +820,7 @@ Experience Section
   justify-content: space-around;
 }
 
-/* line 154, ../scss/components/_aboutus.scss */
+/* line 152, ../scss/components/_aboutus.scss */
 .phone .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
@@ -835,7 +834,7 @@ Experience Section End
 Media Explosure Section
 * ---------------------------------------------- */
 /* Desktop */
-/* line 166, ../scss/components/_aboutus.scss */
+/* line 164, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -847,7 +846,7 @@ Media Explosure Section
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 177, ../scss/components/_aboutus.scss */
+/* line 175, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -858,7 +857,7 @@ Media Explosure Section
   color: orange;
 }
 
-/* line 187, ../scss/components/_aboutus.scss */
+/* line 185, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -867,19 +866,19 @@ Media Explosure Section
   color: white;
 }
 
-/* line 195, ../scss/components/_aboutus.scss */
+/* line 193, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-ch {
   color: white;
 }
 
-/* line 199, ../scss/components/_aboutus.scss */
+/* line 197, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-en {
   color: white;
 }
 
 /* Desktop End */
 /* Phone */
-/* line 204, ../scss/components/_aboutus.scss */
+/* line 202, ../scss/components/_aboutus.scss */
 .phone .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -891,7 +890,7 @@ Media Explosure Section
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 215, ../scss/components/_aboutus.scss */
+/* line 213, ../scss/components/_aboutus.scss */
 .phone .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -902,7 +901,7 @@ Media Explosure Section
   color: orange;
 }
 
-/* line 225, ../scss/components/_aboutus.scss */
+/* line 223, ../scss/components/_aboutus.scss */
 .phone .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -911,13 +910,13 @@ Media Explosure Section
   color: white;
 }
 
-/* line 233, ../scss/components/_aboutus.scss */
+/* line 231, ../scss/components/_aboutus.scss */
 .phone .aboutus-mediaexplosure-content-ch {
   padding: 10px;
   color: white;
 }
 
-/* line 238, ../scss/components/_aboutus.scss */
+/* line 236, ../scss/components/_aboutus.scss */
 .phone .aboutus-mediaexplosure-content-en {
   padding: 10px;
   color: white;
@@ -931,7 +930,7 @@ Media Explosure Section End
 Brands
 * ---------------------------------------------- */
 /* Desktop */
-/* line 251, ../scss/components/_aboutus.scss */
+/* line 249, ../scss/components/_aboutus.scss */
 .brands-container {
   display: flex;
   padding: 5%;
@@ -943,7 +942,7 @@ Brands
   background-color: black;
 }
 
-/* line 262, ../scss/components/_aboutus.scss */
+/* line 260, ../scss/components/_aboutus.scss */
 .brands-item {
   text-align: center;
   min-width: 75px;
@@ -956,7 +955,7 @@ Brands
   overflow: hidden;
 }
 
-/* line 274, ../scss/components/_aboutus.scss */
+/* line 272, ../scss/components/_aboutus.scss */
 .brands-item-img {
   width: 80%;
   margin: 0 auto;
@@ -964,7 +963,7 @@ Brands
 
 /* Desktop End */
 /* Phone */
-/* line 281, ../scss/components/_aboutus.scss */
+/* line 279, ../scss/components/_aboutus.scss */
 .phone .brands-container {
   display: flex;
   padding: 5%;
@@ -976,7 +975,7 @@ Brands
   background-color: black;
 }
 
-/* line 292, ../scss/components/_aboutus.scss */
+/* line 290, ../scss/components/_aboutus.scss */
 .phone .brands-item {
   text-align: center;
   min-width: 75px;
@@ -989,7 +988,7 @@ Brands
   overflow: hidden;
 }
 
-/* line 304, ../scss/components/_aboutus.scss */
+/* line 302, ../scss/components/_aboutus.scss */
 .phone .brands-item-img {
   width: 80%;
   margin: 0 auto;

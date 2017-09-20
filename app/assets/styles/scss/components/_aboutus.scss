@@ -45,7 +45,6 @@ Introduction Section
     width: 100%;
     padding: 0;
     color: white;
-    text-align: justify;
     height: auto;
 }
 
@@ -55,28 +54,27 @@ Introduction Section
     padding-right: 5%;
     padding-left: 5%;
     margin: 0;
+    text-align: left;
     font-size: 16pt;
     color: orange;
 }
 .phone .aboutus-introduction-content {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding: 4%;
     font-size: 12pt;
-    line-height: 1.5em;
+    line-height: 2em;
+    text-align: left;
+    letter-spacing: 0px;
     margin: 0;
 }
 
 .phone .aboutus-introduction-content-ch {
     margin: 0;
-    padding: 10px;
-
+    padding: 4%;
 }
 
 .phone .aboutus-introduction-content-en {
     margin: 0;
-    padding: 10px;
+    padding: 4%;
 }
 
 /* Phone End */
