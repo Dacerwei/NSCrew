@@ -7,7 +7,6 @@ import CoopHighlight from './CoopHighlight';
 import Brands from './Brands';
 
 class Highlights extends React.Component{
-
 	render() {
 		return(
 			<div className="highlights-container">

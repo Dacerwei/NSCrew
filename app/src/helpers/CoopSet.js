@@ -2,7 +2,7 @@ const coop_set = [
 	{
 		id:"coop-performance",
 		title: "Performance | 表演",
-		contentChinese: "好得舞蹈表演永遠不嫌少！透過搖擺舞、爵士樂，與Naughty Swing專業的演出能力，為你的記者會、舞會等活動增添美麗與歡樂的色彩！",
+		contentChinese: "好的舞蹈表演永遠不嫌少！透過搖擺舞、爵士樂，與Naughty Swing專業的演出能力，為你的記者會、舞會等活動增添美麗與歡樂的色彩！",
 		contentEnglish: "There's never too much of a good performance, especially when it comes to social dance! Want to add some elements which entertain your audience, invigorate your event and give you all a total enjoyment with profession and passion? We ARE just the one you're looking for!",
 		mediaTitle: "performance",
 		mediaSrc: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/coop%2Fcoop_01_performance_mini.jpg?alt=media&token=abf5550f-ffa4-424e-81d2-f9ca7783dfa6'

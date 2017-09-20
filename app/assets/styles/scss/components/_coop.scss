@@ -95,16 +95,25 @@ Co-op Page
 }
 
 .phone .coop-introducion-wrapper {
-  padding-top: 3%;
-  padding-bottom: 3%;
-  text-align: justify;
+  padding: 2%;
+  text-align: left;
   width: 100%;
   margin: 0 auto;
   font-size: 12pt;
   color: white;
-  line-height: 2em;
   font-family: "Microsoft JhengHei";
-  letter-spacing: 1.2pt;
+}
+
+.phone .coop-introducion-ch {
+  padding: 2%;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+
+.phone .coop-introducion-en {
+  padding: 2%;
+  line-height: 2em;
+  letter-spacing: 1px;
 }
 
 .phone .coop-section-container {
@@ -143,8 +152,7 @@ Co-op Page
   margin: 0;
   color: orange;
   font-size: 16pt;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 4%;
 }
 
 .phone .coop-section-content-intro {
@@ -153,18 +161,18 @@ Co-op Page
 
 .phone .coop-section-content-intro-body-ch {
   font-family: "Microsoft JhengHei";
-  padding: 2%;
-  line-height: 1.5em;
+  padding: 4%;
+  line-height: 2em;
   color:  white;
-  letter-spacing: 1.2pt;
+  letter-spacing: 1px;
 }
 
 .phone .coop-section-content-intro-body-en {
   font-family: "Microsoft JhengHei";
-  padding: 2%;
-  line-height: 1.5em;
+  padding: 4%;
+  line-height: 2em;
   color:  white;
-  letter-spacing: 1.2pt;
+  letter-spacing: 1px;
 }
 /* Phone End */
 /*----------------------------------------------
