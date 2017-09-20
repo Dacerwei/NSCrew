@@ -154,9 +154,21 @@ Aboutus Hightlight
 .phone .aboutushighlight-introduction-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
-  text-align: justify;
-  line-height: 1.5em;
+  text-align: left;
+  line-height: 2em;
   padding: 2%;
+}
+
+.phone .aboutushighlight-introduction-content-ch {
+  letter-spacing: 1px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.phone .aboutushighlight-introduction-content-en {
+  letter-spacing: 0px;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .phone .aboutushighlight-more-btn-wrapper {
@@ -281,11 +293,23 @@ Coop Hightlight
 .phone .coophighlight-introduction-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
-  text-align: justify;
-  line-height: 1.5em;
-  padding: 4%;
+  text-align: left;
+  padding: 2%;
 }
-
+.phone .coophighlight-introduction-content-en {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  word-spacing: 0px;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+.phone .coophighlight-introduction-content-ch {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  word-spacing: 0px;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
 .phone .coophighlight-services-wrapper {
   display: flex;
   flex-direction: column;
@@ -327,8 +351,8 @@ Coop Hightlight
 .phone .coophighlight-services-serviceitem-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
-  line-height: 1.5em;
-  letter-spacing: 0.3em;
+  line-height: 2em;
+  letter-spacing: 2px;
 }
 /* End */
 /* ----------------------------------------------
