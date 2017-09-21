@@ -3,43 +3,43 @@ Introduction Section
 * ---------------------------------------------- */
 /* Desktop */
 .aboutus-introduction-wrapper {
-    font-family: "Microsoft JhengHei";
-    width: 100%;
-    padding: 0;
-    color: white;
-    font-size: 16pt;
-    line-height: 2em;
-    text-align: justify;
-    height: 100vh;
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  padding: 0;
+  color: white;
+  font-size: 16pt;
+  line-height: 2em;
+  text-align: justify;
+  height: 100vh;
 }
 
 .aboutus-introduction-title {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin: 0;
-    font-size: 24pt;
-    color: orange;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin: 0;
+  font-size: 24pt;
+  color: orange;
 }
 .aboutus-introduction-content {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    line-height: 2em;
-    letter-spacing: 1px;
-    .aboutus-introduction-content-ch {
-        font-size: 18pt;
-        padding: 2%;
-    }
-    
-    .aboutus-introduction-content-en {
-        font-size: 18pt; 
-        padding: 2%;       
-    }
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  line-height: 2em;
+  letter-spacing: 1px;
+  .aboutus-introduction-content-ch {
+    font-size: 18pt;
+    padding: 2%;
+  }
+  
+  .aboutus-introduction-content-en {
+    font-size: 18pt; 
+    padding: 2%;       
+  }
 }
 
 
@@ -54,16 +54,16 @@ Introduction Section
         height: auto;
     }
 
-    .aboutus-introduction-title {
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-right: 5%;
-        padding-left: 5%;
-        margin: 0;
-        text-align: left;
-        font-size: 16pt;
-        color: orange;
-    }
+  .aboutus-introduction-title {
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-right: 5%;
+      padding-left: 5%;
+      margin: 0;
+      text-align: left;
+      font-size: 16pt;
+      color: orange;
+  }
 
     .aboutus-introduction-content {
         padding: 4%;
@@ -176,47 +176,45 @@ Media Explosure Section
 * ---------------------------------------------- */
 /* Desktop */
 .aboutus-mediaexplosure-wrapper {
-    font-family: "Microsoft JhengHei";
-    width: 100%;
-    color: white;
-    font-size: 16pt;
-    line-height: 2em;
-    text-align: justify;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.2);
+  font-family: "Microsoft JhengHei";
+  width: 100%;
+  color: white;
+  font-size: 16pt;
+  line-height: 2em;
+  text-align: justify;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
 }
 
 .aboutus-mediaexplosure-title {
-    margin: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 24pt;
-    color: orange;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 24pt;
+  color: orange;
 }
 
 .aboutus-mediaexplosure-content {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 2%;
-    padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  .aboutus-mediaexplosure-content-ch {
     color: white;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-    .aboutus-mediaexplosure-content-ch {
-        color: white;
-        padding: 2%;
-        font-size: 18pt;
-
-    }
-    
-    .aboutus-mediaexplosure-content-en {
-        color: white;
-        padding: 2%;
-        font-size: 18pt;
-    }
+    padding: 2%;
+    font-size: 18pt;
+  }
+  
+  .aboutus-mediaexplosure-content-en {
+    color: white;
+    padding: 2%;
+    font-size: 18pt;
+  }
 }
 
 /* Desktop End */
@@ -308,33 +306,35 @@ Brands
 /* Desktop End */
 /* Phone */
 
-.mobile-phone .brands-container {
-    display: flex;
-    padding: 5%;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
-    background-color: rgba(0,0,0,1);
-}
-
-.mobile-phone .brands-item {
-    text-align: center;
-    min-width: 75px;
-    max-height: 100px;
-    min-height: 30px;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    width: 40%;
-    overflow: hidden;
-}
-
-.mobile-phone .brands-item-img {
-    width: 80%;
-    margin: 0 auto;
-}
+.mobile-phone{
+    .brands-container {
+        display: flex;
+        padding: 5%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        background-color: rgba(0,0,0,1);
+    }
+    
+    .brands-item {
+        text-align: center;
+        min-width: 75px;
+        max-height: 100px;
+        min-height: 30px;
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        width: 40%;
+        overflow: hidden;
+    }
+    
+    .brands-item-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+} 
 /* Phone End */
 /* ----------------------------------------------
 Brands End
