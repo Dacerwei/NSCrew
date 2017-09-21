@@ -26,38 +26,43 @@
 /* ----------------------------------------------
 mobile main section
 * ---------------------------------------------- */
-.mobile-phone .indexpage-main-wrapper {
-  height: 80vh;
-  color: white;
-}
-.mobile-phone .main-slogan-wrapper {
-  height: 95vh;
-  width: 100%;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/indexpage%2Findex_highlight.jpg?alt=media&token=3a2c9237-0986-4b24-ad3f-dfba9162d97e');
-}
-.mobile-phone .main-slogan {
-  height: 100%;
-  vertical-align: middle;
-  font-size: 350%;
-  color: white;
-  text-align: left;
-  line-height: 1.2em;
-  letter-spacing: 10px;
-  font-family: serif;
-  font-weight: bold;
-  position: absolute;
-  width: 50%;
-  top: 20%;
-  left: 10%;
+.mobile-phone {
+  .indexpage-main-wrapper {
+    height: 80vh;
+    color: white;
+  }
+
+  .main-slogan-wrapper {
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/indexpage%2Findex_highlight.jpg?alt=media&token=3a2c9237-0986-4b24-ad3f-dfba9162d97e');
+  }
+
+  .main-slogan {
+    height: 100%;
+    vertical-align: middle;
+    font-size: 350%;
+    color: white;
+    text-align: left;
+    line-height: 1.2em;
+    letter-spacing: 10px;
+    font-family: serif;
+    font-weight: bold;
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    left: 10%;
+  }
+
+  .naughty {
+    color: orange;
+  }
 }
 
-.naughty {
-  color: orange;
-}
 .focus-in-contract {
 	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -98,7 +103,6 @@ mobile main section
     opacity: 1;
   }
 }
-
 /* ----------------------------------------------
 mobile main section End
 * ---------------------------------------------- */
@@ -140,49 +144,51 @@ Aboutus Hightlight
 }
 /* End */
 /* Phone */
-.mobile-phone .aboutushighlight-container {
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	background-color: rgba(255, 255, 255, 1.0);
-}
+.mobile-phone {
+  .aboutushighlight-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255, 255, 255, 1.0);
+  }
+  
+  .aboutushighlight-title {
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16pt;
+  }
 
-.mobile-phone .aboutushighlight-title {
-	color: orange;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
-	font-size: 16pt;
-}
+  .aboutushighlight-introduction-content {
+    font-family: "Microsoft JhengHei";
+    font-size: 12pt;
+    text-align: left;
+    line-height: 2em;
+    padding: 2%;
 
-.mobile-phone .aboutushighlight-introduction-content {
-  font-family: "Microsoft JhengHei";
-  font-size: 12pt;
-  text-align: left;
-  line-height: 2em;
-  padding: 2%;
-}
+    .aboutushighlight-introduction-content-ch {
+      letter-spacing: 1px;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+    
+    .aboutushighlight-introduction-content-en {
+      letter-spacing: 0px;
+      padding-bottom: 5%;
+      padding-top: 5%;
+    }
+  }
 
-.mobile-phone .aboutushighlight-introduction-content-ch {
-  letter-spacing: 1px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-
-.mobile-phone .aboutushighlight-introduction-content-en {
-  letter-spacing: 0px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-
-.mobile-phone .aboutushighlight-more-btn-wrapper {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 100%;
-	text-align: center;
+  .aboutushighlight-more-btn-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
 }
 /* End */
 /* ----------------------------------------------
@@ -274,8 +280,8 @@ Coop Hightlight
 .coophighlight-services-serviceitem-content {
   font-family: "Microsoft JhengHei";
   font-size: 14pt;
-  line-height: 1.5em;
-  letter-spacing: 0.3em;
+  line-height: 2em;
+  letter-spacing: 0px;
 }
 
 .coophighlight-more-btn-wrapper {
@@ -287,80 +293,85 @@ Coop Hightlight
 
 /* End */
 /* Phone */
-.mobile-phone .coophighlight-introduction-title {
-	color: orange;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
-	font-size: 16pt;
-}
+.mobile-phone {
+  .coophighlight-introduction-title {
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16pt;
+  }
+  
+  .coophighlight-introduction-content {
+    font-family: "Microsoft JhengHei";
+    font-size: 12pt;
+    text-align: left;
+    padding: 2%;
+  }
 
-.mobile-phone .coophighlight-introduction-content {
-  font-family: "Microsoft JhengHei";
-  font-size: 12pt;
-  text-align: left;
-  padding: 2%;
-}
-.mobile-phone .coophighlight-introduction-content-en {
-  padding-top: 10px;
-  padding-bottom: 10px; 
-  word-spacing: 0px;
-  letter-spacing: 1px;
-  line-height: 2em;
-}
-.mobile-phone .coophighlight-introduction-content-ch {
-  padding-top: 10px;
-  padding-bottom: 10px; 
-  word-spacing: 0px;
-  letter-spacing: 1px;
-  line-height: 2em;
-}
-.mobile-phone .coophighlight-services-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.mobile-phone .coophighlight-services-serviceitem {
-  margin: 0 auto;
-  width: 100%;
-  min-width: 250px;
-}
-
-.mobile-phone .coophighlight-services-serviceitem-icon-container {
-  display: flex;
-  overflow: hidden;
-  margin: 0 auto;
-  background: rgba(113,200,213,0.8);
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
-
-.mobile-phone .coophighlight-services-serviceitem-icon-src {
-  margin: 0 auto;
-  color: orange;
-  text-align: center;
-  width:100%;
-}
-
-.mobile-phone .coophighlight-services-serviceitem-title {
-  color: orange;
-  margin-top: 0;
-  text-align: center;
-  font-size: 14pt;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.mobile-phone .coophighlight-services-serviceitem-content {
-  font-family: "Microsoft JhengHei";
-  font-size: 12pt;
-  line-height: 2.5em;
-  letter-spacing: 0px;
-}
+  .coophighlight-introduction-content-en {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    word-spacing: 0px;
+    letter-spacing: 1px;
+    line-height: 2em;
+  }
+  
+  .coophighlight-introduction-content-ch {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    word-spacing: 0px;
+    letter-spacing: 1px;
+    line-height: 2em;
+  }
+  
+  .coophighlight-services-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .coophighlight-services-serviceitem {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 250px;
+  }
+  
+  .coophighlight-services-serviceitem-icon-container {
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    background: rgba(113,200,213,0.8);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .coophighlight-services-serviceitem-icon-src {
+    margin: 0 auto;
+    color: orange;
+    text-align: center;
+    width:100%;
+  }
+  
+  .coophighlight-services-serviceitem-title {
+    color: orange;
+    margin-top: 0;
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .coophighlight-services-serviceitem-content {
+    font-family: "Microsoft JhengHei";
+    font-size: 12pt;
+    line-height: 2.5em;
+    letter-spacing: 0px;
+  }
+} 
 /* End */
 /* ----------------------------------------------
 Coop Hightlight End
@@ -401,35 +412,37 @@ Portfolio Hightlight
 }
 /* Desktop End */
 /* Phone */
-.mobile-phone .portfoliohighlight-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	background: rgba(0,0,0,1);
-}
+.mobile-phone {
+  .portfoliohighlight-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: rgba(0,0,0,1);
+  }
 
-.mobile-phone .portfoliohighlight-title {
-	color: orange;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
-	font-size: 16pt;
-}
-
-.mobile-phone .portfoliohighlight-more-btn-wrapper {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 100%;
-	text-align: center;
-}
-
-.mobile-phone .portfoliohighlight-more-btn {
-	margin: 0 auto;
-	margin-top: 10px;
+  .portfoliohighlight-title {
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16pt;
+  }
+  
+  .portfoliohighlight-more-btn-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .portfoliohighlight-more-btn {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 }
 /* Phone End */
 /* ----------------------------------------------

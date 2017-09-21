@@ -27,56 +27,64 @@ Introduction Section
     padding-bottom: 2%;
     padding-right: 5%;
     padding-left: 5%;
-    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 2em;
+    letter-spacing: 1px;
+    .aboutus-introduction-content-ch {
+        font-size: 18pt;
+        padding: 2%;
+    }
+    
+    .aboutus-introduction-content-en {
+        font-size: 18pt; 
+        padding: 2%;       
+    }
 }
 
-.aboutus-introduction-content-ch {
-    margin: 0;
-}
-
-.aboutus-introduction-content-en {
-    margin: 0;
-}
 
 /* Desktop End */
 /* Phone */
-.mobile-phone .aboutus-introduction-wrapper {
-    font-family: "Microsoft JhengHei";
-    width: 100%;
-    padding: 0;
-    color: white;
-    height: auto;
-}
+.mobile-phone {
+    .aboutus-introduction-wrapper {
+        font-family: "Microsoft JhengHei";
+        width: 100%;
+        padding: 0;
+        color: white;
+        height: auto;
+    }
 
-.mobile-phone .aboutus-introduction-title {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin: 0;
-    text-align: left;
-    font-size: 16pt;
-    color: orange;
-}
-.mobile-phone .aboutus-introduction-content {
-    padding: 4%;
-    font-size: 12pt;
-    line-height: 2em;
-    text-align: left;
-    letter-spacing: 0px;
-    margin: 0;
-}
+    .aboutus-introduction-title {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin: 0;
+        text-align: left;
+        font-size: 16pt;
+        color: orange;
+    }
 
-.mobile-phone .aboutus-introduction-content-ch {
-    margin: 0;
-    padding: 4%;
-}
+    .aboutus-introduction-content {
+        padding: 4%;
+        line-height: 2em;
+        text-align: left;
+        letter-spacing: 1px;
+        margin: 0;
 
-.mobile-phone .aboutus-introduction-content-en {
-    margin: 0;
-    padding: 4%;
-}
+        .aboutus-introduction-content-ch {
+            font-size: 14pt;
+            margin: 0;
+            padding: 4%;
+        }
 
+        .aboutus-introduction-content-en {
+            font-size: 14pt;
+            margin: 0;
+            padding: 4%;
+        }
+    }
+}
 /* Phone End */
 /* ----------------------------------------------
 Introduction Section End
@@ -120,39 +128,45 @@ Experience Section
 }
 /* Desktop End */
 /* Phone */
-.mobile-phone .aboutus-experience-wrapper {
-    font-family: "Microsoft JhengHei";
-    width: 100%;
-    padding: 5%;
-    color: white;
-    font-size: 12pt;
-    line-height: 1.5em;
-    text-align: justify;
-}
-.mobile-phone .aboutus-experience-wrapper {
-    background-color: black;
-    color: white;
-}
-.mobile-phone .aboutus-experience-title {
-    font-size: 16pt;
-    color: orange;
-    margin-bottom: 20px;
-}
-.mobile-phone .experience-container {
-  width: 100%;
-}
+.mobile-phone{
+    .aboutus-experience-wrapper {
+        font-family: "Microsoft JhengHei";
+        width: 100%;
+        padding: 5%;
+        color: white;
+        font-size: 12pt;
+        line-height: 1.5em;
+        text-align: justify;
+    }
 
-.mobile-phone .experience-selectbar {
-  width: 50%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-}
+    .aboutus-experience-wrapper {
+        background-color: black;
+        color: white;
+    }
 
-.mobile-phone .experience-selectbar-yearitem {
-  width: 100px;
-  text-align: center;
-}
+    .aboutus-experience-title {
+        font-size: 16pt;
+        color: orange;
+        margin-bottom: 20px;
+    }
+
+    .experience-container {
+      width: 100%;
+    }
+
+    .experience-selectbar {
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .experience-selectbar-yearitem {
+      width: 100px;
+      text-align: center;
+    }
+} 
+
 /* Phone End */
 /* ----------------------------------------------
 Experience Section End
@@ -188,55 +202,73 @@ Media Explosure Section
     padding-bottom: 2%;
     padding-top: 2%;
     color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    .aboutus-mediaexplosure-content-ch {
+        color: white;
+        padding: 2%;
+        font-size: 18pt;
+
+    }
+    
+    .aboutus-mediaexplosure-content-en {
+        color: white;
+        padding: 2%;
+        font-size: 18pt;
+    }
 }
 
-.aboutus-mediaexplosure-ch {
-    color: white;
-}
-
-.aboutus-mediaexplosure-en {
-    color: white;
-}
 /* Desktop End */
 /* Phone */
-.mobile-phone .aboutus-mediaexplosure-wrapper {
-    font-family: "Microsoft JhengHei";
-    width: 100%;
-    color: white;
-    font-size: 12pt;
-    line-height: 1.5em;
-    text-align: justify;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.2);
-}
+.mobile-phone {
+    .aboutus-mediaexplosure-wrapper {
+        font-family: "Microsoft JhengHei";
+        width: 100%;
+        color: white;
+        line-height: 1.5em;
+        text-align: left;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.2);
+    }
 
-.mobile-phone .aboutus-mediaexplosure-title {
-    margin: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 16pt;
-    color: orange;
-}
+    .aboutus-mediaexplosure-title {
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 16pt;
+        color: orange;
+    }
 
-.mobile-phone .aboutus-mediaexplosure-content {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    color: white;
-}
+    .aboutus-mediaexplosure-content {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        color: white;
 
-.mobile-phone .aboutus-mediaexplosure-content-ch {
-    padding: 10px;
-    color: white;
-}
+        .aboutus-mediaexplosure-content-ch {
+            font-size: 14pt;
+            padding: 10px;
+            color: white;
+            line-height: 2em;
+            letter-spacing: 1px;
+        }
 
-.mobile-phone .aboutus-mediaexplosure-content-en {
-    padding: 10px;
-    color: white;
-}
+        .aboutus-mediaexplosure-content-en {
+            font-size: 14pt;
+            padding: 10px;
+            color: white;
+            line-height: 2em;
+            letter-spacing: 1px;
+        }
+    }
+} 
+
+
+
 /* Phone End */
 /* ----------------------------------------------
 Media Explosure Section End
