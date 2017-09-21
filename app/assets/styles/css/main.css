@@ -697,7 +697,7 @@ Introduction Section
 /* Desktop End */
 /* Phone */
 /* line 43, ../scss/components/_aboutus.scss */
-.phone .aboutus-introduction-wrapper {
+.mobile-phone .aboutus-introduction-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
   padding: 0;
@@ -706,7 +706,7 @@ Introduction Section
 }
 
 /* line 51, ../scss/components/_aboutus.scss */
-.phone .aboutus-introduction-title {
+.mobile-phone .aboutus-introduction-title {
   padding-top: 2%;
   padding-bottom: 2%;
   padding-right: 5%;
@@ -718,7 +718,7 @@ Introduction Section
 }
 
 /* line 61, ../scss/components/_aboutus.scss */
-.phone .aboutus-introduction-content {
+.mobile-phone .aboutus-introduction-content {
   padding: 4%;
   font-size: 12pt;
   line-height: 2em;
@@ -728,13 +728,13 @@ Introduction Section
 }
 
 /* line 70, ../scss/components/_aboutus.scss */
-.phone .aboutus-introduction-content-ch {
+.mobile-phone .aboutus-introduction-content-ch {
   margin: 0;
   padding: 4%;
 }
 
 /* line 75, ../scss/components/_aboutus.scss */
-.phone .aboutus-introduction-content-en {
+.mobile-phone .aboutus-introduction-content-en {
   margin: 0;
   padding: 4%;
 }
@@ -793,7 +793,7 @@ Experience Section
 /* Desktop End */
 /* Phone */
 /* line 123, ../scss/components/_aboutus.scss */
-.phone .aboutus-experience-wrapper {
+.mobile-phone .aboutus-experience-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
   padding: 5%;
@@ -804,25 +804,25 @@ Experience Section
 }
 
 /* line 132, ../scss/components/_aboutus.scss */
-.phone .aboutus-experience-wrapper {
+.mobile-phone .aboutus-experience-wrapper {
   background-color: black;
   color: white;
 }
 
 /* line 136, ../scss/components/_aboutus.scss */
-.phone .aboutus-experience-title {
+.mobile-phone .aboutus-experience-title {
   font-size: 16pt;
   color: orange;
   margin-bottom: 20px;
 }
 
 /* line 141, ../scss/components/_aboutus.scss */
-.phone .experience-container {
+.mobile-phone .experience-container {
   width: 100%;
 }
 
 /* line 145, ../scss/components/_aboutus.scss */
-.phone .experience-selectbar {
+.mobile-phone .experience-selectbar {
   width: 50%;
   margin: 0 auto;
   display: flex;
@@ -830,7 +830,7 @@ Experience Section
 }
 
 /* line 152, ../scss/components/_aboutus.scss */
-.phone .experience-selectbar-yearitem {
+.mobile-phone .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
 }
@@ -888,7 +888,7 @@ Media Explosure Section
 /* Desktop End */
 /* Phone */
 /* line 202, ../scss/components/_aboutus.scss */
-.phone .aboutus-mediaexplosure-wrapper {
+.mobile-phone .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
   color: white;
@@ -900,7 +900,7 @@ Media Explosure Section
 }
 
 /* line 213, ../scss/components/_aboutus.scss */
-.phone .aboutus-mediaexplosure-title {
+.mobile-phone .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
   padding-right: 5%;
@@ -911,7 +911,7 @@ Media Explosure Section
 }
 
 /* line 223, ../scss/components/_aboutus.scss */
-.phone .aboutus-mediaexplosure-content {
+.mobile-phone .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
@@ -920,13 +920,13 @@ Media Explosure Section
 }
 
 /* line 231, ../scss/components/_aboutus.scss */
-.phone .aboutus-mediaexplosure-content-ch {
+.mobile-phone .aboutus-mediaexplosure-content-ch {
   padding: 10px;
   color: white;
 }
 
 /* line 236, ../scss/components/_aboutus.scss */
-.phone .aboutus-mediaexplosure-content-en {
+.mobile-phone .aboutus-mediaexplosure-content-en {
   padding: 10px;
   color: white;
 }
@@ -973,7 +973,7 @@ Brands
 /* Desktop End */
 /* Phone */
 /* line 279, ../scss/components/_aboutus.scss */
-.phone .brands-container {
+.mobile-phone .brands-container {
   display: flex;
   padding: 5%;
   flex-wrap: wrap;
@@ -985,7 +985,7 @@ Brands
 }
 
 /* line 290, ../scss/components/_aboutus.scss */
-.phone .brands-item {
+.mobile-phone .brands-item {
   text-align: center;
   min-width: 75px;
   max-height: 100px;
@@ -998,7 +998,7 @@ Brands
 }
 
 /* line 302, ../scss/components/_aboutus.scss */
-.phone .brands-item-img {
+.mobile-phone .brands-item-img {
   width: 80%;
   margin: 0 auto;
 }

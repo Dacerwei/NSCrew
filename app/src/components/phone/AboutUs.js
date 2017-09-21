@@ -6,7 +6,7 @@ import { Parallax } from 'react-parallax';
 class AboutUs extends React.Component {
   render() {
     return (
-      <div className="phone aboutus-container">
+      <div className="aboutus-container">
       <Parallax
         strength={300}
         bgImage="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/aboutus%2Faboutus_01_2480_drakcorner_mini.jpg?alt=media&token=9be74eeb-d1da-4459-b36d-2df1a7129d74"
