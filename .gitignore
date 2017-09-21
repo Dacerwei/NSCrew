@@ -2,3 +2,4 @@ app/assets/storage_images
 /dist
 /node_modules
 app/assets/videos
+app/assets/styles/css
