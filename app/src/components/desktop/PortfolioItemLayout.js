@@ -184,7 +184,7 @@ class PortfolioItemLayout extends React.Component{
 						actions={actions}
 						onRequestClose={this.handleDetailClose}
 					>
-						<PortfolioDetail key={detailData.ID} detailInfo={detailData.info} youtubeVideoID={detailData.youtubeVideoID} />
+						<PortfolioDetail key={detailData.ID} detailInfo={detailData.ChineseInfo} youtubeVideoID={detailData.youtubeVideoID} />
 					</Dialog>
 				}
 				{ layoutArray }
