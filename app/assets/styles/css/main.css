@@ -849,13 +849,13 @@ Media Explosure Section
   margin-top: 5%;
   margin-bottom: 5%;
 }
-/* line 208, ../scss/components/_aboutus.scss */
+/* line 207, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-ch {
   color: white;
   padding: 2%;
   font-size: 18pt;
 }
-/* line 215, ../scss/components/_aboutus.scss */
+/* line 213, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-en {
   color: white;
   padding: 2%;
@@ -864,7 +864,7 @@ Media Explosure Section
 
 /* Desktop End */
 /* Phone */
-/* line 225, ../scss/components/_aboutus.scss */
+/* line 223, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -874,7 +874,7 @@ Media Explosure Section
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 235, ../scss/components/_aboutus.scss */
+/* line 233, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -884,7 +884,7 @@ Media Explosure Section
   font-size: 16pt;
   color: orange;
 }
-/* line 245, ../scss/components/_aboutus.scss */
+/* line 243, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -892,7 +892,7 @@ Media Explosure Section
   padding-top: 2%;
   color: white;
 }
-/* line 252, ../scss/components/_aboutus.scss */
+/* line 250, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-ch {
   font-size: 14pt;
   padding: 10px;
@@ -900,7 +900,7 @@ Media Explosure Section
   line-height: 2em;
   letter-spacing: 1px;
 }
-/* line 260, ../scss/components/_aboutus.scss */
+/* line 258, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-en {
   font-size: 14pt;
   padding: 10px;
@@ -917,7 +917,7 @@ Media Explosure Section End
 Brands
 * ---------------------------------------------- */
 /* Desktop */
-/* line 281, ../scss/components/_aboutus.scss */
+/* line 279, ../scss/components/_aboutus.scss */
 .brands-container {
   display: flex;
   padding: 5%;
@@ -929,7 +929,7 @@ Brands
   background-color: black;
 }
 
-/* line 292, ../scss/components/_aboutus.scss */
+/* line 290, ../scss/components/_aboutus.scss */
 .brands-item {
   text-align: center;
   min-width: 75px;
@@ -942,7 +942,7 @@ Brands
   overflow: hidden;
 }
 
-/* line 304, ../scss/components/_aboutus.scss */
+/* line 302, ../scss/components/_aboutus.scss */
 .brands-item-img {
   width: 80%;
   margin: 0 auto;
@@ -950,7 +950,7 @@ Brands
 
 /* Desktop End */
 /* Phone */
-/* line 311, ../scss/components/_aboutus.scss */
+/* line 310, ../scss/components/_aboutus.scss */
 .mobile-phone .brands-container {
   display: flex;
   padding: 5%;
@@ -961,8 +961,7 @@ Brands
   justify-content: space-around;
   background-color: black;
 }
-
-/* line 322, ../scss/components/_aboutus.scss */
+/* line 321, ../scss/components/_aboutus.scss */
 .mobile-phone .brands-item {
   text-align: center;
   min-width: 75px;
@@ -974,8 +973,7 @@ Brands
   width: 40%;
   overflow: hidden;
 }
-
-/* line 334, ../scss/components/_aboutus.scss */
+/* line 333, ../scss/components/_aboutus.scss */
 .mobile-phone .brands-item-img {
   width: 80%;
   margin: 0 auto;
