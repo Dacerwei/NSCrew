@@ -1,6 +1,6 @@
-const express = require('express');
-const path = require('path');
-const PORT = process.env.PORT || 3050;
+import express from 'express';
+import path from 'path';
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 if (process.env.NODE_ENV !== 'production') {
@@ -8,7 +8,7 @@ if (process.env.NODE_ENV !== 'production') {
 	const webpackDevMiddleware = require('webpack-dev-middleware');
 	const webpackHotMiddleware = require('webpack-hot-middleware');
 	const webpack = require('webpack');
-	const webpackConfig = require('./webpack.config.js');
+	const webpackConfig = require('../webpack.config.js');
 	const compiler = webpack(webpackConfig);
 
 	app.use(webpackDevMiddleware(compiler, {

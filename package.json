@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=develop node server.js",
+    "dev": "NODE_ENV=develop node server",
     "build": "NODE_ENV=production webpack -p",
-    "production": "NODE_ENV=production node server.js",
+    "production": "NODE_ENV=production node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chinweihsu",
