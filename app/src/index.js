@@ -4,9 +4,6 @@ import AppRoutes from './router';
 import PropTypes from 'prop-types';
 import '../assets/styles/css/main.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-
-injectTapEventPlugin();
 
 const App = () => (
 	<MuiThemeProvider>
