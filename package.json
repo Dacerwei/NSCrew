@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=develop node server",
     "build": "NODE_ENV=production webpack -p",
-    "production": "NODE_ENV=production node server",
+    "prod": "NODE_ENV=production node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chinweihsu",
@@ -33,13 +33,14 @@
     "react-youtube": "^7.4.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
     "css-loader": "^0.28.5",
     "eslint": "^4.5.0",
     "eslint-config-airbnb": "^15.1.0",

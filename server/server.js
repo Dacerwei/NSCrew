@@ -14,7 +14,6 @@ if (process.env.NODE_ENV !== 'production') {
 	app.use(webpackDevMiddleware(compiler, {
 		noInfo: true
 	}));
-
 	app.use(webpackHotMiddleware(compiler));
 } else {
 	console.log('server mode: production');
