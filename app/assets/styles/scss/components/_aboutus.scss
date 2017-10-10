@@ -126,6 +126,26 @@ Experience Section
   width: 100px;
   text-align: center;
 }
+
+.experience-timeline {
+    padding: 5%;
+}
+
+.experience-timeline-item-info {
+    text-align: center;
+    line-height: 2em;
+}
+
+.experience-timeline-item-content-date {
+    color: darkgray;
+    font-size: 14pt;
+}
+
+.experience-timeline-item-content-title {
+    font-size: 16pt;
+}
+
+
 /* Desktop End */
 /* Phone */
 .mobile-phone {
@@ -164,6 +184,24 @@ Experience Section
     .experience-selectbar-yearitem {
       width: 100px;
       text-align: center;
+    }
+
+    .experience-timeline {
+        padding: 5%;
+    }
+    
+    .experience-timeline-item-info {
+        text-align: center;
+        line-height: 2em;
+    }
+    
+    .experience-timeline-item-content-date{
+        color: darkgray;
+        font-size: 10pt;
+    }
+    
+    .experience-timeline-item-content-title {
+        font-size: 12pt;
     }
 } 
 

@@ -40,7 +40,8 @@ class Experience extends React.Component {
       acc.push(
         <li className="experience-timeline-item" key={i}>
           <div className="experience-timeline-item-info">
-            <span><h3 className="experience-timeline-item-content-title">{event.date} - {event.title}</h3></span>
+              <h3 className="experience-timeline-item-content-date">{event.date}</h3>
+              <h3 className="experience-timeline-item-content-title">{event.title}</h3>
           </div>
         </li>
       );
@@ -57,7 +58,7 @@ class Experience extends React.Component {
           <div className="experience-selectbar-yearitem" onClick={this.onChageYear.bind(this, 2016)}><h3>2016</h3></div>
           <div className="experience-selectbar-yearitem" onClick={this.onChageYear.bind(this, 2015)}><h3>2015</h3></div>
         </div>
-        <ul className="experience-timeline timeline-split">
+        <ul className="experience-timeline">
         { events }
         </ul>
       </section>
