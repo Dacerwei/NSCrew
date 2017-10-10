@@ -1,17 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import Youtube from 'react-youtube';
+import FlatButton from 'material-ui/FlatButton';
 
 class PortfolioDetail extends React.Component {
 	render() {
 		const { 
 			detailInfo,
 			youtubeVideoID,
+			onClick,
 		} = this.props;
 
 		return(
 			<div className="portfoliodetail-container">
-				<p className="portfoliodetail-info">{ detailInfo }</p>
 				{
 					youtubeVideoID &&
 					<Youtube
@@ -19,11 +20,21 @@ class PortfolioDetail extends React.Component {
 						id={youtubeVideoID}
 						className="portfoliodetail-youtubevideo"
 						opts={{
-							width: '560px',
-							height: '315px',
+							width: '100%',
+							height: 'auto',
 						}}
 					/>
 				}
+				<p className="portfoliodetail-info">{detailInfo}</p>
+				<FlatButton 
+					onClick={onClick} 
+					labelStyle={{
+						color: 'orange',
+					}} 
+					backgroundColor={'#1A1B1B'}
+					label="Back" 
+					fullWidth={true}
+				/>
 			</div>
 		);
 	}
