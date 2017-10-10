@@ -1719,7 +1719,7 @@ hover end
 .mobile-phone .portfoliodetail-container {
   text-align: center;
   background-color: black;
-  height: 100%;
+  min-height: 100vh;
   margin: 0px;
   padding-top: 10%;
   padding-bottom: 10%;
@@ -1739,10 +1739,8 @@ hover end
   font-size: 12pt;
   text-align: left;
   line-height: 1.5em;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 5%;
+  padding: 5%;
 }
 
 /* Phone End*/
