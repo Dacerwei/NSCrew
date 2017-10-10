@@ -1726,15 +1726,23 @@ hover end
   padding-left: 5%;
   padding-right: 5%;
 }
-/* line 137, ../scss/components/_portfolio.scss */
+/* line 136, ../scss/components/_portfolio.scss */
+.mobile-phone .portfoliodetail-title {
+  font-size: 18pt;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: orange;
+}
+/* line 143, ../scss/components/_portfolio.scss */
 .mobile-phone .portfoliodetail-info {
   color: white;
   font-size: 12pt;
   text-align: left;
   line-height: 1.5em;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Phone End*/

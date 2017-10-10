@@ -142,8 +142,10 @@ class PortfolioItemLayout extends React.Component{
 					width={'100%'}
 				>
 					<PortfolioDetail
-						key={detailData.ID} 
-						detailInfo={detailData.chineseDescription} 
+						key={detailData.ID}
+						detailTitle={detailData.title}
+						detailInfoCh={detailData.chineseDescription} 
+						detailInfoEn={detailData.englishDescription}
 						youtubeVideoID={detailData.youtubeVideoID}
 						onClick = { this.handleDetailClose }
 					/>
