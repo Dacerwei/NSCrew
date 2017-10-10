@@ -79,7 +79,64 @@ hover end
 
 /* Desktop End*/
 /* Phone */
+.mobile-phone {
+  .portfolioitemlayout-container .portfolioitem-container {
+    display: inline-block;
+    list-style: none;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    position: relative;
+  }
+  
+  .portfolioitem-figure {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .portfolioitem-img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    transition: transform 0.4s;
+    filter: none;
+    -webkit-filter: none;
+  }
+  
+  .portfolioitem-figcaption {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    opacity: 1;
+    transition: opacity 0.1s;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  
+  .portfolioitem-title {
+    text-align: center;
+    margin: 0;
+    font-size: 18pt;
+    padding: 0;
+    color: #fff;
+  }
 
+  .portfoliodetail-container {
+    text-align: center;
+    background-color: rgba(0,0,0,1.0);
+    margin: 0px;
+  }
+  
+  
+  .portfoliodetail-info {
+    color: white;
+    font-size: 14pt;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+  }
+}
 /* Phone End*/
 /*----------------------------------------------
 Portfolio End

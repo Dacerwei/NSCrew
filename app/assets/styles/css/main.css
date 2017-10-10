@@ -1673,6 +1673,63 @@ hover end
 
 /* Desktop End*/
 /* Phone */
+/* line 83, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitemlayout-container .portfolioitem-container {
+  display: inline-block;
+  list-style: none;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  position: relative;
+}
+/* line 91, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+/* line 97, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  transition: transform 0.4s;
+  filter: none;
+  -webkit-filter: none;
+}
+/* line 106, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-figcaption {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  opacity: 1;
+  transition: opacity 0.1s;
+  padding: 10px;
+  background-color: transparent;
+  text-shadow: 0 0 10px black;
+}
+/* line 117, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-title {
+  text-align: center;
+  margin: 0;
+  font-size: 18pt;
+  padding: 0;
+  color: #fff;
+}
+/* line 125, ../scss/components/_portfolio.scss */
+.mobile-phone .portfoliodetail-container {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+}
+/* line 132, ../scss/components/_portfolio.scss */
+.mobile-phone .portfoliodetail-info {
+  color: white;
+  font-size: 14pt;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
 /* Phone End*/
 /*----------------------------------------------
 Portfolio End
