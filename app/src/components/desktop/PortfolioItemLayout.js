@@ -3,7 +3,6 @@ import PortfolioDetail from './PortfolioDetail';
 import PortfolioItem from './PortfolioItem';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
-import RaisedButton from 'material-ui/RaisedButton';
 import CloseIcon from 'material-ui/svg-icons/navigation/close';
 import _ from 'lodash';
 

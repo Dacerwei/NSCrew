@@ -1,72 +1,51 @@
 const portfolio_set = [
 	{
 		ID: 0,
-		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_00_lalaland_mini.jpg?alt=media&token=165e0a60-8fd4-4aeb-ad04-60a7c0307db6',
-		width: 1182,
-		height: 691,
-		title: 'I Charleston Taipei 2016.07',
+		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_00_icharlestontaipei.gif?alt=media&token=b7e2138b-369a-4b9b-b094-878d348f3eb8',
+		width: 400,
+		height: 225,
+		title: '讓世界看見臺北的美 I Charleston Taipei ',
 		chineseDescription: "走訪台北30個景點、超過一百位舞者、國內外數十家媒體報導、超過九十萬次的點閱，我們用Swing Dance搖擺舞，讓全世界看見台北的美",
 		englishDescription: "30+ attractions in Taipei, 100+ swing dancers, 10+ media exposure, and 90m+ viewing, we show the beauty of Taipei to the world through Swing Dance.",
-		aspectRatio: 1.710,
-		youtubeVideoID: null
+		aspectRatio: 1.778,
+		youtubeVideoID: 'MOD0pcKfVWY'
 	},
 	{
 		ID: 1,
-		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_01_wtp_mini.jpg?alt=media&token=c2de8be3-9b94-4326-96c6-68a17d4d1a0d',
-		width: 1382,
-		height: 851,
-		title: 'What the Pa!!',
-		chineseDescription: "這是一個搖擺爵士趴，卻又不僅只是一個趴 - 爵士樂團、Naughty Swing表演、Solo Jazz比賽，帶給你超越以往的好趴，讓你情不自禁大喊：「What The Pa！」",
-		englishDescription: "More than just a Swing Dance party - What The Pa! We aim to give you a wonderful party with the combination of live band, Naughty Swing Show, and Solo Jazz competition",
-		aspectRatio: 1.623,
-		youtubeVideoID: 'IcJ--xNeyVo'
+		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_01_solojazzcompetion_mini.jpg?alt=media&token=0f7d80ec-0644-496d-8ab1-6ded10b36742',
+		width: 1024,
+		height: 684,
+		title: 'Solo Jazz Competition',
+		chineseDescription: "全台灣第一個Solo Jazz比賽，就在Naughty Swing What the PA!",
+		englishDescription: "The first solo jazz competition only in Naughty Swing’s What the PA!",
+		aspectRatio: 1.497,
+		youtubeVideoID: '6VhozvSgXGY'
 	},
 	{
 		ID: 2,
-		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_02_lalalandperformance.gif?alt=media&token=f1dac4a6-8e04-4b7d-a23e-fee06ce4ad85',
-		width: 400,
-		height: 225,
-		title: 'La La Land 2017',
-		chineseDescription: '以電影La La Land為靈感，並獲得Catch Play與金馬影展的邀請，我們將歌舞劇深具感染力的歡樂，用搖擺舞的方式呈現給台灣觀眾！',
-		englishDescription: 'Inspired by the movie La La Land, we were proudly Invited by Catch Play and Taiwan Golden Horse Movie Festival to spread the contagious fun of musicals to the audience in Taiwan!',
-		aspectRatio: 1.777,
+		src: "https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_02_leejeans_mini.jpg?alt=media&token=820eeebc-4caf-456a-862c-226dec718501",
+		width: 1024,
+		height: 683,
+		title: "Lee Jeans Commercial",
+		chineseDescription: "迎接夏天的來臨，把水球準備好、野餐墊拿出來，該是一起來Refresh The City的時候了！",
+		englishDescription: "Get ready with your water balloon and picnic blanket to embrace summer. It's time to Refresh The City!",
+		aspectRatio: 1.5,
 		youtubeVideoID: 'qpfpLyG-4o4'
 	},
 	{
 		ID: 3,
-		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_03_goldenhourse_mini.jpg?alt=media&token=822d9d8e-8f8c-44f8-8804-7aaf275f050f',
-		width: 1408,
-		height: 939,
-		title: '金馬奇幻影展',
-		englishDescription: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.499,
-		youtubeVideoID: null
+		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_03_nathan_naughtyswing_mini.jpg?alt=media&token=8316dbb4-00fe-4aec-84ff-62c829374d2f',
+		width: 1280,
+		height: 503,
+		title: 'Naughty Swing Show with Nathan Bugh',
+		chineseDescription: "不斷挑戰自我！這次我們與國際大師Nathan Bugh在What The Pa帶來精彩Solo Jazz演出。",
+		englishDescription: "Watch out! Here's the Solo Jazz performance of international dancer Nathan Bugh and Naughty Swing at What The Pa.",
+		aspectRatio: 2.544,
+		youtubeVideoID: 'ztRsNvb8sxU'
 	},
 	{
 		ID: 4,
-		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_04_solocherletonparty_mini.jpg?alt=media&token=aba2c2bd-d0d1-48a5-afbe-0a8989b44272',
-		width: 1272,
-		height: 715,
-		title: 'Solo Jazz Competition 2017 ~ Now',
-		chineseDescription: "全台灣第一個Solo Jazz比賽，就在Naughty Swing What the PA!",
-		englishDescription: "The first solo jazz competition only in Naughty Swing’s What the PA!",
-		aspectRatio: 1.779,
-		youtubeVideoID: null
-	},
-	{
-		ID: 5,
-		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_05_leejeans_mini.jpg?alt=media&token=a6ceb01d-9539-4923-877e-0081ccbae80a',
-		width: 1024,
-		height: 683,
-		title:  "Lee Jeans Commercial Shooting 2016.05",
-		chineseDescription: "迎接夏天的來臨，把水球準備好、野餐墊拿出來，該是一起來Refresh The City的時候了！",
-		englishDescription: "Get ready with your water balloon and picnic blanket to embrace summer. It's time to Refresh The City!",
-		aspectRatio: 1.5,
-		youtubeVideoID: "oQ4Av_007vI"
-	},
-	{
-		ID: 6,
-		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_06_ximanonecut.gif?alt=media&token=8d53d995-302c-485e-b603-8fe218ad3609',
+		src: "https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_04_ximanonecut.gif?alt=media&token=42fc9f58-5b17-4f7d-b658-31944a06ab38",
 		width: 400,
 		height: 225,
 		title: 'On the West Side of Taipei 2017.01',
@@ -76,25 +55,58 @@ const portfolio_set = [
 		youtubeVideoID: '1_gajuOitMU'
 	},
 	{
+		ID: 5,
+		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_05_lalalandperformance.gif?alt=media&token=50c3fe5a-617b-4fb2-873d-d5981adfa71f',
+		width: 400,
+		height: 225,
+		title: 'La La Land',
+		chineseDescription: "以電影La La Land為靈感，並獲得Catch Play與金馬影展的邀請，我們將歌舞劇深具感染力的歡樂，用搖擺舞的方式呈現給台灣觀眾！",
+		englishDescription: "Inspired by the movie La La Land, we were proudly Invited by Catch Play and Taiwan Golden Horse Movie Festival to spread the contagious fun of musicals to the audience in Taiwan!",
+		aspectRatio: 1.778,
+		youtubeVideoID: 'qpfpLyG-4o4'
+	},
+	{
+		ID: 6,
+		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_06_thinkitoutloud.jpg?alt=media&token=d840e5fc-8799-422b-8554-81e479bb6c0e',
+		width: 928,
+		height: 523,
+		title:  "Blues Fusion - Thinking Out Loud ",
+		chineseDescription: "",
+		englishDescription: "",
+		aspectRatio: 1.774,
+		youtubeVideoID: "i8J_j5eGlbo"
+	},
+	{
 		ID: 7,
-		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_07_fisrtdanceinwedding_mini.jpg?alt=media&token=1414acfe-6aff-461f-9a58-8258d1faffb2',
+		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_07_fisrtdanceinwedding_mini.jpg?alt=media&token=194a9eae-65b4-4b94-a663-574a66f985a8',
 		width: 1272,
 		height: 715,
 		title: 'First Dance of Wedding',
-		englishDescription: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
+		chineseDescription: "",
+		englishDescription: "",
 		aspectRatio: 1.778,
 		youtubeVideoID: null
 	},
 	{
 		ID: 8,
-		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_08_tasterclass_mini.jpg?alt=media&token=764cd2d3-d864-425b-a604-77236421a761',
-		width: 1272,
-		height: 715,
-		title: 'Taster classes',
+		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_08_goldenhourse_mini.jpg?alt=media&token=9012b84f-2d6a-49ff-bc01-9d1ec29071f1',
+		width: 1408,
+		height: 939,
+		title: '金馬奇幻影展',
 		englishDescription: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
-		aspectRatio: 1.778,
+		aspectRatio: 1.499,
 		youtubeVideoID: null
 	},
+	{
+		ID: 9,
+		src:'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_09_wtp_mini.jpg?alt=media&token=a94c7fba-5955-4bb2-a900-04b16ee1a491',
+		width: 1382,
+		height: 851,
+		title: '金馬奇幻影展',
+		englishDescription: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
+		aspectRatio: 1.623,
+		youtubeVideoID: null
+	}
 ];
 
 export default portfolio_set;
