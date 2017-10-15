@@ -1,7 +1,4 @@
 import React from 'react';
-import VideoProductionIcon from '../../../assets/images/icon_video_production.svg';
-import PerformanceIcon from '../../../assets/images/icon_performance.svg';
-import LessonIcon from '../../../assets/images/icon_classes.svg';
 import CoopSet from '../../helpers/CoopSet';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Link } from 'react-router-dom';
@@ -20,7 +17,7 @@ class CoopHighlight extends React.Component {
                 <div className="coophighlight-services-wrapper">
                     <div className="phone-coophighlight-services-serviceitem">
                         <div className="coophighlight-services-serviceitem-icon-container">
-                            <img id="coophighlight-videoproduction-icon" className="coophighlight-services-serviceitem-icon-src" src={VideoProductionIcon} />
+                            <img id="coophighlight-videoproduction-icon" className="coophighlight-services-serviceitem-icon-src" src="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/indexpage%2Ficon_video_production.svg?alt=media&token=045a04ab-5946-4499-8172-d0e7e5e8c36f" />
                         </div>
                         <div className="coophighlight-services-serviceitem-title">
                             <h1>Video Production</h1>
@@ -31,7 +28,7 @@ class CoopHighlight extends React.Component {
                     </div>
                     <div className="coophighlight-services-serviceitem">
                         <div className="coophighlight-services-serviceitem-icon-container">
-                            <img id="coophighlight-performance-icon" className="coophighlight-services-serviceitem-icon-src" src={PerformanceIcon} />
+                            <img id="coophighlight-performance-icon" className="coophighlight-services-serviceitem-icon-src" src="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/indexpage%2Ficon_performance.svg?alt=media&token=d4341de2-6faa-4d1d-815d-6ca392adbf4a" />
                         </div>
                         <div className="coophighlight-services-serviceitem-title">
                             <h1>Performance</h1>
@@ -42,7 +39,7 @@ class CoopHighlight extends React.Component {
                     </div>
                     <div className="coophighlight-services-serviceitem">
                         <div className="coophighlight-services-serviceitem-icon-container">
-                            <img id="coophighlight-lesson-icon" className="coophighlight-services-serviceitem-icon-src" src={LessonIcon} />
+                            <img id="coophighlight-lesson-icon" className="coophighlight-services-serviceitem-icon-src" src="https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/indexpage%2Ficon_classes.svg?alt=media&token=739208a7-ab6e-44b0-a3c7-84d2c778e3e3" />
                         </div>
                         <div className="coophighlight-services-serviceitem-title">
                             <h1>Swing Dance Lessons</h1>
