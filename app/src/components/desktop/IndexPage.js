@@ -17,7 +17,6 @@ class IndexPage extends React.Component {
     }
 
     render() {
-        const {isVideoReady} = this.state;
         return (
             <div className='indexpage-container'>
                 <div className='mainvideo-container'>

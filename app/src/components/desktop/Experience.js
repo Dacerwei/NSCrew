@@ -40,8 +40,11 @@ class Experience extends React.Component {
       acc.push(
         <li className="experience-timeline-item" key={i}>
           <div className="experience-timeline-item-info">
-            <span><h3 className="experience-timeline-item-content-title">{event.date} - {event.title}</h3></span>
-          </div>
+          <span>
+          <h3 className="experience-timeline-item-content-date">{event.date}</h3>
+          <h3 className="experience-timeline-item-content-title">{event.title}</h3>
+          </span>
+      </div>
         </li>
       );
       return  acc;

@@ -86,6 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bold;
   letter-spacing: 10px;
   text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   -moz-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -94,12 +95,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* ----------------------------------------------
 mobile main section
 * ---------------------------------------------- */
-/* line 30, ../scss/components/_IndexPage.scss */
+/* line 31, ../scss/components/_IndexPage.scss */
 .mobile-phone .indexpage-main-wrapper {
   height: 80vh;
   color: white;
 }
-/* line 35, ../scss/components/_IndexPage.scss */
+/* line 36, ../scss/components/_IndexPage.scss */
 .mobile-phone .main-slogan-wrapper {
   height: 95vh;
   width: 100%;
@@ -109,13 +110,14 @@ mobile main section
   background-repeat: no-repeat;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/indexpage%2Findex_highlight.jpg?alt=media&token=3a2c9237-0986-4b24-ad3f-dfba9162d97e");
 }
-/* line 45, ../scss/components/_IndexPage.scss */
+/* line 46, ../scss/components/_IndexPage.scss */
 .mobile-phone .main-slogan {
   height: 100%;
   vertical-align: middle;
-  font-size: 350%;
+  font-size: 330%;
   color: white;
   text-align: left;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   line-height: 1.2em;
   letter-spacing: 10px;
   font-family: serif;
@@ -125,12 +127,12 @@ mobile main section
   top: 20%;
   left: 10%;
 }
-/* line 61, ../scss/components/_IndexPage.scss */
+/* line 63, ../scss/components/_IndexPage.scss */
 .mobile-phone .naughty {
   color: orange;
 }
 
-/* line 66, ../scss/components/_IndexPage.scss */
+/* line 68, ../scss/components/_IndexPage.scss */
 .focus-in-contract {
   -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -178,7 +180,7 @@ mobile main section End
 Aboutus Hightlight
 * ---------------------------------------------- */
 /* Desktop */
-/* line 113, ../scss/components/_IndexPage.scss */
+/* line 115, ../scss/components/_IndexPage.scss */
 .aboutushighlight-container {
   padding-left: 10%;
   padding-right: 10%;
@@ -187,7 +189,7 @@ Aboutus Hightlight
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 121, ../scss/components/_IndexPage.scss */
+/* line 123, ../scss/components/_IndexPage.scss */
 .aboutushighlight-title {
   color: orange;
   text-align: center;
@@ -198,7 +200,7 @@ Aboutus Hightlight
   font-size: 28pt;
 }
 
-/* line 131, ../scss/components/_IndexPage.scss */
+/* line 133, ../scss/components/_IndexPage.scss */
 .aboutushighlight-introduction-content {
   font-family: "Microsoft JhengHei";
   font-size: 16pt;
@@ -207,7 +209,7 @@ Aboutus Hightlight
   padding: 2%;
 }
 
-/* line 139, ../scss/components/_IndexPage.scss */
+/* line 141, ../scss/components/_IndexPage.scss */
 .aboutushighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -217,7 +219,7 @@ Aboutus Hightlight
 
 /* End */
 /* Phone */
-/* line 148, ../scss/components/_IndexPage.scss */
+/* line 150, ../scss/components/_IndexPage.scss */
 .mobile-phone .aboutushighlight-container {
   padding-left: 10%;
   padding-right: 10%;
@@ -225,7 +227,7 @@ Aboutus Hightlight
   padding-bottom: 2%;
   background-color: white;
 }
-/* line 156, ../scss/components/_IndexPage.scss */
+/* line 158, ../scss/components/_IndexPage.scss */
 .mobile-phone .aboutushighlight-title {
   color: orange;
   text-align: center;
@@ -235,7 +237,7 @@ Aboutus Hightlight
   margin-right: 0px;
   font-size: 16pt;
 }
-/* line 166, ../scss/components/_IndexPage.scss */
+/* line 168, ../scss/components/_IndexPage.scss */
 .mobile-phone .aboutushighlight-introduction-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
@@ -243,19 +245,19 @@ Aboutus Hightlight
   line-height: 2em;
   padding: 2%;
 }
-/* line 173, ../scss/components/_IndexPage.scss */
+/* line 175, ../scss/components/_IndexPage.scss */
 .mobile-phone .aboutushighlight-introduction-content .aboutushighlight-introduction-content-ch {
   letter-spacing: 1px;
   padding-bottom: 5%;
   padding-top: 5%;
 }
-/* line 179, ../scss/components/_IndexPage.scss */
+/* line 181, ../scss/components/_IndexPage.scss */
 .mobile-phone .aboutushighlight-introduction-content .aboutushighlight-introduction-content-en {
   letter-spacing: 0px;
   padding-bottom: 5%;
   padding-top: 5%;
 }
-/* line 186, ../scss/components/_IndexPage.scss */
+/* line 188, ../scss/components/_IndexPage.scss */
 .mobile-phone .aboutushighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -271,7 +273,7 @@ Aboutus Hightlight End
 Coop Hightlight
 * ---------------------------------------------- */
 /* Desktop */
-/* line 201, ../scss/components/_IndexPage.scss */
+/* line 203, ../scss/components/_IndexPage.scss */
 .coophighlight-container {
   display: flex;
   flex-direction: column;
@@ -285,7 +287,7 @@ Coop Hightlight
   color: white;
 }
 
-/* line 214, ../scss/components/_IndexPage.scss */
+/* line 216, ../scss/components/_IndexPage.scss */
 .coophighlight-introduction-title {
   color: orange;
   text-align: center;
@@ -296,7 +298,7 @@ Coop Hightlight
   font-size: 28pt;
 }
 
-/* line 224, ../scss/components/_IndexPage.scss */
+/* line 226, ../scss/components/_IndexPage.scss */
 .coophighlight-introduction-content {
   font-family: "Microsoft JhengHei";
   font-size: 16pt;
@@ -305,18 +307,18 @@ Coop Hightlight
   padding: 2%;
 }
 
-/* line 232, ../scss/components/_IndexPage.scss */
+/* line 234, ../scss/components/_IndexPage.scss */
 .coophighlight-introduction-content-en {
   word-spacing: 0.3em;
   letter-spacing: 0.1em;
 }
 
-/* line 237, ../scss/components/_IndexPage.scss */
+/* line 239, ../scss/components/_IndexPage.scss */
 .coophighlight-introduction-content-ch {
   letter-spacing: 0.3em;
 }
 
-/* line 242, ../scss/components/_IndexPage.scss */
+/* line 244, ../scss/components/_IndexPage.scss */
 .coophighlight-services-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -324,13 +326,13 @@ Coop Hightlight
   align-items: start;
 }
 
-/* line 249, ../scss/components/_IndexPage.scss */
+/* line 251, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem {
   margin: 0 auto;
   width: 30%;
 }
 
-/* line 254, ../scss/components/_IndexPage.scss */
+/* line 256, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-container {
   display: flex;
   overflow: hidden;
@@ -341,7 +343,7 @@ Coop Hightlight
   width: 150px;
 }
 
-/* line 264, ../scss/components/_IndexPage.scss */
+/* line 266, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-icon-src {
   margin: 0 auto;
   color: orange;
@@ -349,7 +351,7 @@ Coop Hightlight
   width: 100%;
 }
 
-/* line 271, ../scss/components/_IndexPage.scss */
+/* line 273, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-title {
   color: orange;
   margin-top: 0;
@@ -359,7 +361,7 @@ Coop Hightlight
   margin-bottom: 20px;
 }
 
-/* line 280, ../scss/components/_IndexPage.scss */
+/* line 282, ../scss/components/_IndexPage.scss */
 .coophighlight-services-serviceitem-content {
   font-family: "Microsoft JhengHei";
   font-size: 14pt;
@@ -367,7 +369,7 @@ Coop Hightlight
   letter-spacing: 0px;
 }
 
-/* line 287, ../scss/components/_IndexPage.scss */
+/* line 289, ../scss/components/_IndexPage.scss */
 .coophighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -377,7 +379,7 @@ Coop Hightlight
 
 /* End */
 /* Phone */
-/* line 297, ../scss/components/_IndexPage.scss */
+/* line 299, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-introduction-title {
   color: orange;
   text-align: center;
@@ -387,14 +389,14 @@ Coop Hightlight
   margin-right: 0px;
   font-size: 16pt;
 }
-/* line 307, ../scss/components/_IndexPage.scss */
+/* line 309, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-introduction-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
   text-align: left;
   padding: 2%;
 }
-/* line 314, ../scss/components/_IndexPage.scss */
+/* line 316, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-introduction-content-en {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -402,7 +404,7 @@ Coop Hightlight
   letter-spacing: 1px;
   line-height: 2em;
 }
-/* line 322, ../scss/components/_IndexPage.scss */
+/* line 324, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-introduction-content-ch {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -410,19 +412,19 @@ Coop Hightlight
   letter-spacing: 1px;
   line-height: 2em;
 }
-/* line 330, ../scss/components/_IndexPage.scss */
+/* line 332, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-services-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 336, ../scss/components/_IndexPage.scss */
+/* line 338, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-services-serviceitem {
   margin: 0 auto;
   width: 100%;
   min-width: 250px;
 }
-/* line 342, ../scss/components/_IndexPage.scss */
+/* line 344, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-services-serviceitem-icon-container {
   display: flex;
   overflow: hidden;
@@ -432,14 +434,14 @@ Coop Hightlight
   height: 100px;
   width: 100px;
 }
-/* line 352, ../scss/components/_IndexPage.scss */
+/* line 354, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-services-serviceitem-icon-src {
   margin: 0 auto;
   color: orange;
   text-align: center;
   width: 100%;
 }
-/* line 359, ../scss/components/_IndexPage.scss */
+/* line 361, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-services-serviceitem-title {
   color: orange;
   margin-top: 0;
@@ -448,7 +450,7 @@ Coop Hightlight
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 368, ../scss/components/_IndexPage.scss */
+/* line 370, ../scss/components/_IndexPage.scss */
 .mobile-phone .coophighlight-services-serviceitem-content {
   font-family: "Microsoft JhengHei";
   font-size: 12pt;
@@ -464,7 +466,7 @@ Coop Hightlight End
 Portfolio Hightlight
 * ---------------------------------------------- */
 /* Desktop */
-/* line 383, ../scss/components/_IndexPage.scss */
+/* line 385, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-container {
   display: flex;
   flex-direction: column;
@@ -474,7 +476,7 @@ Portfolio Hightlight
   background: black;
 }
 
-/* line 392, ../scss/components/_IndexPage.scss */
+/* line 394, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-title {
   color: orange;
   text-align: center;
@@ -485,7 +487,7 @@ Portfolio Hightlight
   font-size: 28pt;
 }
 
-/* line 402, ../scss/components/_IndexPage.scss */
+/* line 404, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -493,7 +495,7 @@ Portfolio Hightlight
   text-align: center;
 }
 
-/* line 409, ../scss/components/_IndexPage.scss */
+/* line 411, ../scss/components/_IndexPage.scss */
 .portfoliohighlight-more-btn {
   margin: 0 auto;
   margin-top: 10px;
@@ -501,7 +503,7 @@ Portfolio Hightlight
 
 /* Desktop End */
 /* Phone */
-/* line 416, ../scss/components/_IndexPage.scss */
+/* line 418, ../scss/components/_IndexPage.scss */
 .mobile-phone .portfoliohighlight-container {
   display: flex;
   flex-direction: column;
@@ -510,7 +512,7 @@ Portfolio Hightlight
   padding-bottom: 2%;
   background: black;
 }
-/* line 425, ../scss/components/_IndexPage.scss */
+/* line 427, ../scss/components/_IndexPage.scss */
 .mobile-phone .portfoliohighlight-title {
   color: orange;
   text-align: center;
@@ -520,14 +522,14 @@ Portfolio Hightlight
   margin-right: 0px;
   font-size: 16pt;
 }
-/* line 435, ../scss/components/_IndexPage.scss */
+/* line 437, ../scss/components/_IndexPage.scss */
 .mobile-phone .portfoliohighlight-more-btn-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
   text-align: center;
 }
-/* line 442, ../scss/components/_IndexPage.scss */
+/* line 444, ../scss/components/_IndexPage.scss */
 .mobile-phone .portfoliohighlight-more-btn {
   margin: 0 auto;
   margin-top: 10px;
@@ -537,7 +539,7 @@ Portfolio Hightlight
 /* ----------------------------------------------
 Portfolio Hightlight End
 * ---------------------------------------------- */
-/* line 452, ../scss/components/_IndexPage.scss */
+/* line 454, ../scss/components/_IndexPage.scss */
 .swingeventshighlight-container {
   background-image: url(https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/swingevent%2Fswingevents_background_1_mini.jpg?alt=media&token=e4bbb429-99df-4290-8cfb-6690ad47a583);
   background-repeat: no-repeat;
@@ -550,7 +552,7 @@ Portfolio Hightlight End
   padding-right: 2%;
 }
 
-/* line 464, ../scss/components/_IndexPage.scss */
+/* line 466, ../scss/components/_IndexPage.scss */
 .swingeventshighlight-event {
   width: 90%;
 }
@@ -768,9 +770,31 @@ Experience Section
   text-align: center;
 }
 
+/* line 130, ../scss/components/_aboutus.scss */
+.experience-timeline {
+  padding: 5%;
+}
+
+/* line 134, ../scss/components/_aboutus.scss */
+.experience-timeline-item-info {
+  text-align: center;
+  line-height: 2em;
+}
+
+/* line 139, ../scss/components/_aboutus.scss */
+.experience-timeline-item-content-date {
+  color: darkgray;
+  font-size: 14pt;
+}
+
+/* line 144, ../scss/components/_aboutus.scss */
+.experience-timeline-item-content-title {
+  font-size: 16pt;
+}
+
 /* Desktop End */
 /* Phone */
-/* line 132, ../scss/components/_aboutus.scss */
+/* line 152, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-experience-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -780,32 +804,50 @@ Experience Section
   line-height: 1.5em;
   text-align: justify;
 }
-/* line 142, ../scss/components/_aboutus.scss */
+/* line 162, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-experience-wrapper {
   background-color: black;
   color: white;
 }
-/* line 147, ../scss/components/_aboutus.scss */
+/* line 167, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-experience-title {
   font-size: 16pt;
   color: orange;
   margin-bottom: 20px;
 }
-/* line 153, ../scss/components/_aboutus.scss */
+/* line 173, ../scss/components/_aboutus.scss */
 .mobile-phone .experience-container {
   width: 100%;
 }
-/* line 157, ../scss/components/_aboutus.scss */
+/* line 177, ../scss/components/_aboutus.scss */
 .mobile-phone .experience-selectbar {
   width: 50%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
-/* line 164, ../scss/components/_aboutus.scss */
+/* line 184, ../scss/components/_aboutus.scss */
 .mobile-phone .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
+}
+/* line 189, ../scss/components/_aboutus.scss */
+.mobile-phone .experience-timeline {
+  padding: 5%;
+}
+/* line 193, ../scss/components/_aboutus.scss */
+.mobile-phone .experience-timeline-item-info {
+  text-align: center;
+  line-height: 2em;
+}
+/* line 198, ../scss/components/_aboutus.scss */
+.mobile-phone .experience-timeline-item-content-date {
+  color: darkgray;
+  font-size: 10pt;
+}
+/* line 203, ../scss/components/_aboutus.scss */
+.mobile-phone .experience-timeline-item-content-title {
+  font-size: 12pt;
 }
 
 /* Phone End */
@@ -816,7 +858,7 @@ Experience Section End
 Media Explosure Section
 * ---------------------------------------------- */
 /* Desktop */
-/* line 178, ../scss/components/_aboutus.scss */
+/* line 216, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -828,7 +870,7 @@ Media Explosure Section
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 189, ../scss/components/_aboutus.scss */
+/* line 227, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -839,7 +881,7 @@ Media Explosure Section
   color: orange;
 }
 
-/* line 199, ../scss/components/_aboutus.scss */
+/* line 237, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -849,13 +891,13 @@ Media Explosure Section
   margin-top: 5%;
   margin-bottom: 5%;
 }
-/* line 207, ../scss/components/_aboutus.scss */
+/* line 245, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-ch {
   color: white;
   padding: 2%;
   font-size: 18pt;
 }
-/* line 213, ../scss/components/_aboutus.scss */
+/* line 251, ../scss/components/_aboutus.scss */
 .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-en {
   color: white;
   padding: 2%;
@@ -864,7 +906,7 @@ Media Explosure Section
 
 /* Desktop End */
 /* Phone */
-/* line 223, ../scss/components/_aboutus.scss */
+/* line 261, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-wrapper {
   font-family: "Microsoft JhengHei";
   width: 100%;
@@ -874,7 +916,7 @@ Media Explosure Section
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 233, ../scss/components/_aboutus.scss */
+/* line 271, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-title {
   margin: 0;
   padding-left: 5%;
@@ -884,7 +926,7 @@ Media Explosure Section
   font-size: 16pt;
   color: orange;
 }
-/* line 243, ../scss/components/_aboutus.scss */
+/* line 281, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-content {
   padding-left: 5%;
   padding-right: 5%;
@@ -892,7 +934,7 @@ Media Explosure Section
   padding-top: 2%;
   color: white;
 }
-/* line 250, ../scss/components/_aboutus.scss */
+/* line 288, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-ch {
   font-size: 14pt;
   padding: 10px;
@@ -900,7 +942,7 @@ Media Explosure Section
   line-height: 2em;
   letter-spacing: 1px;
 }
-/* line 258, ../scss/components/_aboutus.scss */
+/* line 296, ../scss/components/_aboutus.scss */
 .mobile-phone .aboutus-mediaexplosure-content .aboutus-mediaexplosure-content-en {
   font-size: 14pt;
   padding: 10px;
@@ -917,7 +959,7 @@ Media Explosure Section End
 Brands
 * ---------------------------------------------- */
 /* Desktop */
-/* line 279, ../scss/components/_aboutus.scss */
+/* line 317, ../scss/components/_aboutus.scss */
 .brands-container {
   display: flex;
   padding: 5%;
@@ -929,7 +971,7 @@ Brands
   background-color: black;
 }
 
-/* line 290, ../scss/components/_aboutus.scss */
+/* line 328, ../scss/components/_aboutus.scss */
 .brands-item {
   text-align: center;
   min-width: 75px;
@@ -942,7 +984,7 @@ Brands
   overflow: hidden;
 }
 
-/* line 302, ../scss/components/_aboutus.scss */
+/* line 340, ../scss/components/_aboutus.scss */
 .brands-item-img {
   width: 80%;
   margin: 0 auto;
@@ -950,7 +992,7 @@ Brands
 
 /* Desktop End */
 /* Phone */
-/* line 310, ../scss/components/_aboutus.scss */
+/* line 348, ../scss/components/_aboutus.scss */
 .mobile-phone .brands-container {
   display: flex;
   padding: 5%;
@@ -961,7 +1003,7 @@ Brands
   justify-content: space-around;
   background-color: black;
 }
-/* line 321, ../scss/components/_aboutus.scss */
+/* line 359, ../scss/components/_aboutus.scss */
 .mobile-phone .brands-item {
   text-align: center;
   min-width: 75px;
@@ -973,7 +1015,7 @@ Brands
   width: 40%;
   overflow: hidden;
 }
-/* line 333, ../scss/components/_aboutus.scss */
+/* line 371, ../scss/components/_aboutus.scss */
 .mobile-phone .brands-item-img {
   width: 80%;
   margin: 0 auto;
@@ -1671,6 +1713,76 @@ hover end
 
 /* Desktop End*/
 /* Phone */
+/* line 83, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitemlayout-container .portfolioitem-container {
+  display: inline-block;
+  list-style: none;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  position: relative;
+}
+/* line 91, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+/* line 97, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  transition: transform 0.4s;
+  filter: none;
+  -webkit-filter: none;
+}
+/* line 106, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-figcaption {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  opacity: 1;
+  transition: opacity 0.1s;
+  padding: 10px;
+  background-color: transparent;
+  text-shadow: 0 0 10px black;
+}
+/* line 117, ../scss/components/_portfolio.scss */
+.mobile-phone .portfolioitem-title {
+  text-align: center;
+  margin: 0;
+  font-size: 18pt;
+  padding: 0;
+  color: #fff;
+}
+/* line 125, ../scss/components/_portfolio.scss */
+.mobile-phone .portfoliodetail-container {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  margin: 0px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* line 136, ../scss/components/_portfolio.scss */
+.mobile-phone .portfoliodetail-title {
+  font-size: 18pt;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: orange;
+}
+/* line 143, ../scss/components/_portfolio.scss */
+.mobile-phone .portfoliodetail-info {
+  color: white;
+  font-size: 12pt;
+  text-align: left;
+  line-height: 1.5em;
+  padding: 5%;
+  padding: 5%;
+}
+
 /* Phone End*/
 /*----------------------------------------------
 Portfolio End

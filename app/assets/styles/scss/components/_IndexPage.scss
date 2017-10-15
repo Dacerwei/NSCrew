@@ -16,7 +16,8 @@
   font-family: serif;
   font-weight: bold;
   letter-spacing: 10px;
-	text-align: center;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0,0,0,0.7);
 	-webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	-moz-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -45,9 +46,10 @@ mobile main section
   .main-slogan {
     height: 100%;
     vertical-align: middle;
-    font-size: 350%;
+    font-size: 330%;
     color: white;
     text-align: left;
+    text-shadow: 0 0 20px rgba(0,0,0,0.7);
     line-height: 1.2em;
     letter-spacing: 10px;
     font-family: serif;

@@ -1,30 +1,8 @@
 import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
 import PortfolioItem from './PortfolioItem';
-import Dialog from 'material-ui/Dialog';
-import FlatButton from 'material-ui/FlatButton';
-import RaisedButton from 'material-ui/RaisedButton';
-import CloseIcon from 'material-ui/svg-icons/navigation/close';
+import Drawer from 'material-ui/Drawer';
 import _ from 'lodash';
-
-const dialogRoot = {
-	display: 'flex',
-	alignItems: 'center',
-	justifyContent: 'center',
-	paddingTop: 0,
-}
-
-const dialogContent = {
-    position: "relative",
-    width: "80vw",
-    transform: "",
-    backgroundColor: 'black',
-}
-
-const dialogBody = {
-    paddingBottom: 0,
-    backgroundColor: 'black',
-};
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
@@ -86,6 +64,7 @@ class PortfolioItemLayout extends React.Component{
 	}
 
 	handleDetailClose() {
+		console.log('close detail');
 		this.setState({isExpandDetail: false});
 	}
 
@@ -137,8 +116,8 @@ class PortfolioItemLayout extends React.Component{
 					<PortfolioItem 
 						key={photo_set[k].ID}
 						row={i}
-						onClick = { this.handleItemClick } 
-						opt= { photo_set[k] } 
+						onClick={ this.handleItemClick } 
+						opt={ photo_set[k] } 
 						height={ rowHeight }
 					/>
 				);
@@ -154,39 +133,24 @@ class PortfolioItemLayout extends React.Component{
 			detailData,
 		} = this.state;
 
-	    const actions = [
-	    	<FlatButton
-	    		icon={<CloseIcon color={'orange'}/>}
-	        	onClick={this.handleDetailClose}
-	    	/>,
-	    ];
-
 		return(
 			<div className="portfolioitemlayout-container" ref="LayoutArea" >
-				{	
-					isExpandDetail &&
-					<Dialog
-						title={detailData.title}
-						style={dialogRoot}
-						titleStyle={{
-							color: 'orange',
-							textAlign: 'center',
-							fontSize: '20pt',
-							backgroundColor: 'black',
-						}}
-						contentStyle={dialogContent}
-						bodyStyle={dialogBody}
-						actionsContainerStyle={{
-							backgroundColor: 'black',
-						}}
-						open={isExpandDetail}
-						modal={false}
-						actions={actions}
-						onRequestClose={this.handleDetailClose}
-					>
-						<PortfolioDetail key={detailData.ID} detailInfo={detailData.info} youtubeVideoID={detailData.youtubeVideoID} />
-					</Dialog>
-				}
+			{
+				isExpandDetail &&
+				<Drawer
+					open={isExpandDetail}
+					width={'100%'}
+				>
+					<PortfolioDetail
+						key={detailData.ID}
+						detailTitle={detailData.title}
+						detailInfoCh={detailData.chineseDescription} 
+						detailInfoEn={detailData.englishDescription}
+						youtubeVideoID={detailData.youtubeVideoID}
+						onClick = { this.handleDetailClose }
+					/>
+				</Drawer>
+			}
 				{ layoutArray }
 			</div>
 		);
