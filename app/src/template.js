@@ -7,13 +7,10 @@ export default ({ body, title, initialState }) => {
           <title>${title}</title>
           <link rel="stylesheet" href="/style.css" />
         </head>
-        
         <body>
           <div id="root">${body}</div>
         </body>
-        
         <script src="/bundle.js"></script>
       </html>
     `;
   };
-  

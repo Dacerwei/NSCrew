@@ -1,6 +1,9 @@
 import express from 'express';
-import path from 'path';
 import helmet from 'helmet';
+import {renderToString} from 'react-dom/server';
+import App from '../app/src/serverIndex.js';
+import template from '../app/src/template';
+
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -21,9 +24,15 @@ if (process.env.NODE_ENV !== 'production') {
 	app.use(webpackHotMiddleware(compiler));
 } else {
 	console.log('server mode: production');
+
 	app.use(express.static('dist'));
-	app.get('*', (req, res) =>{
-		res.sendFile(path.join(__dirname, '../dist','index.html'));
+
+	app.get('/', (req, res) => {
+		appString = renderToString(<App />);
+		res.send(template({
+			body: appString,
+			title: 'Naughty Swing 搖擺舞團',
+		}))
 	});
 }
 

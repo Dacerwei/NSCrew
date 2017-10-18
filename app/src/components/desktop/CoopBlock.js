@@ -1,11 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import AOS from 'aos';
-import "aos/dist/aos.css";
 
 class CoopBlock extends React.Component{
 	componentDidMount(){
-		AOS.init();
+		if(window) {
+			let AOS = require('aos');
+			AOS.init();
+		}
 	}
 
 	render(){

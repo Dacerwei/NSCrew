@@ -19,7 +19,7 @@ const dateParser = (dateTimeObj, type) => {
 		}
 };
 
-export default Event = (props) => {
+export default (props) => {
 	const {eventObject} = props;
 
 	let start = dateParser(eventObject.start);

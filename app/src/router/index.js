@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import IndexPage from '../containers/IndexPage';
 import AboutUsPage from '../containers/AboutUsPage';
@@ -12,7 +12,7 @@ import NotFoundPage from '../containers/NotFoundPage';
 class AppRoutes extends React.Component {
 	render() {
 		return(
-			<HashRouter>
+			<BrowserRouter>
 				<Layout>
 					<Switch>
 						<Route exact path="/" component={IndexPage}/>
@@ -24,7 +24,7 @@ class AppRoutes extends React.Component {
 						<Route path="/*" component={NotFoundPage}/>
 					</Switch>
 				</Layout>
-			</HashRouter>
+			</BrowserRouter>
 		);
 	}
 }
