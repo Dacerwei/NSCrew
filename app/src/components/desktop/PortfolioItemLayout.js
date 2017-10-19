@@ -161,7 +161,6 @@ class PortfolioItemLayout extends React.Component{
 				{	
 					isExpandDetail &&
 					<Dialog
-						title={detailData.title}
 						style={dialogRoot}
 						titleStyle={{
 							color: 'orange',
@@ -179,7 +178,13 @@ class PortfolioItemLayout extends React.Component{
 						actions={actions}
 						onRequestClose={this.handleDetailClose}
 					>
-						<PortfolioDetail key={detailData.ID} detailInfo={detailData.info} youtubeVideoID={detailData.youtubeVideoID} />
+						<PortfolioDetail
+							key={detailData.ID}
+							detailTitle={detailData.title}
+							detailInfoCh={detailData.chineseDescription} 
+							detailInfoEn={detailData.englishDescription}
+							youtubeVideoID={detailData.youtubeVideoID}
+						/>
 					</Dialog>
 				}
 				{ layoutArray }
