@@ -2,7 +2,6 @@ import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
 import PortfolioItem from './PortfolioItem';
 import Drawer from 'material-ui/Drawer';
-import _ from 'lodash';
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
@@ -53,14 +52,11 @@ class PortfolioItemLayout extends React.Component{
 		}
 	}
 
-	handleItemClick(opt) {
-
-		let { isExpandDetail, detailID } = this.state;
-			
-			this.setState({
-				isExpandDetail: true,
-				detailData: opt,
-			});
+	handleItemClick(opt) {			
+		this.setState({
+			isExpandDetail: true,
+			detailData: opt,
+		});
 	}
 
 	handleDetailClose() {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class PortfolioItem extends React.Component{
 	render() {
-		const { onClick, opt, height, row } = this.props;
+		const { onClick, opt, height } = this.props;
 		return(
 			<div className="portfolioitem-container"  onClick = { onClick.bind(this, opt) } >
 				<figure className="portfolioitem-figure">
