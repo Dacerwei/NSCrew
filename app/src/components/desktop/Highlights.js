@@ -1,8 +1,8 @@
 import React from 'react';
 import AboutUsHighlight from './AboutUsHighlight';
 import PortfolioHighlight from './PortfolioHighlight';
-import Classes from './Classes';
-import SwingEventsHighlight from './SwingEventsHighlight';
+// import Classes from './Classes';
+// import SwingEventsHighlight from './SwingEventsHighlight';
 import CoopHighlight from './CoopHighlight';
 import Brands from './Brands';
 

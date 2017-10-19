@@ -24,8 +24,7 @@ class PortfolioItem extends React.Component{
 PortfolioItem.propTypes = {
 	onClick: PropTypes.func,
 	opt: PropTypes.object,
-	height: PropTypes.number,
-	row: PropTypes.number
+	height: PropTypes.number
 };
 
 export default PortfolioItem;
