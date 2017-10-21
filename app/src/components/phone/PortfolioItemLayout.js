@@ -60,7 +60,6 @@ class PortfolioItemLayout extends React.Component{
 	}
 
 	handleDetailClose() {
-		console.log('close detail');
 		this.setState({isExpandDetail: false});
 	}
 

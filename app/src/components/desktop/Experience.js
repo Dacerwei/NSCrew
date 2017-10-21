@@ -8,7 +8,7 @@ class Experience extends React.Component {
     super(props);
 
     this.state = {
-      year: (new Date()).getFullYear(),
+      year: null,
       events: [],
     };
 

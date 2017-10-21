@@ -125,10 +125,11 @@ Experience Section
 .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
+  cursor: pointer;
 }
 
 .yearitem-active {
-    border-bottom-color: lightgray;
+    border-bottom-color: orange;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     padding-bottom: 10px;
