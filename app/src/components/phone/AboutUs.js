@@ -48,7 +48,7 @@ class AboutUs extends React.Component {
           <h2 className="aboutus-mediaexplosure-title">Media Explosure | 媒體報導</h2>
           <div className="aboutus-mediaexplosure-content">
             <p className="aboutus-mediaexplosure-content-ch">
-              自2015年成立起，Naughnty Swing頑皮搖擺舞團透過不同的舞蹈演出與活動合作，陸續獲得不同媒體報導。
+              自2015年成立起，Naughnty Swing搖擺舞團透過不同的舞蹈演出與活動合作，陸續獲得不同媒體報導。
               2016年I Charleston Taipei 影片釋出後，更受到許多指標性媒體，含電視、報紙、雜誌，與網路等，的相關報導與露出。
             </p>
             <p className="aboutus-mediaexplosure-content-en">
