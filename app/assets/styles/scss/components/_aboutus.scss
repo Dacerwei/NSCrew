@@ -127,6 +127,13 @@ Experience Section
   text-align: center;
 }
 
+.yearitem-active {
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+};
+
 .experience-timeline {
     padding: 5%;
 }

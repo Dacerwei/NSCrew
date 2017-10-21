@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "aos": "^2.2.0",
+    "classnames": "^2.2.5",
     "es6-promise": "^4.1.1",
     "express": "^4.15.4",
     "install": "^0.10.1",
