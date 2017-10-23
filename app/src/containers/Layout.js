@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import NSLogo from '../components/NSLogo';
-import MobileMenu from '../components/phone/MobileMenu'; 
+import MobileMenu from '../components/phone/MobileMenu';
 import Menu from '../components/desktop/Menu';
 import DesktopFooter from '../components/desktop/Footer';
 import PhoneFooter from '../components/phone/Footer';

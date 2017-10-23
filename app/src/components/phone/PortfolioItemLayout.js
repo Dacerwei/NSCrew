@@ -30,7 +30,7 @@ class PortfolioItemLayout extends React.Component{
 		let layoutArray = this.getRearrangeArray(this.props.photo_set, containerWidth, rowLimit);
 
 		this.setState({
-			rowLimit: rowLimit, 
+			rowLimit: rowLimit,
 			containerWidth: containerWidth,
 			layoutArray: layoutArray,
 			isExpandDetail: false,
@@ -52,7 +52,7 @@ class PortfolioItemLayout extends React.Component{
 		}
 	}
 
-	handleItemClick(opt) {			
+	handleItemClick(opt) {
 		this.setState({
 			isExpandDetail: true,
 			detailData: opt,
@@ -108,11 +108,11 @@ class PortfolioItemLayout extends React.Component{
 					break;
 				}
 				output.push(
-					<PortfolioItem 
+					<PortfolioItem
 						key={photo_set[k].ID}
 						row={i}
-						onClick={ this.handleItemClick } 
-						opt={ photo_set[k] } 
+						onClick={ this.handleItemClick }
+						opt={ photo_set[k] }
 						height={ rowHeight }
 					/>
 				);
@@ -139,7 +139,7 @@ class PortfolioItemLayout extends React.Component{
 					<PortfolioDetail
 						key={detailData.ID}
 						detailTitle={detailData.title}
-						detailInfoCh={detailData.chineseDescription} 
+						detailInfoCh={detailData.chineseDescription}
 						detailInfoEn={detailData.englishDescription}
 						youtubeVideoID={detailData.youtubeVideoID}
 						onClick = { this.handleDetailClose }

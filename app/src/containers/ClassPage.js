@@ -2,8 +2,8 @@ import React from 'react';
 import DesktopBreakpoint from '../responsive_utilities/DesktopBreakpoint';
 import TabletBreakpoint from '../responsive_utilities/TabletBreakpoint';
 import PhoneBreakpoint from '../responsive_utilities/PhoneBreakpoint';
-import DesktopClass from '../components/desktop/Class';
-import PhoneClass from '../components/phone/Class';
+import DesktopClasses from '../components/desktop/Classes';
+import PhoneClasses from '../components/phone/Classes';
 
 class ClassPage extends React.Component {
     constructor(props) {
@@ -14,14 +14,14 @@ class ClassPage extends React.Component {
         return(
             <div className="aboutus-page-container">
                 <DesktopBreakpoint>
-                    <DesktopClass/>
+                    <DesktopClasses/>
                 </DesktopBreakpoint>
                 <TabletBreakpoint>
-                    <DesktopClass/>
+                    <DesktopClasses/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
                     <div className="mobile-phone">
-                        <PhoneClass/>
+                        <PhoneClasses/>
                     </div>
                 </PhoneBreakpoint>
             </div>

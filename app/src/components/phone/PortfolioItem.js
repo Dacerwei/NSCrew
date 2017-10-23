@@ -8,9 +8,9 @@ class PortfolioItem extends React.Component{
 			<div className="portfolioitem-container"  onClick = { onClick.bind(this, opt) } >
 				<figure className="portfolioitem-figure">
 					<img className="portfolioitem-img"
-						src={ opt.src } 
-						height={ height } 
-						width={ height * opt.aspectRatio } 
+						src={ opt.src }
+						height={ height }
+						width={ height * opt.aspectRatio }
 					/>
 					<figcaption className="portfolioitem-figcaption">
 						<h3 className="portfolioitem-title">{ opt.title }</h3>

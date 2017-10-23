@@ -46,7 +46,7 @@ export default Event = (props) => {
 			<div className="eventlist-irregular-event-item-date">
 				<p className="eventlist-irregular-event-item-startdate-date">{eventDetails.startDate}</p>
 				<p className="eventlist-irregular-event-item-startdate-month">{eventDetails.startMonth}</p>
-			</div> 
+			</div>
 			<div className="eventlist-irregular-event-item-info">
 				<h1 className="eventlist-irregular-event-item-title">{eventDetails.summary}</h1>
 				<p className="eventlist-irregular-event-item-location">{eventDetails.location}</p>

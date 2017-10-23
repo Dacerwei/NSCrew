@@ -2,7 +2,7 @@ const coop_set = [
 	{
 		id:"coop-performance",
 		title: "Performance | 表演",
-		contentChinese: "好的舞蹈表演永遠不嫌少！透過搖擺舞、爵士樂，與Naughty Swing專業的演出能力，為你的記者會、舞會等活動增添美麗與歡樂的色彩！",
+		contentChinese: "好的舞蹈表演永遠不嫌少！透過搖擺舞、爵士樂，與 Naughty Swing 專業的演出能力，為你的記者會、舞會等活動增添美麗與歡樂的色彩！",
 		contentEnglish: "There's never too much of a good performance, especially when it comes to social dance! Want to add some elements which entertain your audience, invigorate your event and give you all a total enjoyment with profession and passion? We ARE just the one you're looking for!",
 		mediaTitle: "performance",
 		mediaSrc: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/coop%2Fcoop_01_performance_mini.jpg?alt=media&token=abf5550f-ffa4-424e-81d2-f9ca7783dfa6'
@@ -18,7 +18,7 @@ const coop_set = [
 	{
 		id: "coop-teaching",
 		title:"Swing Dance Lessons | 搖擺舞專業教學",
-		contentChinese: "想要學習雙人社交舞蹈卻又不知該從何下手？快來參加我們的常態搖擺舞課程或是體驗課程，讓擁有專業舞蹈教學經歷的Naughty Swing，帶你進入搖擺舞的新世界！",
+		contentChinese: "想要學習雙人社交舞蹈卻又不知該從何下手？快來參加我們的常態搖擺舞課程或是體驗課程，讓擁有專業舞蹈教學經歷的 Naughty Swing，帶你進入搖擺舞的新世界！",
 		contentEnglish: "Not sure when and how to step out of your comfort zone and onto the dance floor? Now is the time! With our 10-year experience in dancing and diversified exposure to different dance styles, we will lead you into swing dance world in an interesting and easily understood way!",
 		mediaTitle: "當代藝術美術館體驗課程",
 		mediaSrc: "https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/coop%2Fcoop_03_lesson_mini.jpg?alt=media&token=b92a9fb9-f67e-4e14-9d02-41f049202e60"

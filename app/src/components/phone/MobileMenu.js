@@ -34,7 +34,7 @@ class MobileMenu extends React.Component {
 				<Drawer
 					className='mobilenav-wrapper'
 					openSecondary={true}
-					open={isOpen} 
+					open={isOpen}
 					containerStyle={{backgroundColor: 'rgba(0,0,0,0.8)'}}
 					width={'80%'}
 					height={'100vh'}
@@ -49,7 +49,7 @@ class MobileMenu extends React.Component {
 								minWidth: 'none',
 							}}
 							icon={
-								<CloseIcon color={'orange'} 
+								<CloseIcon color={'orange'}
 								style={{
 									height: '100%',
 									width: '100%',
@@ -60,46 +60,46 @@ class MobileMenu extends React.Component {
 					<ul className='mobilenav-linklist-list'>
 						<Link
 							className='mobilenav-linklist-item'
-							to="/" 
+							to="/"
 							onClick = { this.onClickLink }
 							>
 								<li>Home</li>
 						</Link>
 						<Link
 							className='mobilenav-linklist-item'
-							to="/about" 
+							to="/about"
 							onClick = { this.onClickLink }
 							>
 								<li>About Us</li>
 						</Link>
 						<Link
-							className='mobilenav-linklist-item' 
-							to="/portfolio" 
-							onClick = { this.onClickLink } 
+							className='mobilenav-linklist-item'
+							to="/portfolio"
+							onClick = { this.onClickLink }
 							>
 							<li>Portfolio</li>
 						</Link>
 						<Link
-							className='mobilenav-linklist-item' 
-							to="/cooperative" 
-							onClick = { this.onClickLink } 
+							className='mobilenav-linklist-item'
+							to="/cooperative"
+							onClick = { this.onClickLink }
 							>
 							<li>Co-op</li>
 						</Link>
 						<Link
-							className='mobilenav-linklist-item' 
-							to="/classes" 
-							onClick = { this.onClickLink } 
+							className='mobilenav-linklist-item'
+							to="/classes"
+							onClick = { this.onClickLink }
 							>
-							<li>Classes</li>
+							<li>Class</li>
 						</Link>
-						<Link
-							className='mobilenav-linklist-item' 
-							to="/swingevents" 
-							onClick = { this.onClickLink } 
+						{/* <Link
+							className='mobilenav-linklist-item'
+							to="/swingevents"
+							onClick = { this.onClickLink }
 							>
 							<li>Swing Events</li>
-						</Link>
+						</Link> */}
 					</ul>
 				</Drawer>
 				{
@@ -107,7 +107,7 @@ class MobileMenu extends React.Component {
 					<div className="mobilenav-icon-wrapper">
 						<MenuIcon onClick={ this.onClickIcon } />
 					</div>
-				}	
+				}
 			</div>
 		);
 	}

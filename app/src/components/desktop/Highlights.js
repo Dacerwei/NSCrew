@@ -1,8 +1,7 @@
 import React from 'react';
 import AboutUsHighlight from './AboutUsHighlight';
 import PortfolioHighlight from './PortfolioHighlight';
-// import Classes from './Classes';
-// import SwingEventsHighlight from './SwingEventsHighlight';
+import ClassesHighlight from './ClassesHighlight';
 import CoopHighlight from './CoopHighlight';
 import Brands from './Brands';
 
@@ -11,9 +10,9 @@ class Highlights extends React.Component{
 		return(
 			<div className="highlights-container">
 				<AboutUsHighlight />
+				<ClassesHighlight />
 				<CoopHighlight />
 				<PortfolioHighlight />
-				{/*<SwingEventsHighlight />*/}
 				<Brands />
 			</div>
 		);

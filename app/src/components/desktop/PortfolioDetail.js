@@ -4,7 +4,7 @@ import Youtube from 'react-youtube';
 
 class PortfolioDetail extends React.Component {
 	render() {
-		const { 
+		const {
 			detailTitle,
 			detailInfoCh,
 			detailInfoEn,

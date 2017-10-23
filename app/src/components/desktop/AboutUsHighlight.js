@@ -9,9 +9,9 @@ class AboutUsHighlight extends React.Component {
         <h2 className="aboutushighlight-title">Introduction | 舞團介紹</h2>
         <div className="aboutushighlight-introduction-content">
           <p className="aboutushighlight-introduction-content-ch">
-            Naughty Swing 搖擺舞團，於2015年成立，由6位平均舞齡 10 年、擁有不同街舞背景的舞者所組成。
-            擅長將不同元素融合至Swing Dance當中，呈現有別於以往的演出，為目前台灣新生代指標性Swing舞團。
-            2016年發起 I Charleston Taipei 影片拍攝計畫，在2周內突破50萬人次點閱率，並獲得10多家媒體報導，包涵今日台灣、蘋果日報以及TVBS。
+            Naughty Swing 搖擺舞團，於 2015 年成立，由 6 位平均舞齡 10 年、擁有不同街舞背景的舞者所組成。
+            擅長將不同元素融合至 Swing Dance 當中，呈現有別於以往的演出，為目前台灣新生代指標性 Swing 舞團。
+            2016 年發起 I Charleston Taipei 影片拍攝計畫，在 2 周內突破 50 萬人次點閱率，並獲得 10 多家媒體報導，包涵今日台灣、蘋果日報以及TVBS。
           </p>
           <p className="aboutushighlight-introduction-content-en">
             Naughty Swing is founded in 2015 by 6 talented Taiwanese dancers,
