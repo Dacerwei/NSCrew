@@ -5,7 +5,7 @@ import IndexPage from '../containers/IndexPage';
 import AboutUsPage from '../containers/AboutUsPage';
 import PortfolioPage from '../containers/PortfolioPage';
 import CooperativePage from '../containers/CooperativePage';
-// import Classes from '../components/Classes';
+import Class from '../containers/ClassPage';
 import EventsPage from '../containers/EventsPage';
 import NotFoundPage from '../containers/NotFoundPage';
 
@@ -19,7 +19,7 @@ class AppRoutes extends React.Component {
 						<Route path="/about" component={AboutUsPage}/>
 						<Route path="/portfolio" component={PortfolioPage}/>
 						<Route path="/cooperative" component={CooperativePage}/>
-						{/*<Route path="/classes" component={Classes}/>*/}
+						<Route path="/classes" component={Class}/>
 						<Route path="/swingevents" component={EventsPage}/>
 						<Route path="/*" component={NotFoundPage}/>
 					</Switch>

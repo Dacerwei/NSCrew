@@ -39,7 +39,7 @@ Portfolio
 .portfolioitem-title {
   text-align: center;
   margin: 0;
-  font-size: 18pt;
+  font-size: 16pt;
   padding: 0;
   color: #fff;
 }
@@ -69,13 +69,23 @@ hover end
   margin: 0px;
 }
 
+.portfoliodetail-title {
+  text-align: center;
+  font-size: 16pt;
+  color: orange;
+  padding: 2%;
+}
 
 .portfoliodetail-info {
   color: white;
-  font-size: 14pt;
-  text-align: justify;
+  font-size: 12pt;
+  text-align: left;
   margin: 0;
-  padding: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  line-height: 2em;
 }
 
 /* Desktop End*/

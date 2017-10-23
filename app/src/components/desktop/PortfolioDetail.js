@@ -13,7 +13,7 @@ class PortfolioDetail extends React.Component {
 
 		return(
 			<div className="portfoliodetail-container">
-				<h1 className="portfoliodetail-info">{detailTitle}</h1>
+				<h1 className="portfoliodetail-title">{detailTitle}</h1>
 				{
 					youtubeVideoID &&
 					<Youtube

@@ -86,13 +86,13 @@ class MobileMenu extends React.Component {
 							>
 							<li>Co-op</li>
 						</Link>
-						{/*<Link
+						<Link
 							className='mobilenav-linklist-item' 
 							to="/classes" 
 							onClick = { this.onClickLink } 
 							>
 							<li>Classes</li>
-						</Link>*/}
+						</Link>
 						<Link
 							className='mobilenav-linklist-item' 
 							to="/swingevents" 

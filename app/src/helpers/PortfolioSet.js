@@ -106,6 +106,17 @@ const portfolio_set = [
 		englishDescription: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
 		aspectRatio: 1.623,
 		youtubeVideoID: null
+	},
+	{
+		ID: 10,
+		src: 'https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/portfolio%2Fportfolio_10_Tua_Tiu_Tiann_mini.jpg?alt=media&token=ba674154-5c17-46e6-939d-7cb5299c3e4a',
+		width: 640,
+		height: 640,
+		title: '大稻埕國際藝術節 Tua-Tiu-Tiann International Festival of Art',
+		chineseDescription: '大稻埕，我們表演歌曲「望春風」的發源地。看我們以源於20年代的舞蹈，一起回到台北的黃金年代！',
+		englishDescription: 'Dadaocheng is where our performance song "Craving for the Spring Wind" was originated. See how we relive the Golden Age of Taipei through Swing Dance!',
+		aspectRatio: 1,
+		youtubeVideoID: null
 	}
 ];
 

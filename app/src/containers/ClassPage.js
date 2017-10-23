@@ -2,29 +2,31 @@ import React from 'react';
 import DesktopBreakpoint from '../responsive_utilities/DesktopBreakpoint';
 import TabletBreakpoint from '../responsive_utilities/TabletBreakpoint';
 import PhoneBreakpoint from '../responsive_utilities/PhoneBreakpoint';
-import DesktopSwingEvents from '../components/desktop/SwingEvents';
-import PhoneSwingEvents from '../components/phone/SwingEvents';
+import DesktopClass from '../components/desktop/Class';
+import PhoneClass from '../components/phone/Class';
 
-class EventsPage extends React.Component {
+class ClassPage extends React.Component {
     constructor(props) {
         super(props);
     }
 
     render() {
         return(
-            <div className="events-page-container">
+            <div className="aboutus-page-container">
                 <DesktopBreakpoint>
-                    <DesktopSwingEvents/>
+                    <DesktopClass/>
                 </DesktopBreakpoint>
                 <TabletBreakpoint>
-                    <DesktopSwingEvents/>
+                    <DesktopClass/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <PhoneSwingEvents/>
+                    <div className="mobile-phone">
+                        <PhoneClass/>
+                    </div>
                 </PhoneBreakpoint>
             </div>
         );
     }
 }
 
-export default EventsPage;
+export default ClassPage;
