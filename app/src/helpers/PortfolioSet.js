@@ -105,7 +105,7 @@ const portfolio_set = [
 		title: 'What the Pa!',
 		englishDescription: "Lobbying is about foresight. About anticipating your opponent's moves and devising counter measures. The winner plots one step ahead of the opposition. And plays her trump card just after they play theirs. It's about making sure you surprise them. And they don't surprise you.",
 		aspectRatio: 1.623,
-		youtubeVideoID: null
+		youtubeVideoID: 'IcJ--xNeyVo'
 	},
 	{
 		ID: 10,
@@ -116,7 +116,7 @@ const portfolio_set = [
 		chineseDescription: '大稻埕，我們表演歌曲「望春風」的發源地。看我們以源於20年代的舞蹈，一起回到台北的黃金年代！',
 		englishDescription: 'Dadaocheng is where our performance song "Craving for the Spring Wind" was originated. See how we relive the Golden Age of Taipei through Swing Dance!',
 		aspectRatio: 1,
-		youtubeVideoID: null
+		youtubeVideoID: '-kseD9OjgTs'
 	}
 ];
 
