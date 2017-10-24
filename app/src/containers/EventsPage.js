@@ -2,7 +2,8 @@ import React from 'react';
 import DesktopBreakpoint from '../responsive_utilities/DesktopBreakpoint';
 import TabletBreakpoint from '../responsive_utilities/TabletBreakpoint';
 import PhoneBreakpoint from '../responsive_utilities/PhoneBreakpoint';
-import DesktopSwingEvents from '../components/SwingEvents';
+import DesktopSwingEvents from '../components/desktop/SwingEvents';
+import PhoneSwingEvents from '../components/phone/SwingEvents';
 
 class EventsPage extends React.Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class EventsPage extends React.Component {
                     <DesktopSwingEvents/>
                 </TabletBreakpoint>
                 <PhoneBreakpoint>
-                    <h1> mobile Swing Events</h1>
+                    <PhoneSwingEvents/>
                 </PhoneBreakpoint>
             </div>
         );

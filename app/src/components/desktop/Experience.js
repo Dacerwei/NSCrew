@@ -1,6 +1,7 @@
 import React from 'react';
 import Experiencese from '../../helpers/Experiencese';
 import _ from 'lodash';
+import Classnames from 'classnames';
 
 class Experience extends React.Component {
   constructor(props) {
@@ -40,11 +41,11 @@ class Experience extends React.Component {
       acc.push(
         <li className="experience-timeline-item" key={i}>
           <div className="experience-timeline-item-info">
-          <span>
-          <h3 className="experience-timeline-item-content-date">{event.date}</h3>
-          <h3 className="experience-timeline-item-content-title">{event.title}</h3>
-          </span>
-      </div>
+            <span>
+            <h3 className="experience-timeline-item-content-date">{event.date}</h3>
+            <h3 className="experience-timeline-item-content-title">{event.title}</h3>
+            </span>
+          </div>
         </li>
       );
       return  acc;
@@ -52,13 +53,23 @@ class Experience extends React.Component {
   }
 
   render() {
-    const {year, events} = this.state;
+    const { events, year } = this.state;
+    const years = [2017, 2016, 2015];
+
     return (
       <section className="experience-container">
         <div className="experience-selectbar">
-          <div className="experience-selectbar-yearitem" onClick={this.onChageYear.bind(this, 2017)}><h3>2017</h3></div>
-          <div className="experience-selectbar-yearitem" onClick={this.onChageYear.bind(this, 2016)}><h3>2016</h3></div>
-          <div className="experience-selectbar-yearitem" onClick={this.onChageYear.bind(this, 2015)}><h3>2015</h3></div>
+        {
+          _.map(years, (currentYear) => {
+            let btnClass = Classnames({
+             'experience-selectbar-yearitem': true,
+             'yearitem-active': currentYear === year,
+            });
+            return(
+              <div key={currentYear} className={btnClass} onClick={this.onChageYear.bind(this, currentYear)}><h3>{currentYear}</h3></div>
+            );
+          })
+        }
         </div>
         <ul className="experience-timeline timeline-split">
         { events }

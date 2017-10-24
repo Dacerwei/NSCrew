@@ -5,7 +5,7 @@ import FlatButton from 'material-ui/FlatButton';
 
 class PortfolioDetail extends React.Component {
 	render() {
-		const { 
+		const {
 			detailTitle,
 			detailInfoCh,
 			detailInfoEn,
@@ -30,13 +30,13 @@ class PortfolioDetail extends React.Component {
 				}
 				<p className="portfoliodetail-info">{detailInfoCh}</p>
 				<p className="portfoliodetail-info">{detailInfoEn}</p>
-				<FlatButton 
-					onClick={onClick} 
+				<FlatButton
+					onClick={onClick}
 					labelStyle={{
 						color: 'orange',
-					}} 
+					}}
 					backgroundColor={'#1A1B1B'}
-					label="Back" 
+					label="Back"
 					fullWidth={true}
 				/>
 			</div>

@@ -2,7 +2,6 @@ import React from 'react';
 import PortfolioDetail from './PortfolioDetail';
 import PortfolioItem from './PortfolioItem';
 import Drawer from 'material-ui/Drawer';
-import _ from 'lodash';
 
 Array.prototype.insert = function (index, item) {
   this.splice(index, 0, item);
@@ -31,7 +30,7 @@ class PortfolioItemLayout extends React.Component{
 		let layoutArray = this.getRearrangeArray(this.props.photo_set, containerWidth, rowLimit);
 
 		this.setState({
-			rowLimit: rowLimit, 
+			rowLimit: rowLimit,
 			containerWidth: containerWidth,
 			layoutArray: layoutArray,
 			isExpandDetail: false,
@@ -54,17 +53,13 @@ class PortfolioItemLayout extends React.Component{
 	}
 
 	handleItemClick(opt) {
-
-		let { isExpandDetail, detailID } = this.state;
-			
-			this.setState({
-				isExpandDetail: true,
-				detailData: opt,
-			});
+		this.setState({
+			isExpandDetail: true,
+			detailData: opt,
+		});
 	}
 
 	handleDetailClose() {
-		console.log('close detail');
 		this.setState({isExpandDetail: false});
 	}
 
@@ -113,11 +108,11 @@ class PortfolioItemLayout extends React.Component{
 					break;
 				}
 				output.push(
-					<PortfolioItem 
+					<PortfolioItem
 						key={photo_set[k].ID}
 						row={i}
-						onClick={ this.handleItemClick } 
-						opt={ photo_set[k] } 
+						onClick={ this.handleItemClick }
+						opt={ photo_set[k] }
 						height={ rowHeight }
 					/>
 				);
@@ -144,7 +139,7 @@ class PortfolioItemLayout extends React.Component{
 					<PortfolioDetail
 						key={detailData.ID}
 						detailTitle={detailData.title}
-						detailInfoCh={detailData.chineseDescription} 
+						detailInfoCh={detailData.chineseDescription}
 						detailInfoEn={detailData.englishDescription}
 						youtubeVideoID={detailData.youtubeVideoID}
 						onClick = { this.handleDetailClose }

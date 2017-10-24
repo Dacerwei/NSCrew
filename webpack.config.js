@@ -12,7 +12,8 @@ module.exports = {
 	],
 	resolve: {
 		alias: {
-			Assets: path.resolve(__dirname, 'app/assets')
+			Assets: path.resolve(__dirname, 'app/assets'),
+			moment$: 'moment/moment.js',
 		},
 		extensions: ['.js','.jsx'],
 		modules: [

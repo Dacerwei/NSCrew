@@ -13,10 +13,7 @@ export default class Breakpoint extends React.Component {
         super(props);
     }  
     render() {
-        const {
-            name,
-            children,
-        } = this.props;
+        const {name} = this.props;
 
         let breakpoint = breakpoints[name] || breakpoints.desktop;
 

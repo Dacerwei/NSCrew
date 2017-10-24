@@ -7,7 +7,7 @@ Introduction Section
   width: 100%;
   padding: 0;
   color: white;
-  font-size: 16pt;
+  font-size: 14pt;
   line-height: 2em;
   text-align: justify;
   height: 100vh;
@@ -19,25 +19,26 @@ Introduction Section
   padding-right: 5%;
   padding-left: 5%;
   margin: 0;
+  text-align: center;
   font-size: 24pt;
   color: orange;
 }
 .aboutus-introduction-content {
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
   line-height: 2em;
   letter-spacing: 1px;
   .aboutus-introduction-content-ch {
-    font-size: 18pt;
+    font-size: 14pt;
     padding: 2%;
   }
   
   .aboutus-introduction-content-en {
-    font-size: 18pt; 
+    font-size: 14pt; 
     padding: 2%;       
   }
 }
@@ -110,6 +111,7 @@ Experience Section
     font-size: 24pt;
     color: orange;
     margin-bottom: 20px;
+    text-align: center;
 }
 .experience-container {
   width: 100%;
@@ -125,7 +127,16 @@ Experience Section
 .experience-selectbar-yearitem {
   width: 100px;
   text-align: center;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
+
+.yearitem-active {
+    border-bottom-color: orange;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+};
 
 .experience-timeline {
     padding: 5%;
@@ -138,11 +149,13 @@ Experience Section
 
 .experience-timeline-item-content-date {
     color: darkgray;
-    font-size: 14pt;
+    font-size: 12pt;
+    letter-spacing: 2px;
 }
 
 .experience-timeline-item-content-title {
-    font-size: 16pt;
+    font-size: 14pt;
+    letter-spacing: 2px;
 }
 
 
@@ -231,12 +244,13 @@ Media Explosure Section
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 24pt;
+  text-align: center;
   color: orange;
 }
 
 .aboutus-mediaexplosure-content {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 2%;
   padding-top: 2%;
   color: white;
@@ -245,13 +259,13 @@ Media Explosure Section
   .aboutus-mediaexplosure-content-ch {
     color: white;
     padding: 2%;
-    font-size: 18pt;
+    font-size: 14pt;
   }
   
   .aboutus-mediaexplosure-content-en {
     color: white;
     padding: 2%;
-    font-size: 18pt;
+    font-size: 14pt;
   }
 }
 

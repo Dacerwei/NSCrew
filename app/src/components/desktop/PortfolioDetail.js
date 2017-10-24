@@ -4,14 +4,16 @@ import Youtube from 'react-youtube';
 
 class PortfolioDetail extends React.Component {
 	render() {
-		const { 
-			detailInfo,
+		const {
+			detailTitle,
+			detailInfoCh,
+			detailInfoEn,
 			youtubeVideoID,
 		} = this.props;
 
 		return(
 			<div className="portfoliodetail-container">
-				<p className="portfoliodetail-info">{ detailInfo }</p>
+				<h1 className="portfoliodetail-title">{detailTitle}</h1>
 				{
 					youtubeVideoID &&
 					<Youtube
@@ -24,6 +26,8 @@ class PortfolioDetail extends React.Component {
 						}}
 					/>
 				}
+				<p className="portfoliodetail-info">{detailInfoCh}</p>
+				<p className="portfoliodetail-info">{detailInfoEn}</p>
 			</div>
 		);
 	}
@@ -34,7 +38,13 @@ PortfolioDetail.propTypes = {
 	youtubeVideoID: PropTypes.string
 };
 
-
+PortfolioDetail.propTypes = {
+	detailTitle: PropTypes.string,
+	detailInfoCh: PropTypes.string,
+	detailInfoEn: PropTypes.string,
+	youtubeVideoID: PropTypes.string,
+	onClick: PropTypes.func
+};
 
 export default PortfolioDetail;
 

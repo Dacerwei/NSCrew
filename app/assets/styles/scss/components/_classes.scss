@@ -1,4 +1,85 @@
-
-.classes-container-title {
-	color: orange;
+/*----------------------------------------------
+Classes Page
+----------------------------------------------*/
+/* Desktop */
+.classes-container {
+	background-image: url(https://firebasestorage.googleapis.com/v0/b/naughty-swing-official-website.appspot.com/o/classes%2Fclass_background_02_mini.jpg?alt=media&token=c9244e87-7a9d-46b9-af7f-c97c078a6079);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1%;
 }
+.classes-information {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+}
+
+.classes-information-content {
+    font-size: 18pt;
+    color: white;
+    text-shadow: 0 0 40px black;
+    line-height: 1.5em;
+}
+
+.classes-promote {
+	width: 100%;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.classes-promote-title {
+    font-size: 24pt;
+    line-height: 1.5em;
+    color: white;
+    padding: 10px;
+    text-shadow: 0px 0px 10px black;
+}
+/* Desktop End */
+/* Phone */
+.mobile-phone {
+	.classes-information {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		padding-left: 5%;
+		padding-right: 5%;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 20px;
+	}
+
+	.classes-information-content {
+		font-size: 14pt;
+		color: white;
+		text-shadow: 0 0 40px black;
+		line-height: 1.5em;
+	}
+
+	.classes-promote {
+		width: 100%;
+		text-align: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.classes-promote-title {
+		font-size: 18pt;
+		line-height: 1.5em;
+		color: white;
+		padding: 10px;
+		text-shadow: 0px 0px 10px black;
+	}
+}
+/* Phone End */
