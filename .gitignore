@@ -1,5 +1,6 @@
 app/assets/storage_images
 /dist
 /node_modules
+application/logs/*
 app/assets/videos
 app/assets/styles/css

@@ -6,10 +6,9 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 
 module.exports = {
-	entry: [
-		'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
-		'./app/src/index.js'
-	],
+	entry: {
+		app: ['./app/src/index', 'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000'],
+	},
 	resolve: {
 		alias: {
 			Assets: path.resolve(__dirname, 'app/assets'),
@@ -25,7 +24,6 @@ module.exports = {
 		filename: 'bundle.js',
 		path: distPath,
 		publicPath:'/'
-		// publicPath: 'http://localhost:3050'
  	},
  	devtool: 'cheap-module-eval-source-map',
  	devServer: {
@@ -45,7 +43,7 @@ module.exports = {
 			use: ExtractTextPlugin.extract({
 				fallback: "style-loader",
 				use: "css-loader"
-			}), 
+			}),
 		},
 		{
 			test: /\.(jpe?g|png|gif|svg|woff|ttf|eot)$/,
