@@ -16,7 +16,7 @@ const Menu = () => {
 					<li className='default-menu-item-content'>Co-op</li>
 				</NavLink>
 				<NavLink to="/classes" className='default-menu-item'>
-					<li className='default-menu-item-content'>Class</li>
+					<li className='default-menu-item-content'>Classes</li>
 				</NavLink>
 				{/* <NavLink to="/swingevents" className='default-menu-item'>
 					<li className='default-menu-item-content'>Swing Events</li>

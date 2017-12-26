@@ -91,7 +91,7 @@ class MobileMenu extends React.Component {
 							to="/classes"
 							onClick = { this.onClickLink }
 							>
-							<li>Class</li>
+							<li>Classes</li>
 						</Link>
 						{/* <Link
 							className='mobilenav-linklist-item'

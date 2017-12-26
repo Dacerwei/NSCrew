@@ -7,7 +7,6 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
 	entry: [
-		'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
 		'./app/src/index.js'
 	],
 	resolve: {
@@ -25,14 +24,8 @@ module.exports = {
 		filename: 'bundle.js',
 		path: distPath,
 		publicPath:'/'
-		// publicPath: 'http://localhost:3050'
  	},
  	devtool: 'cheap-module-eval-source-map',
- 	devServer: {
- 		historyApiFallback: true,
- 		contentBase: './',
- 		hot: true
- 	},
 	module: {
 		rules: [
 		{
@@ -45,7 +38,7 @@ module.exports = {
 			use: ExtractTextPlugin.extract({
 				fallback: "style-loader",
 				use: "css-loader"
-			}), 
+			}),
 		},
 		{
 			test: /\.(jpe?g|png|gif|svg|woff|ttf|eot)$/,
@@ -54,14 +47,13 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),
-    	// new webpack.NoErrorsPlugin(),
 		new HTMLWebpackPlugin({
 			template: 'app/src/index.html'
 		}),
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
 		}),
+		new webpack.optimize.UglifyJsPlugin(),
 		new ExtractTextPlugin({
 			filename: 'style.css'
 		})
