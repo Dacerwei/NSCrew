@@ -5,9 +5,8 @@ class Classes extends React.Component {
         return(
             <div className="classes-container">
                 <div className="classes-information">
-                    <p className="classes-information-content">
-                        課程頁面施工中預計 2017 年 10 月 23 日上線
-                    </p>
+                    <p className="classes-information-content">課程資訊即將釋出</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform" target="blank"><div className="classes-signup-button">Sign up</div></a>
                 </div>
                 <div className="classes-promote">
                     <h2 className="classes-promote-title">近期教學活動</h2>
