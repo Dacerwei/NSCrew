@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const distPath = path.join(__dirname, 'dist');
-const HTMLWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 
@@ -47,13 +47,35 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new HTMLWebpackPlugin({
-			template: 'app/src/index.html'
+		new HtmlWebpackPlugin({
+			template: 'app/src/index.html',
+			minify: {
+                collapseWhitespace: true,
+                collapseInlineTagWhitespace: true,
+                removeComments: true,
+                removeRedundantAttributes: true
+            }
 		}),
 		new webpack.DefinePlugin({
-			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+			'process.env.NODE_ENV': JSON.stringify('production')
 		}),
-		new webpack.optimize.UglifyJsPlugin(),
+		new webpack.optimize.UglifyJsPlugin({
+			compress: {
+				warnings: false,
+				screw_ie8: true,
+				conditionals: true,
+				unused: true,
+				comparisons: true,
+				sequences: true,
+				dead_code: true,
+				evaluate: true,
+				if_return: true,
+				join_vars: true
+			  },
+			  output: {
+				comments: false
+			  }
+		}),
 		new ExtractTextPlugin({
 			filename: 'style.css'
 		})
